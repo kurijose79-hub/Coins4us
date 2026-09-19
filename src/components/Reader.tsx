@@ -1,8 +1,9 @@
 import { useEffect, useMemo, useRef } from "react";
 import type { Book, VoicePrefs } from "../types/book";
 import { parseBookText } from "../utils/parseBookText";
+import { detectChapters, findChapterIndex } from "../utils/chapters";
 import { useSpeechPlayer } from "../hooks/useSpeechPlayer";
-import { estimateRemainingSeconds, formatDuration } from "../utils/format";
+import { estimateSecondsForSentences, formatDuration } from "../utils/format";
 
 interface ReaderProps {
   book: Book;
@@ -15,6 +16,10 @@ interface ReaderProps {
 export function Reader({ book, prefs, onBack, onProgress, onPrefsChange }: ReaderProps) {
   const { paragraphs, sentences } = useMemo(() => parseBookText(book.text), [book.text]);
   const sentenceTexts = useMemo(() => sentences.map((s) => s.text), [sentences]);
+  const chapters = useMemo(
+    () => detectChapters({ paragraphs, sentences }),
+    [paragraphs, sentences],
+  );
   const activeRef = useRef<HTMLSpanElement | null>(null);
 
   const { supported, currentIndex, status, voices, play, pause, stop, next, prev, goTo } =
@@ -31,10 +36,14 @@ export function Reader({ book, prefs, onBack, onProgress, onPrefsChange }: Reade
     activeRef.current?.scrollIntoView({ behavior: "smooth", block: "center" });
   }, [currentIndex]);
 
-  const remainingSeconds = estimateRemainingSeconds(
+  const remainingSeconds = estimateSecondsForSentences(
     sentenceTexts.slice(currentIndex + 1),
     prefs.rate,
   );
+  const chapterIndex = findChapterIndex(chapters, currentIndex);
+  const chapter = chapters[chapterIndex];
+  const hasPrevChapter = chapterIndex > 0;
+  const hasNextChapter = chapterIndex < chapters.length - 1;
 
   if (!supported) {
     return (
@@ -56,10 +65,31 @@ export function Reader({ book, prefs, onBack, onProgress, onPrefsChange }: Reade
       <div className="flex flex-col gap-1">
         <h2 className="text-2xl font-semibold text-neutral-900">{book.title}</h2>
         <p className="text-sm text-neutral-500">
-          Frase {Math.min(currentIndex + 1, sentenceTexts.length)} de {sentenceTexts.length} ·{" "}
+          Capítulo {chapterIndex + 1} de {chapters.length}
+          {chapters.length > 1 ? ` · ${chapter.title}` : ""} · Frase{" "}
+          {Math.min(currentIndex + 1, sentenceTexts.length)} de {sentenceTexts.length} ·{" "}
           {status === "finished" ? "Terminado" : `${formatDuration(remainingSeconds)} restantes`}
         </p>
       </div>
+
+      {chapters.length > 1 && (
+        <div className="flex items-center gap-2">
+          <button
+            onClick={() => hasPrevChapter && goTo(chapters[chapterIndex - 1].startIndex)}
+            disabled={!hasPrevChapter}
+            className="rounded-lg border border-neutral-200 px-3 py-1.5 text-sm text-neutral-600 hover:bg-neutral-50 disabled:cursor-not-allowed disabled:opacity-40"
+          >
+            ← Capítulo anterior
+          </button>
+          <button
+            onClick={() => hasNextChapter && goTo(chapters[chapterIndex + 1].startIndex)}
+            disabled={!hasNextChapter}
+            className="rounded-lg border border-neutral-200 px-3 py-1.5 text-sm text-neutral-600 hover:bg-neutral-50 disabled:cursor-not-allowed disabled:opacity-40"
+          >
+            Capítulo siguiente →
+          </button>
+        </div>
+      )}
 
       <div className="max-h-[50vh] overflow-y-auto rounded-xl border border-neutral-200 bg-white p-6 leading-relaxed text-neutral-800">
         {paragraphs.map((paragraphSentences, pIdx) => (

@@ -8,6 +8,13 @@ interface BookCardProps {
   onDelete: (id: string) => void;
 }
 
+const SOURCE_LABELS: Record<Book["source"], string> = {
+  txt: "TXT",
+  pdf: "PDF",
+  paste: "Texto",
+  "public-domain": "Dominio público",
+};
+
 export function BookCard({ book, onOpen, onDelete }: BookCardProps) {
   const { sentences } = parseBookText(book.text);
   const total = sentences.length || 1;
@@ -19,7 +26,7 @@ export function BookCard({ book, onOpen, onDelete }: BookCardProps) {
       <div>
         <div className="mb-1 flex items-center gap-2">
           <span className="rounded bg-neutral-100 px-2 py-0.5 text-xs font-medium uppercase text-neutral-500">
-            {book.source}
+            {SOURCE_LABELS[book.source]}
           </span>
           <span className="text-xs text-neutral-400">{formatDate(book.createdAt)}</span>
         </div>

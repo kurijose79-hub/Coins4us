@@ -1,10 +1,14 @@
 import { useCallback, useEffect, useState } from "react";
-import { Header } from "./components/Header";
+import { TopNav, type MainView } from "./components/TopNav";
 import { Footer } from "./components/Footer";
 import { Library } from "./components/Library";
 import { AddBookModal } from "./components/AddBookModal";
 import { Reader } from "./components/Reader";
+import { AccountSettings } from "./components/AccountSettings";
+import { CreateHub } from "./components/CreateHub";
+import { AnalyticsView } from "./components/AnalyticsView";
 import { getAllBooks, saveBook, deleteBook, updateProgress } from "./db/booksDb";
+import { loadSettings, saveSettings } from "./utils/settings";
 import type { Book, VoicePrefs } from "./types/book";
 
 const PREFS_KEY = "audiolibros:prefs";
@@ -24,7 +28,9 @@ function App() {
   const [loading, setLoading] = useState(true);
   const [showAddModal, setShowAddModal] = useState(false);
   const [activeBookId, setActiveBookId] = useState<string | null>(null);
+  const [mainView, setMainView] = useState<MainView>("biblioteca");
   const [prefs, setPrefs] = useState<VoicePrefs>(loadPrefs);
+  const [settings, setSettings] = useState(loadSettings);
 
   useEffect(() => {
     getAllBooks()
@@ -35,6 +41,10 @@ function App() {
   useEffect(() => {
     localStorage.setItem(PREFS_KEY, JSON.stringify(prefs));
   }, [prefs]);
+
+  useEffect(() => {
+    saveSettings(settings);
+  }, [settings]);
 
   const handleCreate = useCallback(async (book: Book) => {
     await saveBook(book);
@@ -63,11 +73,16 @@ function App() {
     [activeBookId],
   );
 
+  const handleNavigate = useCallback((view: MainView) => {
+    setActiveBookId(null);
+    setMainView(view);
+  }, []);
+
   const activeBook = books.find((b) => b.id === activeBookId) ?? null;
 
   return (
     <div className="flex min-h-screen flex-col bg-neutral-50">
-      <Header onAddBook={() => setShowAddModal(true)} showAdd={!activeBook} />
+      <TopNav active={mainView} onNavigate={handleNavigate} />
 
       <main className="mx-auto flex w-full max-w-5xl flex-1 flex-col gap-6 px-4 py-8">
         {loading ? (
@@ -80,12 +95,24 @@ function App() {
             onProgress={handleProgress}
             onPrefsChange={setPrefs}
           />
+        ) : mainView === "cuenta" ? (
+          <AccountSettings
+            settings={settings}
+            onSettingsChange={setSettings}
+            prefs={prefs}
+            onPrefsChange={setPrefs}
+          />
+        ) : mainView === "crear" ? (
+          <CreateHub onAddBook={() => setShowAddModal(true)} />
+        ) : mainView === "analisis" ? (
+          <AnalyticsView books={books} prefs={prefs} onOpen={setActiveBookId} />
         ) : (
           <Library
             books={books}
             onOpen={setActiveBookId}
             onDelete={handleDelete}
-            onAddBook={() => setShowAddModal(true)}
+            onOpenAddModal={() => setShowAddModal(true)}
+            onAddPublicDomain={handleCreate}
           />
         )}
       </main>
