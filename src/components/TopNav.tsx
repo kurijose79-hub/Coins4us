@@ -17,7 +17,7 @@ export function TopNav({ active, onNavigate }: TopNavProps) {
     <header className="sticky top-0 z-20 border-b border-neutral-800 bg-neutral-950 text-neutral-50">
       <div className="mx-auto flex max-w-5xl flex-col gap-3 px-4 py-4">
         <h1 className="text-xl font-semibold tracking-tight">
-          Audio<span className="text-amber-400">libros</span>
+          audio<span className="text-amber-400">US</span>
         </h1>
         <nav className="flex gap-1 overflow-x-auto">
           {TABS.map((tab) => (

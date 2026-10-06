@@ -1,4 +1,4 @@
-# Audiolibros
+# audioUS
 
 App hecha con React + Vite + TypeScript + Tailwind CSS que convierte libros en
 audiolibros usando la síntesis de voz del navegador (Web Speech API). Todo el
