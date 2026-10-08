@@ -13,6 +13,8 @@ const SOURCE_LABELS: Record<Book["source"], string> = {
   pdf: "PDF",
   paste: "Texto",
   "public-domain": "Dominio público",
+  youtube: "YouTube",
+  photo: "Foto (OCR)",
 };
 
 export function BookCard({ book, onOpen, onDelete }: BookCardProps) {

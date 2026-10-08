@@ -10,10 +10,13 @@ servidor.
 - **Cuenta**: elige tu idioma (12 idiomas) y usa el **Lab de voz** para
   previsualizar y elegir entre las voces instaladas en tu navegador/sistema,
   con velocidad y tono predeterminados.
-- **Crear**: sube un archivo `.txt`/`.pdf` o pega texto (funciona ya). También
-  muestra, sin fingir que funcionan, las tarjetas de "Crear con IA",
-  "Traducción" e "Importar de YouTube/web", que requieren conectar un
-  servicio externo de IA.
+- **Crear**: sube un archivo `.txt`/`.pdf`, pega texto, **toma fotos de un
+  libro físico** (OCR en el navegador con Tesseract.js, sin subir las fotos a
+  ningún servidor) o **importa la transcripción de un video de YouTube** (vía
+  una función serverless de Supabase, necesaria porque el navegador no puede
+  pedirle eso a YouTube directamente por CORS). "Crear con IA" y "Traducción"
+  siguen como tarjetas de "próximamente": requieren conectar una API de IA de
+  pago que esta app no tiene configurada.
 - **Biblioteca**: tus libros agrupados por serie cuando aplica, más un
   estante de **audiolibros gratis de dominio público** (extractos de obras
   como el Quijote o Alicia en el país de las maravillas, con su fuente
@@ -35,10 +38,19 @@ servidor.
 - **No hay clonación de voz real**: grabar un video para crear tu propia voz
   requiere un servicio de IA de voz (tipo ElevenLabs) conectado por API; no
   se puede hacer solo en el navegador. Esta app no lo simula.
-- **No hay generación de libros con IA, traducción automática, ni importación
-  desde YouTube o páginas web**: todo esto requiere una API externa (de texto,
-  traducción o de extracción de contenido) que no está conectada. Se muestran
-  como "próximamente" en vez de fingir que funcionan.
+- **No hay generación de libros con IA ni traducción automática**: requieren
+  una API de pago que no está conectada. Se muestran como "próximamente" en
+  vez de fingir que funcionan.
+- **Importar de YouTube solo funciona si el video tiene subtítulos o
+  transcripción activados**: se extrae únicamente el texto de los subtítulos,
+  nunca se descarga el video ni el audio. Usa una función serverless propia
+  (Supabase Edge Function) porque el navegador no puede pedirle esto a
+  YouTube directamente (CORS).
+- **El OCR de fotos descarga un modelo de reconocimiento de texto la primera
+  vez que lo usas** (desde una CDN pública, igual que cualquier app que usa
+  Tesseract.js): las fotos en sí nunca salen de tu navegador, pero si no
+  tienes conexión a internet la primera vez, no podrá cargar el motor.
+  Revisa el texto reconocido antes de guardar: el OCR puede tener errores.
 - **No hay conexión con Kindle/Google Books/Drive**: requiere OAuth con un
   backend que esta app no tiene.
 - **"Audiolibros gratis" son solo de dominio público**: no se ocultan fuentes

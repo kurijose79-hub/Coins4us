@@ -1,10 +1,14 @@
+import type { Book } from "../types/book";
 import { ComingSoonCard } from "./ComingSoonCard";
+import { YoutubeImport } from "./YoutubeImport";
+import { PhotoImport } from "./PhotoImport";
 
 interface CreateHubProps {
   onAddBook: () => void;
+  onCreate: (book: Book) => void;
 }
 
-export function CreateHub({ onAddBook }: CreateHubProps) {
+export function CreateHub({ onAddBook, onCreate }: CreateHubProps) {
   return (
     <div className="flex flex-col gap-6">
       <div className="rounded-xl border border-neutral-200 bg-white p-5">
@@ -16,8 +20,7 @@ export function CreateHub({ onAddBook }: CreateHubProps) {
         </div>
         <p className="mt-1 mb-4 text-sm text-neutral-500">
           Convierte un libro que ya tienes (.txt, .pdf) o un texto pegado en un audiolibro
-          reproducible con voz. Esta es la única forma de creación que funciona hoy sin conectar
-          servicios externos.
+          reproducible con voz.
         </p>
         <button
           onClick={onAddBook}
@@ -27,7 +30,10 @@ export function CreateHub({ onAddBook }: CreateHubProps) {
         </button>
       </div>
 
-      <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
+      <PhotoImport onCreate={onCreate} />
+      <YoutubeImport onCreate={onCreate} />
+
+      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
         <ComingSoonCard
           icon="🪄"
           title="Crear audiolibro con IA"
@@ -39,12 +45,6 @@ export function CreateHub({ onAddBook }: CreateHubProps) {
           title="Traducción"
           description="Sube un libro en un idioma y conviértelo en audiolibro en otro idioma, ya traducido."
           requirement="requiere conectar una API de traducción o de IA"
-        />
-        <ComingSoonCard
-          icon="🔗"
-          title="Importar de YouTube o web"
-          description="Pega la URL de un video de YouTube o una página con un libro para convertirlo en audiolibro."
-          requirement="requiere un backend para extraer y procesar contenido de otros sitios"
         />
       </div>
     </div>

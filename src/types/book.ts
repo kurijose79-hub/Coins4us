@@ -1,4 +1,4 @@
-export type BookSource = "txt" | "pdf" | "paste" | "public-domain";
+export type BookSource = "txt" | "pdf" | "paste" | "public-domain" | "youtube" | "photo";
 
 export interface Book {
   id: string;

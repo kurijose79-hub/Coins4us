@@ -103,7 +103,7 @@ function App() {
             onPrefsChange={setPrefs}
           />
         ) : mainView === "crear" ? (
-          <CreateHub onAddBook={() => setShowAddModal(true)} />
+          <CreateHub onAddBook={() => setShowAddModal(true)} onCreate={handleCreate} />
         ) : mainView === "analisis" ? (
           <AnalyticsView books={books} prefs={prefs} onOpen={setActiveBookId} />
         ) : (
