@@ -1,31 +1,34 @@
 # Partidos Legendarios 3D + Leyendas de la F1: calendario de publicación
 
-9 videos verticales 1080×1920, 30 fps, de 34 a 48 s, con narración en español (voz "Brian" de vidIQ), subtítulos animados, marcador en pantalla y sonido de estadio. Sirven tal cual para **Instagram Reels** y **YouTube Shorts** (los dos formatos son 9:16 y duran menos de 60 s).
+12 videos verticales 1080×1920, 30 fps, de 34 a 48 s (9 de la serie y 3 de golf), con narración en español (voz "Brian" de vidIQ), subtítulos animados, marcador en pantalla y sonido de estadio. Sirven tal cual para **Instagram Reels** y **YouTube Shorts** (los dos formatos son 9:16 y duran menos de 60 s).
 
 **Sube los archivos de la carpeta `final/`** (`01_…` a `09_…`). Son los mismos videos con la etiqueta de serie "PARTIDOS LEGENDARIOS #N/9" y, al final, el aviso "MAÑANA #N+1: …" para que la gente se suscriba y no se pierda el siguiente.
 
-## Estrategia (según la recomendación de YouTube Studio para tu canal)
+## Estrategia
 
+- **Cuentas:** Instagram @como.deportes y YouTube "¿Cómo deportes?" (conectadas en vidIQ). Cada video sale en las dos a la misma hora.
+- **Tu público (YouTube Studio):** 82% tiene de 25 a 44 años, 65% son hombres y vienen de México (24%), Estados Unidos (19%) y Argentina (8%). Por eso la serie abre con Argentina vs Francia y por eso se publica a las 19:00 de CDMX (20:00 en Nueva York, 17:00 en Los Ángeles).
 - **Serie numerada:** cada título empieza con "#N". Agrega los 9 a una playlist llamada "Partidos Legendarios 3D". Las series conectadas convierten espectadores en suscriptores mejor que los videos sueltos.
-- **Comentario fijado** en cada video: "¿Cuál partido quieres en el #10? 👇". Te da ideas y genera comentarios, que empujan el alcance.
-- **Ojo: tu canal hoy es de golf.** Lo que ya te funcionó son tips prácticos de golf (el fierro 3). Si subes NFL, fútbol y F1 al mismo canal, YouTube puede mostrárselos a tu audiencia de golf y bajar el rendimiento de ambos tipos de contenido. Lo ideal es usar **un canal o cuenta de Instagram aparte para deportes**. Si prefieres usar el mismo, sube los de deportes en otro horario que los de golf y sigue publicando tu serie de golf.
-- **Las primeras 48 h:** responde todos los comentarios. Si un video funciona mucho mejor que los demás, haz más de ese tipo (por ejemplo, más choques de F1 o más finales de Mundial).
+- **Prueba A/B de golf:** el mismo guion y la misma voz en estilo 2D (sáb 14) y en estilo 3D (dom 15), a la misma hora. Compara vistas, % de retención y likes a las 48 h para decidir qué estilo seguir.
+- **Comentario fijado** en cada video: "¿Cuál partido quieres en el #10? 👇".
+- **Las primeras 48 h:** responde todos los comentarios. Si un video funciona mucho mejor que los demás, haz más de ese tipo.
 
-## Calendario (hora local)
+## Calendario (hora de Ciudad de México), Instagram + YouTube a la misma hora
 
-Se alternan NFL y fútbol, y al final van los 3 de F1. Un video por día, en orden de serie (#1 a #9). Reels se publica a las 12:30 y Shorts a las 19:00 del mismo día.
-
-| Día | Fecha | Video | IG Reels | YT Shorts |
-|---|---|---|---|---|
-| 1 | Sáb 14 nov 2026 | `final/01_soc1_mundial2022.mp4` | 12:30 | 19:00 |
-| 2 | Dom 15 nov 2026 | `final/02_nfl1_superbowl51.mp4` | 12:30 | 19:00 |
-| 3 | Lun 16 nov 2026 | `final/03_soc3_estambul2005.mp4` | 12:30 | 19:00 |
-| 4 | Mar 17 nov 2026 | `final/04_nfl2_la_atrapada.mp4` | 12:30 | 19:00 |
-| 5 | Mié 18 nov 2026 | `final/05_soc2_champions1999.mp4` | 12:30 | 19:00 |
-| 6 | Jue 19 nov 2026 | `final/06_nfl3_helmet_catch.mp4` | 12:30 | 19:00 |
-| 7 | Vie 20 nov 2026 | `final/07_f1_choque_grosjean_bahrein2020.mp4` | 12:30 | 19:00 |
-| 8 | Sáb 21 nov 2026 | `final/08_f1_abu_dabi_2021_final.mp4` | 12:30 | 19:00 |
-| 9 | Dom 22 nov 2026 | `final/09_f1_como_nacio_la_formula1.mp4` | 12:30 | 19:00 |
+| Fecha | Hora | Video |
+|---|---|---|
+| Sáb 14 nov | 13:00 | `golf/golf_birdie_aguila_albatros_condor_2D.mp4` (prueba A: 2D) |
+| Sáb 14 nov | 19:00 | `final/01_soc1_mundial2022.mp4` |
+| Dom 15 nov | 13:00 | `golf/golf_birdie_aguila_albatros_condor_3D.mp4` (prueba B: 3D) |
+| Dom 15 nov | 19:00 | `final/02_nfl1_superbowl51.mp4` |
+| Lun 16 nov | 13:00 | `golf/golf_el_condor_3D.mp4` |
+| Lun 16 nov | 19:00 | `final/03_soc3_estambul2005.mp4` |
+| Mar 17 nov | 19:00 | `final/04_nfl2_la_atrapada.mp4` |
+| Mié 18 nov | 19:00 | `final/05_soc2_champions1999.mp4` |
+| Jue 19 nov | 19:00 | `final/06_nfl3_helmet_catch.mp4` |
+| Vie 20 nov | 19:00 | `final/07_f1_choque_grosjean_bahrein2020.mp4` |
+| Sáb 21 nov | 19:00 | `final/08_f1_abu_dabi_2021_final.mp4` |
+| Dom 22 nov | 19:00 | `final/09_f1_como_nacio_la_formula1.mp4` |
 
 Nota: el 29 de noviembre se cumplen 6 años del choque de Grosjean. Si prefieres aprovechar el aniversario, mueve el video 7 a esa fecha.
 
