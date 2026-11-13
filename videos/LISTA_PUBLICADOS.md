@@ -2,7 +2,7 @@
 
 Cuentas: **Instagram @como.deportes** + **YouTube "¿Cómo deportes?"**. Cada video sale en las dos a la misma hora (hora de Ciudad de México). En YouTube están subidos como **privados** y se vuelven **públicos solos** a su hora.
 
-## ✅ Programados (12)
+## ✅ Programados (primeros 12)
 
 | # | Fecha y hora | Video | YouTube (privado hasta su hora) |
 |---|---|---|---|
@@ -19,9 +19,35 @@ Cuentas: **Instagram @como.deportes** + **YouTube "¿Cómo deportes?"**. Cada vi
 | 11 | Sáb 21 nov, 19:00 | #8 F1: Abu Dabi 2021, Hamilton vs Verstappen | https://www.youtube.com/watch?v=KdCpXhGKUbo |
 | 12 | Dom 22 nov, 19:00 | #9 F1: cómo nació la Fórmula 1 | https://www.youtube.com/watch?v=czF4Mlkktz8 |
 
-## ⏳ En render, se programan al terminar (2)
+## ✅ Programados el 13 nov (12 más)
 
 | Fecha y hora | Video |
 |---|---|
-| Dom 15 nov, 13:00 | ⛳ Golf 3D: birdie, águila, albatros y cóndor (prueba B contra la 2D) |
-| Mar 17 nov, 13:00 | ⚽ Messi vs CR7 en 3D: Balones de Oro, Champions, goles y títulos (termina 3-3) |
+| Dom 15 nov, 13:00 | ⛳ Golf 3D: birdie, águila, albatros y cóndor (prueba B vs la 2D) |
+| Mar 17 nov, 13:00 | ⚽ Messi vs CR7 en 3D |
+| Jue 19 nov, 13:00 | 🎾 2dbuena · Nadal vs Federer, Wimbledon 2008 |
+| Vie 20 nov, 13:00 | 🎾 2dbuena · Isner vs Mahut, 11 horas |
+| Sáb 21 nov, 13:00 | 🎾 2dbuena · Djokovic vs Federer, Wimbledon 2019 |
+| Dom 22 nov, 13:00 | 🎾 2dbuena · Djokovic vs Nadal, Australia 2012 |
+| Lun 23 nov, 13:00 | 🎾 2dbuena · Borg vs McEnroe 1980 |
+| Mar 24 nov, 13:00 | 🎾 2dbuena · La Batalla de los Sexos 1973 |
+| Mié 25 nov, 13:00 | 🎾 2dbuena · Serena embarazada, Australia 2017 |
+| Jue 26 nov, 13:00 | 🎾 2dbuena · Chang y el saque por abajo, 1989 |
+| Vie 27 nov, 13:00 | 🎾 2dbuena · El regreso de Federer, Australia 2017 |
+| Sáb 28 nov, 13:00 | 🎾 2dbuena · Alcaraz vs Djokovic, Wimbledon 2023 |
+
+## ⏳ Renderizando (se programan al terminar)
+
+| Fecha y hora | Video |
+|---|---|
+| Lun 23 nov, 19:00 | 🎾 3D · Murray, Wimbledon 2013 |
+| Mar 24 nov, 19:00 | 🎾 3D · Federer vs Roddick 2009 |
+| Mié 25 nov, 19:00 | 🎾 3D · Golden Slam de Graf 1988 |
+| Jue 26 nov, 19:00 | 🎾 3D · Agassi, Roland Garros 1999 |
+| Vie 27 nov, 19:00 | 🎾 3D · Sampras vs Agassi 2001 |
+
+## 🚫 Pendientes por créditos de vidIQ (necesitan 28, quedan 7)
+
+- ¿Por qué la pelota de golf tiene hoyuelos?
+- ¿Cómo se lanza una curva en béisbol?
+- ¿Cómo frena un Fórmula 1?
