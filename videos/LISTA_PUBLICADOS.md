@@ -36,9 +36,12 @@ Cuentas: **Instagram @como.deportes** + **YouTube "¿Cómo deportes?"**. Cada vi
 | Vie 27 nov | 19:00 | 🎾 Sampras vs Agassi 2001 (3D) | https://www.youtube.com/watch?v=OOd9Gqhgxb8 |
 | Sáb 28 nov | 13:00 | 🎾 Alcaraz, Wimbledon 2023 (2dbuena) | https://www.youtube.com/watch?v=HAjgjbi8DaE |
 
-## 🚫 Pendientes (3), necesitan créditos de vidIQ (28; quedan 7)
+## 🚫 Pendientes, necesitan créditos de vidIQ (quedan 7; se recargan el 12 dic)
 
 Guiones listos en el proyecto, se hacen en cuanto haya créditos:
 - ¿Por qué la pelota de golf tiene hoyuelos?
 - ¿Cómo se lanza una curva en béisbol?
 - ¿Cómo frena un Fórmula 1?
+- ¿Por qué desapareció el fierro 1? (2dbuena, ~45 s; voz: 28 créditos)
+- Serie de ficción "De 14 a Augusta", 5 episodios de 60 s (voz: ~112 créditos; publicar antes del 1 de diciembre por el bono de Meta)
+- 10 momentos legendarios del béisbol (2dbuena; voz: ~112 créditos)
