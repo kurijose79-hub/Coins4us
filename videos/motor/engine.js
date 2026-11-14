@@ -1173,19 +1173,19 @@ function drawCaption(g, segI, t) {
 
 function drawBig(g, sh, p, t, lt, D) {
   const big = valAt(sh.big, p); if (!big) return;
-  const a = clamp((p - startOf(sh.big, p)) * D / 0.25);
+  const a = sh.hook ? 1 : clamp((p - startOf(sh.big, p)) * D / 0.25);
   const sc = big === sh._lastBig ? 1 : 1;
   const k = easeOut(a); const s = lerp(1.8, 1, k);
   g.save(); g.globalAlpha = k; g.translate(W / 2, sh.bigY ?? 760); g.scale(s, s); g.rotate(-0.04);
   const lines = big.split('\n');
   lines.forEach((ln, i) => {
-    const fs = fitFont(g, ln, 980, i === 0 ? (sh.bigSize ?? 170) : 80, 'bold');
-    const yy = (i - (lines.length - 1) / 2) * (i === 0 ? 0 : 1) * 130 + (i > 0 ? 40 : 0);
+    const fs = fitFont(g, ln, 980, (i === 0 || sh.hook) ? (sh.bigSize ?? 170) : 80, 'bold');
+    const yy = sh.hook ? (i - (lines.length - 1) / 2) * (sh.bigSize ?? 170) * 1.08 : (i - (lines.length - 1) / 2) * (i === 0 ? 0 : 1) * 130 + (i > 0 ? 40 : 0);
     g.textAlign = 'center'; g.textBaseline = 'middle'; g.lineJoin = 'round';
     g.lineWidth = 22; g.strokeStyle = 'rgba(0,0,0,0.85)'; g.strokeText(ln, 0, yy);
     const gr = g.createLinearGradient(0, yy - fs / 2, 0, yy + fs / 2);
     gr.addColorStop(0, '#fff7c2'); gr.addColorStop(0.5, CFG.accent || '#ffd400'); gr.addColorStop(1, '#ff9d00');
-    g.fillStyle = i === 0 ? gr : '#fff'; g.fillText(ln, 0, yy);
+    g.fillStyle = (i === 0 || sh.hook) ? gr : '#fff'; g.fillText(ln, 0, yy);
   });
   g.restore();
 }
@@ -1237,6 +1237,7 @@ window.renderAt = function (t) {
   // vignette
   const vg = g.createRadialGradient(W / 2, H / 2, H * 0.3, W / 2, H / 2, H * 0.75); vg.addColorStop(0, 'rgba(0,0,0,0)'); vg.addColorStop(1, 'rgba(0,0,0,0.55)');
   g.fillStyle = vg; g.fillRect(0, 0, W, H);
+  if (CFG.rain) { g.save(); g.strokeStyle = 'rgba(220,230,255,0.45)'; g.lineWidth = 3; g.beginPath(); for (let i = 0; i < 260; i++) { const x = (hash(i * 13.1) * 1300 + t * 900) % 1300 - 110, y = (hash(i * 7.7) * 2100 + t * 2600) % 2100 - 90; g.moveTo(x, y); g.lineTo(x - 14, y + 54); } g.stroke(); g.fillStyle = 'rgba(40,50,70,0.12)'; g.fillRect(0, 0, W, H); g.restore(); }
   if (CFG.grain) { for (let i = 0; i < 900; i++) { g.fillStyle = `rgba(255,240,220,${hash(i + t * 1000) * 0.08})`; g.fillRect(hash(i * 3 + t) * W, hash(i * 7 + t * 2) * H, 2, 2); } }
   // letterbox top gradient for scoreboard legibility
   const tg = g.createLinearGradient(0, 0, 0, 420); tg.addColorStop(0, 'rgba(0,0,0,0.55)'); tg.addColorStop(1, 'rgba(0,0,0,0)'); g.fillStyle = tg; g.fillRect(0, 0, W, 420);
@@ -1249,7 +1250,7 @@ window.renderAt = function (t) {
   if (sh.type !== 'outro') drawCaption(g, ci, t);
   // transition flash
   const fl = clamp(1 - lt / 0.18); if (si > 0 && fl > 0) { g.fillStyle = `rgba(255,255,255,${fl * 0.7})`; g.fillRect(0, 0, W, H); }
-  if (t < 0.25) { g.fillStyle = `rgba(0,0,0,${1 - t / 0.25})`; g.fillRect(0, 0, W, H); }
+  if (t < 0.25 && !CFG.rain) { g.fillStyle = `rgba(0,0,0,${1 - t / 0.25})`; g.fillRect(0, 0, W, H); }
   // series tag
   g.save(); g.font = 'bold 30px DejaVu Sans'; g.textAlign = 'center'; g.fillStyle = 'rgba(255,255,255,0.75)'; g.fillText(CFG.series || 'PARTIDOS LEGENDARIOS · 3D', W / 2, 105); g.restore();
   return out.toDataURL('image/jpeg', 0.9);
