@@ -1,4 +1,4 @@
-# Lista de videos programados (49)
+# Lista de videos programados (69)
 
 Cuentas: **Instagram @como.deportes** + **YouTube "¿Cómo deportes?"**. Cada video sale en las dos a la misma hora (hora de Ciudad de México). En YouTube están subidos como **privados** y se vuelven **públicos solos** a su hora. vidIQ no permite cancelar ni cambiar una publicación ya programada.
 
@@ -61,5 +61,31 @@ Cuentas: **Instagram @como.deportes** + **YouTube "¿Cómo deportes?"**. Cada vi
 | Vie 4 dic | 13:00 | ⚾ Cal Ripken Jr. |
 | Vie 4 dic | 19:00 | ⚾ Ohtani 50-50 |
 
+## ✅ Programados: 20 "¿Por qué…?" (voz Alex)
+
+| Fecha | Hora | Video |
+|---|---|---|
+| 23 nov | 16:00 | ¿Por qué el hoyo de golf mide 108 mm? ⛳ |
+| 24 nov | 16:00 | ¿Por qué la CHAQUETA VERDE del Masters? 🟢⛳ |
+| 25 nov | 16:00 | ¿Por qué en golf se grita "FORE"? 😱⛳ |
+| 26 nov | 16:00 | Hoyo en uno: 1 en 12,500 🤯⛳ |
+| 27 nov | 16:00 | ¿Por qué el golf tiene 18 HOYOS? ⛳ (no es por el whisky) |
+| 28 nov | 16:00 | ¿Qué es el AMEN CORNER de Augusta? ⛳💧 |
+| 29 nov | 16:00 | ¿Cuánto pesa una pelota de golf? ⚖️⛳ |
+| 30 nov | 16:00 | ¿Qué es un MULLIGAN? 🔁⛳ |
+| 01 dic | 16:00 | ¿Quién inventó las tarjetas AMARILLA y ROJA? 🟨🟥 |
+| 02 dic | 16:00 | 4 llantas en 2 SEGUNDOS 🏎️⏱️ ¿Cómo lo hacen? |
+| 03 dic | 16:00 | ¿Por qué el tenis cuenta 15, 30, 40? 🎾🕐 |
+| 04 dic | 16:00 | ¿Por qué un partido dura 90 MINUTOS? ⚽⏱️ |
+| 05 dic | 13:00 | ¿Por qué el béisbol tiene 9 ENTRADAS? ⚾ |
+| 05 dic | 19:00 | El FUERA DE LUGAR explicado fácil ⚽🚩 |
+| 06 dic | 13:00 | ¿Por qué las pelotas de tenis son AMARILLAS? 🎾📺 |
+| 06 dic | 19:00 | ¿Por qué las llantas de F1 son LISAS? 🏎️ |
+| 07 dic | 13:00 | ¿Por qué todos se paran en la 7ª entrada? ⚾🎶 |
+| 07 dic | 19:00 | ¿Por qué en tenis el cero es "LOVE"? 🎾❤️ |
+| 08 dic | 13:00 | ¿Por qué las bases están a 90 PIES? ⚾ |
+| 08 dic | 19:00 | ¿Por qué el balón de americano tiene ESA FORMA? 🏈 |
+
 ## ⏸️ Hecho pero sin programar
 - ¿Por qué desapareció el fierro 1? (`golf/por_que_desaparecio_el_fierro1.mp4`): ya hay en Instagram un video "Ni Dios le pega" con el mismo tema.
+- Reel de respuesta a comentario de Tiger (`golf/respuesta_tiger_el_mejor.mp4`): para que lo subas tú con "Responder con un reel".
