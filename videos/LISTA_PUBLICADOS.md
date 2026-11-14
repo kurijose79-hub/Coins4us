@@ -89,3 +89,19 @@ Cuentas: **Instagram @como.deportes** + **YouTube "¿Cómo deportes?"**. Cada vi
 ## ⏸️ Hecho pero sin programar
 - ¿Por qué desapareció el fierro 1? (`golf/por_que_desaparecio_el_fierro1.mp4`): ya hay en Instagram un video "Ni Dios le pega" con el mismo tema.
 - Reel de respuesta a comentario de Tiger (`golf/respuesta_tiger_el_mejor.mp4`): para que lo subas tú con "Responder con un reel".
+
+## Programados (IG + YouTube, hora CDMX)
+
+### Edits de fútbol (13:00 y 19:00)
+| Fecha | 13:00 | 19:00 |
+|---|---|---|
+| 9 dic | e08 | e09 |
+| 10 dic | e02 | e01 |
+| 11 dic | e03 | e04 Zidane |
+| 12 dic | e05 Ronaldinho | e06 Iniesta |
+| 13 dic | e07 Agüero | e10 Liverpool |
+
+### Lugares de golf (16:00): y01–y10, del 5 al 14 dic
+
+### Golf ¿Por qué? (21:00), voz natural y sin música
+5 dic z01 guante · 6 z02 números · 7 z03 par · 8 z04 greens · 9 z05 Ryder Cup · 10 z06 tee · 11 z07 caddie · 12 z08 bunkers · 13 z09 caminar · 14 z10 Masters
