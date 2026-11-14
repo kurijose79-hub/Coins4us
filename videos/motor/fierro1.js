@@ -36,8 +36,8 @@ SC.hHook = (o, p, lt, t) => {
 SC.hLoft = (o, p, lt, t) => {
   background(t, { noFlag: true }); g.fillStyle = 'rgba(247,239,216,0.6)'; g.fillRect(0, 560, W, 1360);
   const a = back(clamp(p * 3)), b = back(clamp((p - 0.25) * 3));
-  if (a > 0) clubHead(360, 1640, 1.6 * a, o.l1 ?? 17, o.k1 || 'iron', { angle: o.angle, cg: o.cg, label: o.n1, shaft: 380 });
-  if (b > 0) clubHead(860, 1640, 1.6 * b, o.l2 ?? 15, o.k2 || 'wood', { angle: o.angle, cg: o.cg, label: o.n2, shaft: 380 });
+  if (a > 0) clubHead(360, 1640, 1.6 * a, o.l1 ?? 17, o.k1 || 'iron', { angle: o.angle, cg: o.cg, label: o.n1, shaft: 380, col: o.c1 });
+  if (b > 0) clubHead(860, 1640, 1.6 * b, o.l2 ?? 15, o.k2 || 'wood', { angle: o.angle, cg: o.cg, label: o.n2, shaft: 380, col: o.c2 });
   if (o.value) card(o.label, o.value, seg(p, 0.45, 1), 700, o.col || GOLD);
   if (o.cg && p > 0.5) { g.save(); g.font = 'bold 44px DejaVu Sans'; g.fillStyle = RED; g.textAlign = 'center'; g.fillText('● = DONDE ESTÁ EL PESO', 540, 1820); g.restore(); }
 };

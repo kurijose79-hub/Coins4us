@@ -1,4 +1,4 @@
-# Lista de videos programados (29) y pendientes (3)
+# Lista de videos programados (49)
 
 Cuentas: **Instagram @como.deportes** + **YouTube "¿Cómo deportes?"**. Cada video sale en las dos a la misma hora (hora de Ciudad de México). En YouTube están subidos como **privados** y se vuelven **públicos solos** a su hora. vidIQ no permite cancelar ni cambiar una publicación ya programada.
 
@@ -36,12 +36,30 @@ Cuentas: **Instagram @como.deportes** + **YouTube "¿Cómo deportes?"**. Cada vi
 | Vie 27 nov | 19:00 | 🎾 Sampras vs Agassi 2001 (3D) | https://www.youtube.com/watch?v=OOd9Gqhgxb8 |
 | Sáb 28 nov | 13:00 | 🎾 Alcaraz, Wimbledon 2023 (2dbuena) | https://www.youtube.com/watch?v=HAjgjbi8DaE |
 
-## 🚫 Pendientes, necesitan créditos de vidIQ (quedan 7; se recargan el 12 dic)
+## ✅ Programados nuevos (20), voz "Alex" (Kokoro, gratis)
 
-Guiones listos en el proyecto, se hacen en cuanto haya créditos:
-- ¿Por qué la pelota de golf tiene hoyuelos?
-- ¿Cómo se lanza una curva en béisbol?
-- ¿Cómo frena un Fórmula 1?
-- ¿Por qué desapareció el fierro 1? (2dbuena, ~45 s; voz: 28 créditos)
-- Serie de ficción "De 14 a Augusta", 5 episodios de 60 s (voz: ~112 créditos; publicar antes del 1 de diciembre por el bono de Meta)
-- 10 momentos legendarios del béisbol (2dbuena; voz: ~112 créditos)
+| Fecha | Hora | Video |
+|---|---|---|
+| Lun 16 nov | 16:00 | ⛳ De 14 a Augusta, Ep. 1: La carta |
+| Mar 17 nov | 16:00 | ⛳ De 14 a Augusta, Ep. 2: El primer golpe |
+| Mié 18 nov | 16:00 | ⛳ De 14 a Augusta, Ep. 3: Los greens |
+| Jue 19 nov | 16:00 | ⛳ De 14 a Augusta, Ep. 4: El agua |
+| Vie 20 nov | 16:00 | ⛳ De 14 a Augusta, Ep. 5: El último hoyo |
+| Sáb 21 nov | 16:00 | ⛳ Palos que desaparecieron de la bolsa |
+| Dom 22 nov | 16:00 | ⛳ ¿Qué es el hándicap y cómo saber el tuyo? |
+| Sáb 28 nov | 19:00 | ⚾ Gibson 1988 |
+| Dom 29 nov | 13:00 | ⛳ ¿Por qué la pelota de golf tiene hoyuelos? |
+| Dom 29 nov | 19:00 | ⚾ Medias Rojas 2004 |
+| Lun 30 nov | 13:00 | ⚾ ¿Cómo se lanza una curva? |
+| Lun 30 nov | 19:00 | ⚾ Mazeroski 1960 |
+| Mar 1 dic | 13:00 | 🏎️ ¿Cómo frena un F1? |
+| Mar 1 dic | 19:00 | ⚾ Juego perfecto de Larsen 1956 |
+| Mié 2 dic | 13:00 | ⚾ Cachorros 2016 |
+| Mié 2 dic | 19:00 | ⚾ Joe Carter 1993 |
+| Jue 3 dic | 13:00 | ⚾ Fernando Valenzuela 1981 |
+| Jue 3 dic | 19:00 | ⚾ Babe Ruth 1932 |
+| Vie 4 dic | 13:00 | ⚾ Cal Ripken Jr. |
+| Vie 4 dic | 19:00 | ⚾ Ohtani 50-50 |
+
+## ⏸️ Hecho pero sin programar
+- ¿Por qué desapareció el fierro 1? (`golf/por_que_desaparecio_el_fierro1.mp4`): ya hay en Instagram un video "Ni Dios le pega" con el mismo tema.

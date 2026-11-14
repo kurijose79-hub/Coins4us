@@ -406,6 +406,7 @@
  "a01": [
   "Me llamo Beto. Hándicap catorce. Juego todos los sábados con mis compadres en un campo público.",
   "Mis palos son de segunda mano, y mi swing… bueno, funciona a veces.",
+  "Mi mejor ronda en la vida: ochenta y ocho golpes. Y fue hace diez años.",
   "Un lunes llegó una carta que me cambió la vida.",
   "Era una invitación para jugar una ronda en Augusta, Georgia. El campo más famoso del mundo.",
   "Nadie sabía quién la había mandado. Solo decía: \"Te esperamos el quince de abril\".",
@@ -413,10 +414,12 @@
   "Si rompo noventa golpes, ellos me pagan la cena todo un año.",
   "Si no, yo les lavo el carrito de golf… durante un año entero.",
   "Tres semanas después, estaba parado en el primer tee, con las manos temblando.",
+  "Llevé mis palos viejos, mi gorra de la suerte… y muchísimo miedo.",
   "Y entonces, el starter dijo mi nombre.",
   "Episodio dos: el primer golpe. Sígueme para no perdértelo."
  ],
  "a02": [
+  "En el episodio anterior: una carta misteriosa me invitó a Augusta, y aposté que rompería noventa golpes.",
   "Primer tee de Augusta. Hoyo uno, par cuatro.",
   "Había gente mirando. Yo nunca había jugado con público.",
   "Saqué el driver, respiré… y le pegué arriba a la bola.",
@@ -426,10 +429,12 @@
   "Segundo golpe: uno… dos. La bola salió derechita al centro del fairway.",
   "Terminé el hoyo con doble bogey. Seis golpes.",
   "No estaba mal… para alguien que casi se desmaya.",
+  "Hoyos dos, tres y cuatro: siete, cinco y cuatro. Seis sobre par en solo cuatro hoyos.",
   "Pero en el hoyo cinco, Don Chema me miró serio y me dijo: \"Ahora viene lo difícil\".",
   "Episodio tres: los greens de Augusta. Sígueme para no perdértelo."
  ],
  "a03": [
+  "En el episodio anterior: Don Chema me enseñó a soltar los brazos, pero yo ya iba seis sobre par.",
   "Hoyo cinco. Llevaba seis sobre par, y mis compadres me mandaban mensajes burlándose.",
   "Llegué al green en dos golpes. Por primera vez, iba bien.",
   "Toqué la bola con el putter, suavecito… y no se detuvo.",
@@ -438,12 +443,15 @@
   "\"Mira la pendiente, imagina el agua rodando, y deja que la gravedad haga el trabajo\".",
   "Siguiente putt: la empujé apenitas. Rodó, rodó… y se metió.",
   "Par. Mi primer par en Augusta, y aprendí algo que nunca olvidaré.",
+  "Del hoyo seis al nueve hice cuatro, cinco, seis y cuatro. Nada fácil.",
   "Al final de la primera vuelta llevaba cuarenta y cinco golpes. Para romper noventa, necesitaba cuarenta y cuatro.",
   "Y lo que venía era el Amen Corner. Los hoyos once, doce y trece.",
   "Episodio cuatro: el agua. Sígueme para no perdértelo."
  ],
  "a04": [
+  "En el episodio anterior: aprendí a dejar caer la bola en los greens, y terminé la ida con cuarenta y cinco.",
   "Hoyo doce. Par tres. El más famoso de Augusta.",
+  "Antes de llegar aquí, dos bogeys en el diez y el once. Cincuenta y cinco golpes.",
   "Un hoyo cortito, pero con un arroyo enfrente y un viento que cambia cada segundo.",
   "Escogí un hierro siete. Don Chema negó con la cabeza: \"Uno más, muchacho. El viento engaña\".",
   "No le hice caso. La bola voló bonito… y cayó al agua.",
@@ -456,7 +464,9 @@
   "Episodio cinco: el último hoyo. Sígueme para no perdértelo."
  ],
  "a05": [
+  "En el episodio anterior: mi bola cayó al agua en el doce… pero me recuperé sin pánico.",
   "Hoyo dieciocho. Par cuatro, cuesta arriba.",
+  "Del trece al diecisiete: seis, cinco, seis, cuatro y cuatro.",
   "Llevaba ochenta y cuatro golpes. Para romper noventa, tenía que hacer cinco o menos.",
   "Mis compadres estaban en videollamada. Nadie decía nada.",
   "Mi drive salió perfecto. Uno… dos, como me enseñó Don Chema.",
@@ -479,5 +489,28 @@
   "Misma distancia, mucho más fácil. El fierro uno se fue al museo.",
   "Y hay un truco más: los fierros de hoy tienen menos inclinación. Un fierro siete moderno es casi un fierro cinco de antes.",
   "¿Tú todavía tienes un fierro uno en la bolsa? Comenta."
+ ],
+ "h02": [
+  "Hay palos de golf que ya no verás en ninguna bolsa. ¿Sabes por qué desaparecieron?",
+  "Primero, las varillas de madera. Hasta los años veinte eran de nogal, y se torcían con la humedad.",
+  "Luego llegó el acero: más firme, más parejo, y las varillas de madera se acabaron.",
+  "También desaparecieron sus nombres: el mashie era como un fierro cinco, y el niblick, como un fierro nueve.",
+  "Después, las maderas de verdad. Los drivers se hacían de caqui, una madera durísima.",
+  "Pero en los ochenta llegaron las maderas de metal. Hoy son de titanio, enormes, y perdonan mucho más.",
+  "El fierro uno y el fierro dos los reemplazaron los híbridos: misma distancia, mucho más fáciles.",
+  "Y lo más loco: antes podías cargar los palos que quisieras. Algunos jugadores llevaban más de veinte.",
+  "Desde mil novecientos treinta y ocho, la regla es clara: máximo catorce palos.",
+  "¿Cuál de estos palos te hubiera gustado probar? Comenta."
+ ],
+ "h03": [
+  "¿Qué es el hándicap en golf? Es el número que dice qué tan bien juegas.",
+  "Mientras más bajo, mejor. Los mejores tienen menos de cero, y alguien que empieza puede tener hasta cincuenta y cuatro.",
+  "Y sirve para algo genial: que un principiante y un experto puedan competir parejo.",
+  "Si tu hándicap es catorce y el mío es cuatro, tú recibes diez golpes de ventaja.",
+  "¿Cómo se calcula? Con el Sistema Mundial de Hándicap, se toman tus últimas veinte tarjetas.",
+  "Se escogen las ocho mejores, se ajustan según la dificultad del campo, y se saca el promedio.",
+  "Para tenerlo oficial, te registras en un club o en la federación de golf de tu país, y vas entregando tus tarjetas.",
+  "¿Un truco rápido? Toma tus mejores rondas y réstales el par. Si sueles hacer ochenta y seis en un par setenta y dos, andas cerca del catorce.",
+  "¿Cuál es tu hándicap? Escríbelo en los comentarios."
  ]
 }

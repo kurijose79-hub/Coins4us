@@ -507,12 +507,12 @@ SC.bCta = (o, p, lt, t) => { bField(t, o); golfer(HOME[0] - 140, HOME[1] + 40, 0
 window.renderAt = function (t) {
   const shots = CFG.shots; let si = 0; for (let k = 0; k < shots.length; k++) if (t >= shots[k]._t0) si = k;
   const sh = shots[si]; const D = sh._t1 - sh._t0, lt = t - sh._t0, p = clamp(lt / D);
-  g.save(); SC[sh.type](sh, p, lt, t); g.restore();
-  caption(t);
+  const cov = CFG.cover && t < 0.7 && si === 0; g.save(); SC[sh.type](sh, cov ? 0.6 : p, cov ? 3 : lt, t); g.restore();
+  if (CFG.cover && t < 0.7) { g.fillStyle = 'rgba(0,0,0,0.35)'; g.fillRect(0, 160, W, 520); bigText(CFG.cover.split('\n').map(l => `|${l}|`), 330, 130, 1, { hl: GOLD }); } else caption(t);
   // grain + vignette
   const vg = g.createRadialGradient(W / 2, H / 2, H * 0.35, W / 2, H / 2, H * 0.8); vg.addColorStop(0, 'rgba(0,0,0,0)'); vg.addColorStop(1, 'rgba(60,40,10,0.25)'); g.fillStyle = vg; g.fillRect(0, 0, W, H);
   const fl = clamp(1 - lt / 0.15); if (si > 0 && fl > 0) { g.fillStyle = `rgba(255,250,235,${fl * 0.8})`; g.fillRect(0, 0, W, H); }
-  if (t < 0.2) { g.fillStyle = `rgba(0,0,0,${1 - t / 0.2})`; g.fillRect(0, 0, W, H); }
+  
   g.save(); g.font = 'bold 30px DejaVu Sans'; g.textAlign = 'center'; g.fillStyle = 'rgba(34,48,31,0.6)'; g.fillText(CFG.tag || 'GOLF EXPLICADO', W / 2, 140); g.restore();
   return cv.toDataURL('image/jpeg', 0.92);
 };
