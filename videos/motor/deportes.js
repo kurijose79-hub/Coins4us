@@ -228,3 +228,17 @@ window.CONFIGS.x21 = { tag: '¿CÓMO DEPORTES?', shots: [
   { type: 'kCondor', perch: true, title: 'DE VEZ EN CUANDO', items: ['ELEGIMOS COMENTARIOS', 'Y LES HACEMOS', 'SU PROPIO REEL'], cols: [INK, INK, AG] },
   { type: 'kCondor', phone: true, label: 'TU JUGADA · TU EQUIPO · TU PREGUNTA', value: 'EN ANIMACIÓN' },
   { type: 'kCondor', fig: true, pose: 'thumbs', label: 'PUEDE SER EL TUYO', value: '¡COMENTA!', btn: 'COMENTA ↓' }] };
+window.CONFIGS.x22 = { tag: '¿CÓMO DEPORTES?', shots: [
+  { type: 'kCondor', label: '¿QUIERES TU', value: 'PROPIO REEL?' },
+  { type: 'kCondor', msgs: ['¡QUÉ GOLAZO!', 'HAGAN UNO DE MESSI', 'YO JUEGO GOLF'], label: 'ASÍ DE FÁCIL', value: 'SÍGUENOS + COMENTA' },
+  { type: 'kCondor', perch: true, title: 'DE VEZ EN CUANDO', items: ['ELEGIMOS SEGUIDORES', 'QUE COMENTAN', 'Y LES HACEMOS SU REEL'], cols: [INK, INK, AG] },
+  { type: 'kCondor', phone: true, label: 'TU JUGADA · TU EQUIPO · TU PREGUNTA', value: 'EN ANIMACIÓN' },
+  { type: 'kCondor', fig: true, pose: 'thumbs', label: 'PUEDE SER EL TUYO', value: '¡SÍGUENOS!', btn: 'SÍGUENOS + COMENTA' }] };
+
+window.CONFIGS.x23 = { tag: 'GOLF EXPLICADO', shots: [
+  { type: 'aBeto', bg: 'club', pose: 'wow', label: '¿CUÁL ES EL MEJOR', value: 'DRIVE?' },
+  { type: 'aTee', bg: 'club', out: 'good', stamp: 'MIKE AUSTIN · 1974', scol: AG },
+  { type: 'gx', prop: 'fly', speed: '515 YARDAS', label: '≈ 470 METROS · A LOS 64 AÑOS', value: '515 YARDAS' },
+  { type: 'gx', prop: 'fly', label: 'VIENTO A FAVOR', value: 'RÉCORD MUNDIAL', col: RED },
+  { type: 'aTee', bg: 'club', out: 'good', stamp: '¡AL FAIRWAY!', scol: AG },
+  cta('¿CUÁNTO MIDE TU DRIVE?', '+250 YARDAS', 'CON SUERTE 150')] };
