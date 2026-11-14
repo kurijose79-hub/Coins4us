@@ -211,3 +211,20 @@ window.CONFIGS = Object.assign(window.CONFIGS || {}, {
     { type: 'gx', bg: 'club', prop: 'spiral', label: 'MÁS DELGADO PARA', value: 'LA ESPIRAL' },
     cta('¿LO SABÍAS?', 'SÍ', 'NI IDEA')] },
 });
+// ---- "Comenta y te hacemos un reel" con el cóndor ----
+SC.kCondor = (o, p, lt, t) => {
+  background(t, { flagNum: '5' });
+  const fx = o.perch ? 760 : lerp(-250, 1330, ((t * 0.12) % 1)), fy = o.perch ? 1500 : 1080 + Math.sin(t * 1.5) * 60;
+  bird('condor', fx, fy, o.perch ? 1.1 : 1.15, o.perch ? t * 2 : t * 3.5, 1);
+  if (o.phone) { g.save(); g.translate(540, 1420); g.rotate(-0.05); rr(-170, -300, 340, 600, 40); inked('#1d1d1f', 8); rr(-150, -260, 300, 520, 24); g.fillStyle = '#2c8f45'; g.fill(); bird('condor', 0, -60, 0.35, t * 4, 1); label('TU REEL', 0, 160, 46, GOLD); g.restore(); }
+  if (o.msgs) o.msgs.forEach((m, i) => { const a = back(clamp((p - 0.1 - i * 0.15) * 4)); if (a <= 0) return; g.save(); g.translate(i % 2 ? 690 : 380, 1250 + i * 150); g.scale(a, a); g.font = 'bold 44px DejaVu Sans'; const w = g.measureText(m).width + 60; rr(-w / 2, -45, w, 90, 40); inked(i % 2 ? '#3c8fc4' : '#fff', 6); g.fillStyle = i % 2 ? '#fff' : INK; g.textAlign = 'center'; g.textBaseline = 'middle'; g.fillText(m, 0, 2); g.restore(); });
+  if (o.fig) person(BETO, 250, 1780, 0.55, POSE[o.pose || 'point'](t), t);
+  if (o.items) board(o.title, o.items, p, o.cy || 760, o); else if (o.value) card(o.label, o.value, seg(p, 0.05, 1), o.cy || 700, o.col || GOLD);
+  if (o.btn) { const k = back(clamp((p - 0.3) * 3)); if (k > 0) { const pu = 1 + Math.sin(t * 8) * 0.05; g.save(); g.translate(540, 1000); g.scale(k * pu, k * pu); rr(-300, -75, 600, 150, 75); inked(RED, 8); g.fillStyle = '#fff'; g.font = 'bold 66px DejaVu Sans'; g.textAlign = 'center'; g.textBaseline = 'middle'; g.fillText(o.btn, 0, 4); g.restore(); } }
+};
+window.CONFIGS.x21 = { tag: '¿CÓMO DEPORTES?', shots: [
+  { type: 'kCondor', label: '¿QUIERES TU', value: 'PROPIO REEL?' },
+  { type: 'kCondor', msgs: ['¡QUÉ GOLAZO!', 'HAGAN UNO DE MESSI', 'YO JUEGO GOLF'], label: 'ASÍ DE FÁCIL', value: 'COMENTA' },
+  { type: 'kCondor', perch: true, title: 'DE VEZ EN CUANDO', items: ['ELEGIMOS COMENTARIOS', 'Y LES HACEMOS', 'SU PROPIO REEL'], cols: [INK, INK, AG] },
+  { type: 'kCondor', phone: true, label: 'TU JUGADA · TU EQUIPO · TU PREGUNTA', value: 'EN ANIMACIÓN' },
+  { type: 'kCondor', fig: true, pose: 'thumbs', label: 'PUEDE SER EL TUYO', value: '¡COMENTA!', btn: 'COMENTA ↓' }] };

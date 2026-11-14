@@ -1198,7 +1198,7 @@ function drawOutro(g, p) {
   g.font = 'bold 120px DejaVu Sans'; g.lineWidth = 18; g.strokeStyle = '#000'; g.lineJoin = 'round';
   g.translate(W / 2, 760); g.scale(lerp(1.4, 1, k), lerp(1.4, 1, k));
   g.strokeText('SÍGUENOS', 0, 0); g.fillStyle = CFG.accent || '#ffd400'; g.fillText('SÍGUENOS', 0, 0);
-  g.font = 'bold 52px DejaVu Sans'; g.lineWidth = 12; g.strokeText('+ PARTIDOS LEGENDARIOS', 0, 110); g.fillStyle = '#fff'; g.fillText('+ PARTIDOS LEGENDARIOS', 0, 110);
+  g.font = 'bold 52px DejaVu Sans'; g.lineWidth = 12; g.strokeText(CFG.outroSub || '+ PARTIDOS LEGENDARIOS', 0, 110); g.fillStyle = '#fff'; g.fillText(CFG.outroSub || '+ PARTIDOS LEGENDARIOS', 0, 110);
   // follow button
   const bw = 420, bh = 110, by = 230;
   rr(g, -bw / 2, by, bw, bh, 55); g.fillStyle = '#ff2d55'; g.fill();
