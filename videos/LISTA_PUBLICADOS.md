@@ -105,3 +105,10 @@ Cuentas: **Instagram @como.deportes** + **YouTube "¿Cómo deportes?"**. Cada vi
 
 ### Golf ¿Por qué? (21:00), voz natural y sin música
 5 dic z01 guante · 6 z02 números · 7 z03 par · 8 z04 greens · 9 z05 Ryder Cup · 10 z06 tee · 11 z07 caddie · 12 z08 bunkers · 13 z09 caminar · 14 z10 Masters
+
+## Publicados directo (14 nov)
+- 10 retos "Solo el 1% puede pausar" (fútbol, golf, básquet, tenis, béisbol, F1, NFL, hockey, voleibol, boliche), 2 s y sin sonido
+- Followback: las primeras 20 personas que nos sigan hoy
+
+## Respuestas entregadas al usuario (él las sube)
+- respuesta_cabezazo_moises (privv.alexx39), respuesta_don_richard (bruno_stark.rg), respuesta_advincula_queque (Carvel-x5o en YouTube)

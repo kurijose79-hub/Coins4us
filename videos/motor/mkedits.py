@@ -14,6 +14,10 @@ T={
  'QPR':{'name':'QPR','abbr':'QPR','shirt':'#1d5ba4','stripes':'#ffffff','alt':'#1d5ba4','shorts':'#ffffff','socks':'#ffffff','num':'#ffffff','numStroke':'#111','keeper':'#2c8f45'},
  'MEX':{'name':'México','abbr':'MEX','shirt':'#006847','alt':'#006847','shorts':'#ffffff','socks':'#c8102e','num':'#ffffff','numStroke':'#c8102e','keeper':'#e8d33a'},
  'GER':{'name':'Alemania','abbr':'GER','shirt':'#ffffff','alt':'#111111','shorts':'#111111','socks':'#ffffff','num':'#111111','numStroke':'#fff','keeper':'#2c8f45'},
+ 'CAZ':{'name':'Cruz Azul','abbr':'CAZ','shirt':'#1b4fa0','alt':'#1b4fa0','shorts':'#1b4fa0','socks':'#1b4fa0','num':'#ffffff','numStroke':'#c8102e','keeper':'#111111'},
+ 'AME':{'name':'América','abbr':'AME','shirt':'#ffd400','alt':'#ffd400','shorts':'#1c2c6b','socks':'#ffd400','num':'#1c2c6b','numStroke':'#ffffff','keeper':'#2c8f45'},
+ 'PER':{'name':'Perú','abbr':'PER','shirt':'#ffffff','alt':'#d91023','shorts':'#ffffff','socks':'#ffffff','num':'#d91023','numStroke':'#111','keeper':'#e8d33a'},
+ 'DEN':{'name':'Dinamarca','abbr':'DEN','shirt':'#c8102e','alt':'#c8102e','shorts':'#ffffff','socks':'#c8102e','num':'#ffffff','numStroke':'#111','keeper':'#2c8f45'},
  'LIV':{'name':'Liverpool','abbr':'LIV','shirt':'#c8102e','alt':'#c8102e','shorts':'#c8102e','socks':'#c8102e','num':'#ffffff','numStroke':'#111','keeper':'#2c8f45'},
 }
 G=lambda b,**k: dict(dict(type='goal',big=[[0,None],[0.62,b]],flashes=1,shake=1,shakeAt=0.62),**k)
@@ -91,6 +95,32 @@ E={
    (5,'2-0 · 3-0',G('3-0',team=0,idx=8,dist=10,sz=-2,score=[[0,[2,0]],[0.6,[3,0]]],clock="56'")),
    (6,'¡CÓRNER RÁPIDO!',dict(type='corner',team=0,score=[[0,[3,0]],[0.75,[4,0]]],big=[[0,None],[0.78,'4-0']],clock="79'",flashes=2,shake=1,shakeAt=0.78)),
    (5,'ANFIELD',dict(type='crowd',scarf='#c8102e',score=[4,0],clock='FINAL',big='ANFIELD',bigSize=160)),
+   (4,'',dict(type='outro'))]),
+ 'e11':(['CAZ','AME'],'FINAL CLAUSURA 2013','',[
+   (4,'FINAL CLAUSURA 2013',dict(type='intro',big='CRUZ AZUL\nVS AMÉRICA',score=[2,0],clock="85'")),
+   (4,'AMÉRICA PERDÍA 2-0',dict(type='stat',team=1,score=[2,0],clock="88'",big='2-0')),
+   (5,"88': MOSQUERA",G('2-1',team=1,idx=4,dist=7,sz=-2,score=[[0,[2,0]],[0.6,[2,1]]],clock="88'")),
+   (4,'ÚLTIMA JUGADA',dict(type='stat',team=1,score=[2,1],clock="90+3'",big="90+3'")),
+   (6,'SUBE EL PORTERO',dict(type='header',team=1,idx=0,score=[[0,[2,1]],[0.7,[2,2]]],big=[[0,None],[0.72,'¡MOISÉS!']],clock="90+3'",flashes=2,shake=1,shakeAt=0.7)),
+   (5,'¡CABEZAZO DE MOISÉS!',dict(type='header',team=1,idx=0,cam='goal',score=[[0,[2,1]],[0.7,[2,2]]],big=[[0,None],[0.72,'¡GOOOL!']],clock="90+3'",flashes=1,shake=1,shakeAt=0.7)),
+   (6,'CAMPEÓN EN PENALES',dict(type='trophy',team=1,idx=0,lift=True,confetti=True,score=['2 (2)','2 (4)'],clock='FINAL',big=[[0,None],[0.45,'¡CAMPEÓN!']])),
+   (4,'',dict(type='outro'))]),
+ 'e12':(['CAZ','AME'],'FINAL CLAUSURA 2013','',[
+   (4,'PARA DON RICHARD',dict(type='intro',big='SE ACABA HASTA\nEL ÚLTIMO MINUTO',bigSize=96,score=[2,0],clock="80'")),
+   (4,"MINUTO 80: '¿YA PERDIÓ SU AMÉRICA?'",dict(type='crowd',scarf='#1b4fa0',score=[2,0],clock="80'",big="80'",bigSize=170)),
+   (5,"88': MOSQUERA",G('2-1',team=1,idx=4,dist=7,sz=-2,score=[[0,[2,0]],[0.6,[2,1]]],clock="88'")),
+   (6,"90+3': SUBE MOISÉS",dict(type='header',team=1,idx=0,score=[[0,[2,1]],[0.7,[2,2]]],big=[[0,None],[0.72,'¡MOISÉS!']],clock="90+3'",flashes=2,shake=1,shakeAt=0.7)),
+   (6,'CAMPEÓN EN PENALES',dict(type='trophy',team=1,idx=0,lift=True,confetti=True,score=['2 (2)','2 (4)'],clock='FINAL',big=[[0,None],[0.45,'¡CAMPEÓN!']])),
+   (5,'EN MEMORIA DE DON RICHARD',dict(type='crowd',scarf='#ffd400',score=['2 (2)','2 (4)'],clock='FINAL',big='POR DON\nRICHARD',bigSize=130)),
+   (4,'',dict(type='outro'))]),
+ 'e13':(['PER','DEN'],'MUNDIAL 2018 · SARANSK','',[
+   (4,'¿Y SI LE DAN QUEQUE?',dict(type='intro',big='PERÚ\nVS DINAMARCA',score=[0,0],clock="0'")),
+   (4,'ADVÍNCULA',dict(type='lineup',team=0,score=[0,0],clock="60'")),
+   (4,'YA ERA EL MÁS RÁPIDO',dict(type='stat',team=0,score=[0,1],clock="60'",big='TURBO')),
+   (4,'+ UN QUEQUE...',dict(type='stat',team=0,score=[0,1],clock="70'",big='+ QUEQUE',bigSize=150)),
+   (6,'¡ADVÍNCULA IMPARABLE!',G('¡GOOOL!',team=0,idx=2,dist=22,sz=-8,score=[[0,[0,1]],[0.6,[1,1]]],clock="70'")),
+   (5,'¡Y OTRO!',G('¡OTRO!',team=0,idx=2,dist=18,sz=6,tz=-2.4,kDive=2,score=[[0,[1,1]],[0.6,[2,1]]],clock="88'")),
+   (5,'PERÚ GANA EL PARTIDO',dict(type='crowd',scarf='#d91023',score=[2,1],clock='FINAL',big='¡ARRIBA PERÚ!',bigSize=120)),
    (4,'',dict(type='outro'))]),
 }
 cfgs={}; tim=json.load(open('timing.json'))

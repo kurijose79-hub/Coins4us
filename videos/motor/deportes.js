@@ -242,3 +242,8 @@ window.CONFIGS.x23 = { tag: 'GOLF EXPLICADO', shots: [
   { type: 'gx', prop: 'fly', label: 'VIENTO A FAVOR', value: 'RÉCORD MUNDIAL', col: RED },
   { type: 'aTee', bg: 'club', out: 'good', stamp: '¡AL FAIRWAY!', scol: AG },
   cta('¿CUÁNTO MIDE TU DRIVE?', '+250 YARDAS', 'CON SUERTE 150')] };
+window.CONFIGS.x24 = { tag: '¿CÓMO DEPORTES?', shots: [
+  { type: 'kCondor', label: 'SOLO HOY', value: '¡FOLLOWBACK!' },
+  { type: 'kCondor', perch: true, title: 'LAS PRIMERAS', items: ['20 PERSONAS', 'QUE NOS SIGAN HOY', '¡LES DAMOS FOLLOWBACK!'], cols: [AG, INK, AG] },
+  { type: 'kCondor', msgs: ['¡YA LOS SEGUÍ!', '¿SIGO A TIEMPO?', '¡SÍGUEME!'], label: 'CORRE, QUE SOLO SON', value: '20 LUGARES', col: RED },
+  { type: 'kCondor', fig: true, pose: 'thumbs', label: 'SÍGUENOS AHORITA', value: '¡YA!', btn: 'SEGUIR +' }] };
