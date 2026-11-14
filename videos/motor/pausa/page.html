@@ -46,5 +46,9 @@ const S={
 function pp(t){return ((t%1)/1);}
 let K='soccer';
 window.setSport=k=>K=k;
-window.renderAt=t=>{const s=S[K];s.draw(t);g.fillStyle='rgba(0,0,0,0.35)';g.fillRect(0,130,W,320);txt('Solo el 1% puede pausar',540,200,64,'#fff');txt('¡EN EL MOMENTO',540,300,78,'#ffd400');txt('EXACTO!',540,390,78,'#ffd400');txt(s.name,540,1800,64,'#fff');txt('@comodeportes',540,1880,34,'#fff');};
+window.renderAt=t=>{const s=S[K];s.draw(t);g.fillStyle='rgba(0,0,0,0.35)';g.fillRect(0,130,W,310);txt('DESCUBRE EL GRAN SECRETO',540,200,62,'#ffd400');txt('si lo pausas justo',540,300,64,'#fff');txt('en el centro 🎯',540,385,64,'#fff');
+ const fr=Math.round(t*30)%30, d=fr-15;
+ if(d===0){g.fillStyle='rgba(0,0,0,0.72)';g.fillRect(0,1380,W,380);txt('¡LO LOGRASTE! 🎉',540,1460,92,'#3ef06a');txt('MÁNDANOS CAPTURA',540,1580,70,'#fff');txt('POR DM = FOLLOWBACK',540,1675,66,'#ffd400');}
+ else {const m=Math.abs(d)<=2?'¡CASI!':(d<0?'¡MUY PRONTO!':'¡TE PASASTE!');const col=Math.abs(d)<=2?'#ffd400':'#ff4a4a';txt(m,540,1600,110,col);}
+ txt(s.name,540,1800,56,'#fff');txt('@comodeportes',540,1880,34,'#fff');};
 </script></body></html>
