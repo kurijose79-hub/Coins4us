@@ -18,3 +18,7 @@
   2. Videos de 12–15 s, con el momento clave antes del segundo 8.
   3. Cierre "PARTE 2 → SÍGUENOS" y llamada a seguir en el caption.
   4. Fútbol 3D con lluvia; temas de porteros locos y goles imposibles.
+
+## Sonido (15 nov)
+- De ahora en adelante NINGÚN video va sin sonido: lleva voz natural o música buena de edit / "aura" (phonk).
+- Las respuestas con reel ahora las subo yo, con burbuja "Respondiendo a @usuario" y el comentario.
