@@ -296,6 +296,8 @@ function netRipple(side, amt, zHit = 0, yHit = 1.2) {
 
 // ---------- players ----------
 const skinTones = ['#e8bd98', '#c48b62', '#8d5a3b', '#f0cfb0', '#a86e4c'];
+const CAP = (r, len, ...x) => CFG.blocky ? new THREE.BoxGeometry(r * 2.1, len + r * 2, r * 2.1) : new THREE.CapsuleGeometry(r, len, ...x);
+const SPH = (r, ...x) => CFG.blocky ? new THREE.BoxGeometry(r * 2, r * 2, r * 2) : new THREE.SphereGeometry(r, ...x);
 function makePlayer(team, i, num) {
   const T = CFG.teams[team], nfl = sport === 'nfl';
   const isGK = !nfl && i === 0;
@@ -306,20 +308,26 @@ function makePlayer(team, i, num) {
   const skin = new THREE.MeshStandardMaterial({ color: skinTones[(i * 7 + team * 3) % 5], roughness: 0.6 });
   const shoe = new THREE.MeshStandardMaterial({ color: '#111', roughness: 0.5 });
   const g = new THREE.Group(); const body = new THREE.Group(); g.add(body);
-  const torso = new THREE.Mesh(new THREE.CapsuleGeometry(nfl ? 0.27 : 0.23, 0.42, 4, 12), shirtMat); torso.position.y = 1.32; torso.scale.set(1.15, 1, 0.8);
+  const torso = new THREE.Mesh(CAP(nfl ? 0.27 : 0.23, 0.42, 4, 12), shirtMat); torso.position.y = 1.32; torso.scale.set(1.15, 1, 0.8);
   body.add(torso);
-  if (nfl) { const pads = new THREE.Mesh(new THREE.SphereGeometry(0.42, 14, 8), shirtMat); pads.scale.set(1.2, 0.45, 0.75); pads.position.y = 1.6; body.add(pads); }
+  if (nfl) { const pads = new THREE.Mesh(SPH(0.42, 14, 8), shirtMat); pads.scale.set(1.2, 0.45, 0.75); pads.position.y = 1.6; body.add(pads); }
   const head = new THREE.Group(); head.position.y = 1.86; body.add(head);
   if (nfl) {
-    const helm = new THREE.Mesh(new THREE.SphereGeometry(0.2, 16, 12), new THREE.MeshStandardMaterial({ color: T.helmet, roughness: 0.25, metalness: 0.4 })); helm.scale.set(1, 1, 1.12); head.add(helm);
+    const helm = new THREE.Mesh(SPH(0.2, 16, 12), new THREE.MeshStandardMaterial({ color: T.helmet, roughness: 0.25, metalness: 0.4 })); helm.scale.set(1, 1, 1.12); head.add(helm);
     const mask = new THREE.Mesh(new THREE.TorusGeometry(0.15, 0.018, 6, 16, Math.PI), new THREE.MeshStandardMaterial({ color: T.mask || '#999' }));
     mask.position.set(0, -0.06, 0.16); mask.rotation.z = Math.PI; head.add(mask);
     const mask2 = mask.clone(); mask2.position.y = -0.11; mask2.scale.set(0.9, 0.9, 0.9); head.add(mask2);
     if (T.helmetStripe) { const st = new THREE.Mesh(new THREE.BoxGeometry(0.05, 0.03, 0.42), new THREE.MeshStandardMaterial({ color: T.helmetStripe })); st.position.y = 0.19; head.add(st); }
   } else {
-    const hd = new THREE.Mesh(new THREE.SphereGeometry(0.15, 14, 10), skin); hd.scale.set(0.9, 1.05, 1); head.add(hd);
-    const hair = new THREE.Mesh(new THREE.SphereGeometry(0.155, 14, 10, 0, Math.PI * 2, 0, Math.PI / 2), new THREE.MeshStandardMaterial({ color: ['#1b1210', '#3b2516', '#6b4a2a', '#111'][i % 4] }));
+    const hd = new THREE.Mesh(SPH(0.15, 14, 10), skin); hd.scale.set(0.9, 1.05, 1); head.add(hd);
+    const hair = new THREE.Mesh(SPH(0.155, 14, 10, 0, Math.PI * 2, 0, Math.PI / 2), new THREE.MeshStandardMaterial({ color: ['#1b1210', '#3b2516', '#6b4a2a', '#111'][i % 4] }));
     hair.scale.set(0.92, 1.05, 1.02); hair.position.y = 0.02; head.add(hair);
+    if (CFG.blocky) { hd.scale.set(1.25, 1.25, 1.25); hair.geometry = new THREE.BoxGeometry(0.4, 0.1, 0.4); hair.scale.set(1, 1, 1); hair.position.set(0, 0.17, -0.01);
+      const hb = new THREE.Mesh(new THREE.BoxGeometry(0.4, 0.3, 0.07), hair.material); hb.position.set(0, 0.03, -0.18); head.add(hb);
+      const em = new THREE.MeshBasicMaterial({ color: '#141414' }), wm = new THREE.MeshBasicMaterial({ color: '#ffffff' });
+      for (const ex of [-0.075, 0.075]) { const w = new THREE.Mesh(new THREE.BoxGeometry(0.075, 0.06, 0.01), wm); w.position.set(ex, 0.02, 0.19); head.add(w);
+        const e = new THREE.Mesh(new THREE.BoxGeometry(0.04, 0.06, 0.012), em); e.position.set(ex + (ex > 0 ? -0.018 : 0.018), 0.02, 0.192); head.add(e); }
+      const mo = new THREE.Mesh(new THREE.BoxGeometry(0.09, 0.022, 0.01), new THREE.MeshBasicMaterial({ color: '#6b2b22' })); mo.position.set(0, -0.08, 0.19); head.add(mo); }
   }
   const neck = new THREE.Mesh(new THREE.CylinderGeometry(0.07, 0.08, 0.15), skin); neck.position.y = 1.72; body.add(neck);
   // number on back and front
@@ -331,9 +339,9 @@ function makePlayer(team, i, num) {
   }
   const mkLimb = (y, x, upLen, loLen, upMat, loMat, r) => {
     const root = new THREE.Group(); root.position.set(x, y, 0);
-    const up = new THREE.Mesh(new THREE.CapsuleGeometry(r, upLen, 3, 8), upMat); up.position.y = -upLen / 2 - r * 0.5; root.add(up);
+    const up = new THREE.Mesh(CAP(r, upLen, 3, 8), upMat); up.position.y = -upLen / 2 - r * 0.5; root.add(up);
     const joint = new THREE.Group(); joint.position.y = -upLen - r; root.add(joint);
-    const lo = new THREE.Mesh(new THREE.CapsuleGeometry(r * 0.85, loLen, 3, 8), loMat); lo.position.y = -loLen / 2; joint.add(lo);
+    const lo = new THREE.Mesh(CAP(r * 0.85, loLen, 3, 8), loMat); lo.position.y = -loLen / 2; joint.add(lo);
     body.add(root); return { root, joint, lo };
   };
   const legL = mkLimb(0.98, 0.12, 0.36, 0.42, shortsMat, sockMat, 0.085);
@@ -343,7 +351,7 @@ function makePlayer(team, i, num) {
   const armL = mkLimb(1.62, nfl ? 0.4 : 0.31, 0.26, 0.26, nfl ? shirtMat : armMat, skin, 0.06);
   const armR = mkLimb(1.62, nfl ? -0.4 : -0.31, 0.26, 0.26, nfl ? shirtMat : armMat, skin, 0.06);
   for (const a of [armL, armR]) {
-    const hand = new THREE.Mesh(new THREE.SphereGeometry(0.06, 8, 6), isGK ? new THREE.MeshStandardMaterial({ color: '#f5f5f5' }) : skin); hand.position.y = -0.3; a.joint.add(hand);
+    const hand = new THREE.Mesh(SPH(0.06, 8, 6), isGK ? new THREE.MeshStandardMaterial({ color: '#f5f5f5' }) : skin); hand.position.y = -0.3; a.joint.add(hand);
   }
   // blob shadow
   const sh = new THREE.Mesh(new THREE.CircleGeometry(0.55, 20), new THREE.MeshBasicMaterial({ color: '#000', transparent: true, opacity: 0.35, depthWrite: false }));
