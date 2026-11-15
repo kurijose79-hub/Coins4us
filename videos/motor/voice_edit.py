@@ -10,6 +10,7 @@ def nice(s):
     s = re.sub(r'(\d+)-(\d+)', r'\1 a \2', s.replace('\n', ' ')).strip().lower()
     return s[:1].upper() + s[1:]
 for ID in sys.argv[1:]:
+    VD = '/home/user/Coins4us/videos/edits_cuadrada' if os.path.exists(f'/home/user/Coins4us/videos/edits_cuadrada/{ID}.mp4') else '/home/user/Coins4us/videos/edits_fut'
     src = f'{VD}/{ID}.mp4'
     if not os.path.exists(src) or os.path.exists(f'{VD}/{ID}.voz'): print('skip', ID); continue
     segs = T[ID]['segs']; sr = M.sr; total = T[ID]['dur'] + 0.8

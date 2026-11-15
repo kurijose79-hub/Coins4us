@@ -7,6 +7,10 @@ T={
  'RMA':{'name':'Real Madrid','abbr':'RMA','shirt':'#ffffff','alt':'#f2c200','shorts':'#ffffff','socks':'#ffffff','num':'#1c1c1c','numStroke':'#f2c200','keeper':'#2c8f45'},
  'JUV':{'name':'Juventus','abbr':'JUV','shirt':'#111111','stripes':'#ffffff','alt':'#111111','shorts':'#ffffff','socks':'#111111','num':'#ffffff','numStroke':'#111','keeper':'#e8d33a'},
  'ITA':{'name':'Italia','abbr':'ITA','shirt':'#1f5fbf','alt':'#1f5fbf','shorts':'#ffffff','socks':'#1f5fbf','num':'#ffffff','numStroke':'#1d2a5b','keeper':'#e8d33a'},
+ 'BAY':{'name':'Bayern','abbr':'FCB','shirt':'#dc052d','alt':'#dc052d','shorts':'#dc052d','socks':'#dc052d','num':'#ffffff','numStroke':'#111','keeper':'#2c8f45'},
+ 'WOB':{'name':'Wolfsburgo','abbr':'WOB','shirt':'#65b32e','alt':'#65b32e','shorts':'#ffffff','socks':'#65b32e','num':'#ffffff','numStroke':'#111','keeper':'#e8d33a'},
+ 'TUR':{'name':'Turquía','abbr':'TUR','shirt':'#e30a17','alt':'#e30a17','shorts':'#ffffff','socks':'#e30a17','num':'#ffffff','numStroke':'#111','keeper':'#2c8f45'},
+ 'KOR':{'name':'Corea del Sur','abbr':'KOR','shirt':'#c8102e','alt':'#c8102e','shorts':'#1d2a5b','socks':'#c8102e','num':'#ffffff','numStroke':'#111','keeper':'#e8d33a'},
  'LEV':{'name':'Leverkusen','abbr':'B04','shirt':'#e32221','alt':'#111111','shorts':'#111111','socks':'#e32221','num':'#ffffff','numStroke':'#111','keeper':'#2c8f45'},
  'BAR':{'name':'Barcelona','abbr':'BAR','shirt':'#a50044','stripes':'#004d98','alt':'#a50044','shorts':'#004d98','socks':'#a50044','num':'#f2c200','numStroke':'#111','keeper':'#e8d33a'},
  'ESP':{'name':'España','abbr':'ESP','shirt':'#c8102e','alt':'#c8102e','shorts':'#1d2a5b','socks':'#1d2a5b','num':'#f2c200','numStroke':'#111','keeper':'#e8d33a'},
@@ -392,13 +396,43 @@ E={
    (5,'GARETH BALE',dict(type='celebrate',team=0,score=[2,1],clock="85'",big='¡BALE!',bigSize=200)),
    (5,'¡LO DEJÓ ATRÁS!',dict(type='trophy',team=0,idx=10,lift=True,confetti=True,score=[2,1],clock='FINAL',big=[[0,None],[0.45,'2-1']])),
    (5,'',dict(type='outro'))]),
+ 'e55':(['STK','SOU'],'PREMIER LEAGUE · 2013','',[
+   (4,'¿DE PORTERO A PORTERO?',dict(type='intro',hook=True,big='¿DE PORTERO\nA PORTERO?',bigSize=135,score=[0,0],clock="1'")),
+   (7,'SAQUE LARGO DEL PORTERO…',G('¡GOOOL!',team=0,idx=0,dist=50,sz=0,loft=3.0,ty=0.4,kDive=1,score=[[0,[0,0]],[0.6,[1,0]]],clock="1'")),
+   (5,'ASMIR BEGOVIĆ',G('¡BEGOVIĆ!',team=0,idx=0,dist=50,sz=0,loft=3.0,ty=0.4,kDive=1,cam='goal',score=[[0,[0,0]],[0.6,[1,0]]],clock="1'")),
+   (5,'¡DESDE 91 METROS!',dict(type='stat',team=0,score=[1,0],clock="1'",big='91 m',bigSize=220)),
+   (5,'',dict(type='outro'))]),
+ 'e56':(['FRA','ITA'],'FINAL MUNDIAL 2006','',[
+   (4,'¿UNA PANENKA EN LA FINAL?',dict(type='intro',hook=True,big='¿PANENKA EN\nLA FINAL?',bigSize=150,score=[0,0],clock="7'")),
+   (7,'PENAL PARA FRANCIA',dict(type='penalty',team=0,idx=10,outcome='goal',tz=0,ty=1.9,side=1,score=[[0,[0,0]],[0.6,[1,0]]],big=[[0,None],[0.62,'¡PANENKA!']],clock="7'",flashes=1,shake=1)),
+   (5,'ZINEDINE ZIDANE',dict(type='celebrate',team=0,score=[1,0],clock="7'",big='¡ZIZOU!',bigSize=190)),
+   (5,'PEGÓ EN EL TRAVESAÑO Y ENTRÓ',dict(type='stat',team=0,score=[1,0],clock="7'",big='¡QUÉ\nNERVIOS!',bigSize=160)),
+   (5,'',dict(type='outro'))]),
+ 'e57':(['BAY','WOB'],'BUNDESLIGA · 2015','',[
+   (4,'¿5 GOLES EN 9 MINUTOS?',dict(type='intro',hook=True,big='¿5 GOLES EN\n9 MINUTOS?',bigSize=140,score=[0,1],clock="51'")),
+   (7,'ENTRA DE CAMBIO…',G('¡GOL!',team=0,idx=9,dist=12,sz=3,score=[[0,[4,1]],[0.6,[5,1]]],clock="60'")),
+   (5,'ROBERT LEWANDOWSKI',dict(type='celebrate',team=0,score=[5,1],clock="60'",big='¡LEWY!',bigSize=200)),
+   (5,'¡EN SOLO 9 MINUTOS!',dict(type='stat',team=0,score=[5,1],clock="60'",big='5 EN 9\'',bigSize=190)),
+   (5,'',dict(type='outro'))]),
+ 'e58':(['ARG','ENG'],'MUNDIAL MÉXICO 86','',[
+   (4,'¿CON LA MANO?',dict(type='intro',hook=True,big='¿CON LA\nMANO?',bigSize=200,score=[0,0],clock="51'")),
+   (6,'SALTA CON EL PORTERO',dict(type='header',team=0,idx=9,score=[[0,[0,0]],[0.7,[1,0]]],big=[[0,None],[0.72,'¿GOL?']],clock="51'",flashes=2,shake=1,shakeAt=0.7)),
+   (5,'¡EL ÁRBITRO LO DIO!',dict(type='header',team=0,idx=9,cam='goal',score=[[0,[0,0]],[0.7,[1,0]]],big=[[0,None],[0.72,'¡VALIÓ!']],clock="51'",flashes=1,shake=1,shakeAt=0.7)),
+   (6,'LA MANO DE DIOS',dict(type='stat',team=0,score=[1,0],clock="51'",big='LA MANO\nDE DIOS',bigSize=160)),
+   (5,'',dict(type='outro'))]),
+ 'e59':(['TUR','KOR'],'MUNDIAL 2002','',[
+   (4,'¿EN 11 SEGUNDOS?',dict(type='intro',hook=True,big='¿EN 11\nSEGUNDOS?',bigSize=180,score=[0,0],clock="0'")),
+   (7,'SACAN DE MEDIO…',G('¡GOOOL!',team=0,idx=9,dist=18,sz=2,score=[[0,[0,0]],[0.6,[1,0]]],clock="1'")),
+   (5,'HAKAN ŞÜKÜR',dict(type='celebrate',team=0,score=[1,0],clock="1'",big='¡HAKAN!',bigSize=190)),
+   (5,'EL GOL MÁS RÁPIDO DE LOS MUNDIALES',dict(type='stat',team=0,score=[1,0],clock="1'",big='11 SEG',bigSize=200)),
+   (5,'',dict(type='outro'))]),
 }
 cfgs={}; tim=json.load(open('timing.json'))
 for k,(tm,label,_,shots) in E.items():
     t=0.0; segs=[]; out=[]
     for beats,cap,sh in shots:
         d=beats*B; segs.append({'text':cap or ' ','start':round(t,3),'end':round(t+d-0.1,3)}); t+=d; out.append(sh)
-    cfgs[k]=dict(sport='soccer',label=label,teams=[T[tm[0]],T[tm[1]]],crowd=[T[tm[0]]['shirt'],'#ffffff',T[tm[1]]['shirt'],T[tm[0]]['shirt']],confetti=[T[tm[0]]['shirt'],'#ffffff','#ffd700'],series='EDITS ⚽ ¿CÓMO DEPORTES?',outroSub=('¡AYÚDANOS A LLEGAR A 100!' if k=='e34' else 'PARTE 2 → SÍGUENOS' if int(k[1:])>=14 else '+ EDITS DE FUTBOL'),rain=int(k[1:])>=14,blocky=int(k[1:])>=35,grade='contrast(1.15) saturate(1.35)',shots=out)
+    cfgs[k]=dict(sport='soccer',label=label,teams=[T[tm[0]],T[tm[1]]],crowd=[T[tm[0]]['shirt'],'#ffffff',T[tm[1]]['shirt'],T[tm[0]]['shirt']],confetti=[T[tm[0]]['shirt'],'#ffffff','#ffd700'],series='EDITS ⚽ ¿CÓMO DEPORTES?',outroSub=('¡AYÚDANOS A LLEGAR A 100!' if k=='e34' else 'PARTE 2 → SÍGUENOS' if int(k[1:])>=14 else '+ EDITS DE FUTBOL'),rain=int(k[1:])>=14,blocky=35<=int(k[1:])<=52,grade='contrast(1.15) saturate(1.35)',shots=out)
     tim[k]={'dur':round(t-0.8,3),'segs':segs,'bpm':128}
 json.dump(tim,open('timing.json','w'),ensure_ascii=False,indent=1)
 open('edits.js','w').write('export const CONFIGS = '+json.dumps(cfgs,ensure_ascii=False)+';\n')
