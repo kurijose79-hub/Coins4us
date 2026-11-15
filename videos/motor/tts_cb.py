@@ -7,6 +7,7 @@ REF = os.path.join(os.path.dirname(os.path.abspath(__file__)), '../muestra_em_al
 GAP, LEAD = 0.4, 0.25
 S = json.load(open('scripts.json'))
 for ID in sys.argv[1:]:
+    if os.path.exists(f'audio/{ID}.mp3') and ID in json.load(open('timing.json')): print('skip', ID); continue  # SKIPDONE
     t0 = time.time(); sr = M.sr; parts = [np.zeros(int(LEAD * sr))]; segs = []; t = LEAD
     for ln in S[ID]:
         a = M.generate(ln, language_id='es', audio_prompt_path=REF, exaggeration=0.55, cfg_weight=0.5).squeeze().numpy()
