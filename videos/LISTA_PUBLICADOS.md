@@ -123,3 +123,10 @@ Cuentas: **Instagram @como.deportes** + **YouTube "¿Cómo deportes?"**. Cada vi
 ## 14 nov (noche, CDMX)
 - e34 ¡SOMOS 50! (celebración 50 seguidores): publicado al momento, IG + YT
 - Golf z21–z30 programados 22:40–23:37, separados entre 2 y 15 min: hoyo en uno/invitas, caddie, birdie, slice, dogleg, maderas, récord 58, el más joven, gimme, hoyo 19
+
+## 15 nov (madrugada, CDMX) — 3D CUADRADA (personajes de bloques)
+- e35–e40 programados 23:40–00:06 (Roberto Carlos, Maradona, Chicharito, Messi-Getafe, Iniesta, Agüero)
+- e41–e44 (Alemania 7-1, Bergkamp, Chilavert, Higuita): subidos a vidIQ y en borrador, SIN programar (reinicios del worker cortaron la aprobación; su hora original ya pasó → reprogramar)
+  - drafts: e41 4feeddc1-9cd0-4635-b6dc-2164a5b30deb · e42 5c0a6284-eb90-495b-8107-260160463412 · e43 b30ba608-5841-4d97-8b78-a09e7b1fe35d · e44 87a9d870-208e-4962-8e46-40e8e380c2ee
+- Golf 2D z31–z40 (con voz): renderizando
+- 3D cuadrada e45–e54 (Zidane, Ronaldinho, Carlos Alberto, Lampard, Karius, Ochoa, Courtois, Messi 91, Alisson, Bale): en cola
