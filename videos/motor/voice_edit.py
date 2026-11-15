@@ -5,8 +5,9 @@ M = ChatterboxMultilingualTTS.from_pretrained(device='cpu')
 REF = os.path.join(os.path.dirname(os.path.abspath(__file__)), '../muestra_em_alex.wav')
 VD = '/home/user/Coins4us/videos/edits_cuadrada'
 T = json.load(open('timing.json'))
+import re
 def nice(s):
-    s = s.replace('\n', ' ').strip().lower()
+    s = re.sub(r'(\d+)-(\d+)', r'\1 a \2', s.replace('\n', ' ')).strip().lower()
     return s[:1].upper() + s[1:]
 for ID in sys.argv[1:]:
     src = f'{VD}/{ID}.mp4'
