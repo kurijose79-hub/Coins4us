@@ -172,7 +172,7 @@ E={
    (5,'',dict(type='outro'))]),
  'e20':(['TCH','GER'],'FINAL EUROCOPA · 1976','',[
    (4,'¿POR EL CENTRO?',dict(type='intro',hook=True,big='¿POR EL\nCENTRO?',bigSize=190,score=['2 (4)','2 (3)'],clock='PENALES')),
-   (7,'EL PORTERO SE TIRA…',dict(type='penalty',team=0,idx=9,outcome='goal',tz=0,ty=1.4,side=1,score=[['2 (4)','2 (3)'],[0.6,['2 (5)','2 (3)']]],big=[[0,None],[0.62,'¡SUAVECITO!']],clock='PENALES',flashes=1,shake=1)),
+   (7,'EL PORTERO SE TIRA…',dict(type='penalty',team=0,idx=9,outcome='goal',tz=0,ty=1.4,side=1,score=[[0,['2 (4)','2 (3)']],[0.6,['2 (5)','2 (3)']]],big=[[0,None],[0.62,'¡SUAVECITO!']],clock='PENALES',flashes=1,shake=1)),
    (5,'ANTONÍN PANENKA',dict(type='celebrate',team=0,confetti=True,score=['2 (5)','2 (3)'],clock='FINAL',big='PANENKA',bigSize=170)),
    (5,'ASÍ NACIÓ EL PENAL "A LO PANENKA"',dict(type='stat',team=0,score=['2 (5)','2 (3)'],clock='FINAL',big='1976',bigSize=190)),
    (5,'',dict(type='outro'))]),
