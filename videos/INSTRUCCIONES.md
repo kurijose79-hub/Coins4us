@@ -26,3 +26,10 @@
 ## Ritmo de subida (15 nov)
 - Cada video se publica con 2–15 minutos de separación (aleatorio), nunca todos juntos.
 - En los videos de "notificación" usar la foto real del perfil (videos/motor/pausa/logo.jpg) y el texto "Significa que trataste bien este video".
+
+## LÍMITES DIARIOS (15 nov) — IMPORTANTE
+- Desde el video de 50 seguidores (e34) en adelante TODO falló:
+  - Instagram: "límite de publicaciones por API en 24 h alcanzado" (Instagram permite ~25 por día vía API).
+  - YouTube: "uploadLimitExceeded" (límite diario de subidas del canal).
+- Regla nueva: máximo ~20 posts al día por plataforma, repartidos (cada 45–70 min), no 10 seguidos cada hora.
+- Cola de reintento (en orden): e34 (¡SOMOS 50!) primero, luego z21–z30, e35–e44, z31–z40, e45–e54.
