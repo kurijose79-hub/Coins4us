@@ -22,3 +22,7 @@
 ## Sonido (15 nov)
 - De ahora en adelante NINGÚN video va sin sonido: lleva voz natural o música buena de edit / "aura" (phonk).
 - Las respuestas con reel ahora las subo yo, con burbuja "Respondiendo a @usuario" y el comentario.
+
+## Ritmo de subida (15 nov)
+- Cada video se publica con 2–15 minutos de separación (aleatorio), nunca todos juntos.
+- En los videos de "notificación" usar la foto real del perfil (videos/motor/pausa/logo.jpg) y el texto "Significa que trataste bien este video".

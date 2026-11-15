@@ -30,6 +30,14 @@ T={
  'WIM':{'name':'Wimbledon','abbr':'WIM','shirt':'#1d2a5b','alt':'#f5d020','shorts':'#1d2a5b','socks':'#1d2a5b','num':'#f5d020','numStroke':'#111','keeper':'#2c8f45'},
  'STK':{'name':'Stoke','abbr':'STK','shirt':'#d8322b','stripes':'#ffffff','alt':'#d8322b','shorts':'#ffffff','socks':'#ffffff','num':'#ffffff','numStroke':'#111','keeper':'#e8d33a'},
  'SOU':{'name':'Southampton','abbr':'SOU','shirt':'#d8322b','stripes':'#ffffff','alt':'#d8322b','shorts':'#111111','socks':'#ffffff','num':'#111','numStroke':'#fff','keeper':'#2c8f45'},
+ 'SWE':{'name':'Suecia','abbr':'SWE','shirt':'#f5d020','alt':'#f5d020','shorts':'#1d4fa0','socks':'#f5d020','num':'#1d4fa0','numStroke':'#fff','keeper':'#2c8f45'},
+ 'COL':{'name':'Colombia','abbr':'COL','shirt':'#f5d020','alt':'#f5d020','shorts':'#1d2a5b','socks':'#d8322b','num':'#1d2a5b','numStroke':'#fff','keeper':'#2c8f45'},
+ 'URU':{'name':'Uruguay','abbr':'URU','shirt':'#6cabdd','alt':'#6cabdd','shorts':'#111111','socks':'#111111','num':'#111111','numStroke':'#fff','keeper':'#e8d33a'},
+ 'VAL':{'name':'Valencia','abbr':'VAL','shirt':'#ffffff','alt':'#ff7a00','shorts':'#111111','socks':'#111111','num':'#111111','numStroke':'#ff7a00','keeper':'#2c8f45'},
+ 'CRO':{'name':'Croacia','abbr':'CRO','shirt':'#ffffff','stripes':'#d8322b','alt':'#d8322b','shorts':'#ffffff','socks':'#1d2a5b','num':'#1d2a5b','numStroke':'#fff','keeper':'#e8d33a'},
+ 'USA':{'name':'Estados Unidos','abbr':'USA','shirt':'#ffffff','alt':'#1d2a5b','shorts':'#1d2a5b','socks':'#ffffff','num':'#1d2a5b','numStroke':'#d8322b','keeper':'#e8d33a'},
+ 'CMP':{'name':'Compostela','abbr':'COM','shirt':'#ffffff','alt':'#3c8fc4','shorts':'#3c8fc4','socks':'#ffffff','num':'#3c8fc4','numStroke':'#111','keeper':'#2c8f45'},
+ 'POM':{'name':'Portsmouth','abbr':'POR','shirt':'#1d4fa0','alt':'#1d4fa0','shorts':'#ffffff','socks':'#d8322b','num':'#ffffff','numStroke':'#111','keeper':'#2c8f45'},
  'LIV':{'name':'Liverpool','abbr':'LIV','shirt':'#c8102e','alt':'#c8102e','shorts':'#c8102e','socks':'#c8102e','num':'#ffffff','numStroke':'#111','keeper':'#2c8f45'},
 }
 G=lambda b,**k: dict(dict(type='goal',big=[[0,None],[0.62,b]],flashes=1,shake=1,shakeAt=0.62),**k)
@@ -193,6 +201,66 @@ E={
    (7,'DESPEJA DESDE SU ÁREA',G('¡GOOOL!',team=0,idx=0,dist=34,sz=0,loft=1.8,score=[[0,[0,0]],[0.6,[1,0]]],clock="0:13")),
    (5,'ASMIR BEGOVIĆ',dict(type='celebrate',team=0,score=[1,0],clock="0:13",big='¡BEGOVIĆ!',bigSize=150)),
    (5,'A LOS 13 SEGUNDOS',dict(type='stat',team=0,score=[1,0],clock="0:13",big='13 SEG',bigSize=180)),
+   (5,'',dict(type='outro'))]),
+ 'e24':(['SWE','ENG'],'AMISTOSO · ESTOCOLMO 2012','',[
+   (4,'¿DE CHILENA DESDE 30 METROS?',dict(type='intro',hook=True,big='¿DE CHILENA\nDESDE 30 m?',bigSize=150,score=[3,2],clock="90'")),
+   (7,'EL PORTERO SALE…',dict(type='header',team=0,idx=9,score=[[0,[3,2]],[0.7,[4,2]]],big=[[0,None],[0.72,'¡CHILENA!']],clock="90+1'",flashes=2,shake=1,shakeAt=0.7)),
+   (5,'ZLATAN IBRAHIMOVIĆ',dict(type='header',team=0,idx=9,cam='goal',score=[[0,[3,2]],[0.7,[4,2]]],big=[[0,None],[0.72,'¡ZLATAN!']],clock="90+1'",flashes=1,shake=1,shakeAt=0.7)),
+   (5,'SU 4º GOL DE LA NOCHE',dict(type='celebrate',team=0,score=[4,2],clock='FINAL',big='4 GOLES',bigSize=170)),
+   (5,'',dict(type='outro'))]),
+ 'e25':(['MUN','MCI'],'DERBI DE MANCHESTER · 2011','',[
+   (4,'¿DE CHILENA EN EL DERBI?',dict(type='intro',hook=True,big='¿DE CHILENA\nEN EL DERBI?',bigSize=150,score=[1,1],clock="78'")),
+   (7,'CENTRO DE NANI',dict(type='header',team=0,idx=10,score=[[0,[1,1]],[0.7,[2,1]]],big=[[0,None],[0.72,'¡CHILENA!']],clock="78'",flashes=2,shake=1,shakeAt=0.7)),
+   (5,'WAYNE ROONEY',dict(type='header',team=0,idx=10,cam='goal',score=[[0,[1,1]],[0.7,[2,1]]],big=[[0,None],[0.72,'¡ROONEY!']],clock="78'",flashes=1,shake=1,shakeAt=0.7)),
+   (5,'GANARON EL DERBI',dict(type='celebrate',team=0,score=[2,1],clock='FINAL',big='2-1',bigSize=190)),
+   (5,'',dict(type='outro'))]),
+ 'e26':(['COL','URU'],'MUNDIAL 2014 · OCTAVOS','',[
+   (4,'¿DE PECHO Y VOLEA?',dict(type='intro',hook=True,big='¿DE PECHO\nY VOLEA?',bigSize=170,score=[0,0],clock="28'")),
+   (7,'LA BAJA CON EL PECHO…',G('¡GOLAZO!',team=0,idx=10,dist=22,sz=-2,loft=1.2,ty=2.0,tz=-1.2,kDive=2,score=[[0,[0,0]],[0.6,[1,0]]],clock="28'")),
+   (5,'JAMES RODRÍGUEZ',G('¡JAMES!',team=0,idx=10,dist=22,sz=-2,loft=1.2,ty=2.0,tz=-1.2,kDive=2,cam='goal',score=[[0,[0,0]],[0.6,[1,0]]],clock="28'")),
+   (5,'EL MEJOR GOL DEL MUNDIAL',dict(type='crowd',scarf='#f5d020',score=[1,0],clock="28'",big='PUSKÁS',bigSize=170)),
+   (5,'',dict(type='outro'))]),
+ 'e27':(['ESP','NED'],'MUNDIAL 2014 · SALVADOR','',[
+   (4,'¿DE PALOMITA?',dict(type='intro',hook=True,big='¿DE\nPALOMITA?',bigSize=180,score=[1,0],clock="44'")),
+   (7,'PASE LARGO DE BLIND',dict(type='header',team=1,idx=9,score=[[0,[1,0]],[0.7,[1,1]]],big=[[0,None],[0.72,'¡VUELA!']],clock="44'",flashes=2,shake=1,shakeAt=0.7)),
+   (5,'VAN PERSIE',dict(type='header',team=1,idx=9,cam='goal',score=[[0,[1,0]],[0.7,[1,1]]],big=[[0,None],[0.72,'¡RVP!']],clock="44'",flashes=1,shake=1,shakeAt=0.7)),
+   (5,'EL HOLANDÉS VOLADOR',dict(type='celebrate',team=1,score=[1,5],clock='FINAL',big='1-5',bigSize=190)),
+   (5,'',dict(type='outro'))]),
+ 'e28':(['BAR','VAL'],'LALIGA · 2001','',[
+   (4,'¿CHILENA EN EL 89?',dict(type='intro',hook=True,big="¿CHILENA\nEN EL 89'?",bigSize=170,score=[2,2],clock="89'")),
+   (7,'SE NECESITABA GANAR',dict(type='header',team=0,idx=10,score=[[0,[2,2]],[0.7,[3,2]]],big=[[0,None],[0.72,'¡CHILENA!']],clock="89'",flashes=2,shake=1,shakeAt=0.7)),
+   (5,'RIVALDO',dict(type='header',team=0,idx=10,cam='goal',score=[[0,[2,2]],[0.7,[3,2]]],big=[[0,None],[0.72,'¡RIVALDO!']],clock="89'",flashes=1,shake=1,shakeAt=0.7)),
+   (5,'HAT-TRICK Y A CHAMPIONS',dict(type='celebrate',team=0,score=[3,2],clock='FINAL',big='HAT-TRICK',bigSize=150)),
+   (5,'',dict(type='outro'))]),
+ 'e29':(['FRA','ARG'],'MUNDIAL 2018 · OCTAVOS','',[
+   (4,'¿UN LATERAL HIZO ESO?',dict(type='intro',hook=True,big='¿UN LATERAL\nHIZO ESO?',bigSize=150,score=[1,2],clock="57'")),
+   (7,'CENTRO AL SEGUNDO PALO',G('¡GOLAZO!',team=0,idx=2,dist=20,sz=-8,loft=1.0,ty=1.6,tz=2.4,kDive=2,score=[[0,[1,2]],[0.6,[2,2]]],clock="57'")),
+   (5,'BENJAMIN PAVARD',G('¡PAVARD!',team=0,idx=2,dist=20,sz=-8,loft=1.0,ty=1.6,tz=2.4,kDive=2,cam='goal',score=[[0,[1,2]],[0.6,[2,2]]],clock="57'")),
+   (5,'FRANCIA GANÓ 4-3',dict(type='celebrate',team=0,score=[4,3],clock='FINAL',big='4-3',bigSize=190)),
+   (5,'',dict(type='outro'))]),
+ 'e30':(['MEX','CRO'],'MUNDIAL 2014 · RECIFE','',[
+   (4,'¿EL CAPITÁN DE CABEZA?',dict(type='intro',hook=True,big='¿EL CAPITÁN\nDE CABEZA?',bigSize=150,score=[0,0],clock="72'")),
+   (7,'TIRO DE ESQUINA',dict(type='corner',team=0,idx=4,score=[[0,[0,0]],[0.75,[1,0]]],big=[[0,None],[0.78,'¡GOL!']],clock="72'",flashes=2,shake=1,shakeAt=0.78)),
+   (5,'RAFA MÁRQUEZ',dict(type='celebrate',team=0,score=[1,0],clock="72'",big='¡RAFA!',bigSize=180)),
+   (5,'MÉXICO GANÓ 3-1',dict(type='crowd',scarf='#006847',score=[3,1],clock='FINAL',big='3-1',bigSize=190)),
+   (5,'',dict(type='outro'))]),
+ 'e31':(['MEX','USA'],'FINAL COPA ORO · 2011','',[
+   (4,'¿CÓMO LA METIÓ AHÍ?',dict(type='intro',hook=True,big='¿CÓMO LA\nMETIÓ AHÍ?',bigSize=160,score=[3,2],clock="76'")),
+   (7,'SE QUITA AL PORTERO…',G('¡GOLAZO!',team=0,idx=10,dist=12,sz=6,loft=2.2,ty=2.0,tz=-2.6,kDive=1,score=[[0,[3,2]],[0.6,[4,2]]],clock="76'")),
+   (5,'GIOVANI DOS SANTOS',G('¡GIO!',team=0,idx=10,dist=12,sz=6,loft=2.2,ty=2.0,tz=-2.6,kDive=1,cam='goal',score=[[0,[3,2]],[0.6,[4,2]]],clock="76'")),
+   (5,'MÉXICO CAMPEÓN',dict(type='trophy',team=0,idx=10,lift=True,confetti=True,score=[4,2],clock='FINAL',big=[[0,None],[0.45,'4-2']])),
+   (5,'',dict(type='outro'))]),
+ 'e32':(['CMP','BAR'],'LALIGA · 1996','',[
+   (4,'¿A CUÁNTOS DEJÓ ATRÁS?',dict(type='intro',hook=True,big='¿A CUÁNTOS\nDEJÓ ATRÁS?',bigSize=150,score=[0,1],clock="37'")),
+   (7,'DESDE SU PROPIO CAMPO',G('¡GOLAZO!',team=1,idx=9,dist=34,sz=-4,score=[[0,[0,1]],[0.6,[0,2]]],clock="37'")),
+   (5,'RONALDO NAZÁRIO',dict(type='celebrate',team=1,score=[0,2],clock="37'",big='R9',bigSize=200)),
+   (5,'TENÍA 20 AÑOS',dict(type='stat',team=1,score=[0,2],clock="37'",big='20 AÑOS',bigSize=170)),
+   (5,'',dict(type='outro'))]),
+ 'e33':(['MUN','POM'],'PREMIER LEAGUE · 2008','',[
+   (4,'¿CÓMO SE MOVIÓ ASÍ?',dict(type='intro',hook=True,big='¿CÓMO SE\nMOVIÓ ASÍ?',bigSize=170,score=[1,0],clock="14'")),
+   (7,'TIRO LIBRE A 30 METROS',G('¡GOLAZO!',team=0,idx=7,dist=30,sz=-2,tz=-2.4,ty=1.9,kDive=2,score=[[0,[1,0]],[0.6,[2,0]]],clock="14'")),
+   (5,'CRISTIANO RONALDO',G('¡CR7!',team=0,idx=7,dist=30,sz=-2,tz=-2.4,ty=1.9,kDive=2,cam='goal',score=[[0,[1,0]],[0.6,[2,0]]],clock="14'")),
+   (5,'EL PORTERO NI LA VIO',dict(type='stat',team=0,score=[2,0],clock="14'",big='¡NUDILLO!',bigSize=160)),
    (5,'',dict(type='outro'))]),
 }
 cfgs={}; tim=json.load(open('timing.json'))
