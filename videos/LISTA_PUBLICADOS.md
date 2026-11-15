@@ -112,3 +112,10 @@ Cuentas: **Instagram @como.deportes** + **YouTube "¿Cómo deportes?"**. Cada vi
 
 ## Respuestas entregadas al usuario (él las sube)
 - respuesta_cabezazo_moises (privv.alexx39), respuesta_don_richard (bruno_stark.rg), respuesta_advincula_queque (Carvel-x5o en YouTube)
+
+## Publicados directo (15 nov, madrugada)
+- Edits e14–e23 (porteros / goles imposibles, 12 s, lluvia, "PARTE 2 → SÍGUENOS")
+- 10 "PAUSA EN EL MOMENTO CORRECTO para revelar el texto" con beat aura
+- 10 "Si te llega esta notificación…" (como.deportes comenzó a seguirte) con beat aura
+- 3 respuestas subidas por nosotros con "Respondiendo a @…" y voz: Moisés, don Richard, Advíncula
+- Golf ¿Por qué? z11–z20 (eagle, pelotas blancas, 14 palos, honor, silencio, velocidad, links, corte, pelotas perdidas, banderas)

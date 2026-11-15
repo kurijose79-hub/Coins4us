@@ -1,0 +1,62 @@
+<!doctype html><html><body style="margin:0;background:#000"><canvas id="c" width="1080" height="1920"></canvas><script>
+const c=document.getElementById('c'),g=c.getContext('2d'),W=1080,H=1920;
+const lerp=(a,b,t)=>a+(b-a)*t;
+function txt(s,x,y,sz,col,st){g.font=`900 ${sz}px DejaVu Sans`;g.textAlign='center';g.textBaseline='middle';g.lineJoin='round';g.lineWidth=sz*0.18;g.strokeStyle=st||'#111';g.strokeText(s,x,y);g.fillStyle=col;g.fillText(s,x,y);}
+function sky(a,b){const gr=g.createLinearGradient(0,0,0,H);gr.addColorStop(0,a);gr.addColorStop(1,b);g.fillStyle=gr;g.fillRect(0,0,W,H);}
+function circ(x,y,r){g.beginPath();g.arc(x,y,r,0,7);}
+function outline(path){return;g.save();g.setLineDash([]);g.lineWidth=14;g.strokeStyle='#ff2a2a';g.shadowColor='#ff2a2a';g.shadowBlur=18;path();g.stroke();g.restore();}
+function ball(kind,x,y,r,rot){g.save();g.translate(x,y);g.rotate(rot||0);circ(0,0,r);
+ const col={soccer:'#fff',golf:'#fff',basket:'#e8742a',tennis:'#d9f03a',base:'#fff',volley:'#fff',bowling:'#2a2a6a',hockey:'#111'}[kind];
+ g.fillStyle=col;g.fill();g.lineWidth=r*0.08;g.strokeStyle='#111';g.stroke();
+ g.lineWidth=r*0.07;
+ if(kind==='soccer'){g.fillStyle='#111';for(let i=0;i<5;i++){const a=i*1.2566;circ(Math.cos(a)*r*0.62,Math.sin(a)*r*0.62,r*0.2);g.fill();}circ(0,0,r*0.25);g.fill();}
+ if(kind==='basket'){g.beginPath();g.moveTo(-r,0);g.lineTo(r,0);g.moveTo(0,-r);g.lineTo(0,r);g.stroke();g.beginPath();g.arc(-r*1.3,0,r*0.95,-0.9,0.9);g.stroke();g.beginPath();g.arc(r*1.3,0,r*0.95,2.24,4.04);g.stroke();}
+ if(kind==='tennis'){g.strokeStyle='#fff';g.beginPath();g.arc(-r*1.1,0,r*0.8,-0.9,0.9);g.stroke();g.beginPath();g.arc(r*1.1,0,r*0.8,2.24,4.04);g.stroke();}
+ if(kind==='base'){g.strokeStyle='#d8322b';g.beginPath();g.arc(-r*1.1,0,r*0.8,-0.9,0.9);g.stroke();g.beginPath();g.arc(r*1.1,0,r*0.8,2.24,4.04);g.stroke();}
+ if(kind==='golf'){g.fillStyle='#ccc';for(let i=0;i<14;i++){circ(Math.cos(i*2.4)*r*0.6*((i%3+1)/3),Math.sin(i*2.4)*r*0.6*((i%3+1)/3),r*0.07);g.fill();}}
+ if(kind==='volley'){g.strokeStyle='#2a5bd8';for(let i=0;i<3;i++){g.beginPath();g.arc(0,0,r*(0.4+i*0.2),i*2.1,i*2.1+1.8);g.stroke();}}
+ if(kind==='bowling'){g.fillStyle='#111';circ(-r*0.25,-r*0.3,r*0.12);g.fill();circ(r*0.1,-r*0.4,r*0.12);g.fill();circ(-r*0.05,0,r*0.12);g.fill();}
+ g.restore();}
+// p in [0,1) of a pass; hit at p=0.5
+const S={
+ soccer:{name:'FÚTBOL',draw(t){sky('#5fb4e6','#3a9a3a');g.fillStyle='#3fa34d';g.fillRect(0,1150,W,H);g.strokeStyle='#fff';g.lineWidth=14;g.strokeRect(190,700,700,450);g.lineWidth=3;for(let x=190;x<890;x+=35){g.beginPath();g.moveTo(x,700);g.lineTo(x,1150);g.stroke();}for(let y=700;y<1150;y+=35){g.beginPath();g.moveTo(190,y);g.lineTo(890,y);g.stroke();}
+  const T=[770,800,90];outline(()=>circ(...T));const p=pp(t);const x=lerp(80,1460,p),y=lerp(1700,-100,p);ball('soccer',x,y,lerp(130,50,p),t*20);}},
+ golf:{name:'GOLF',draw(t){sky('#8fd0f5','#4caf50');g.fillStyle='#7cc463';g.fillRect(0,1000,W,H);g.fillStyle='#9fd88a';g.beginPath();g.ellipse(540,1350,480,220,0,0,7);g.fill();g.fillStyle='#111';g.beginPath();g.ellipse(540,1350,60,24,0,0,7);g.fill();g.strokeStyle='#ddd';g.lineWidth=8;g.beginPath();g.moveTo(540,1350);g.lineTo(540,950);g.stroke();g.fillStyle='#e02a2a';g.beginPath();g.moveTo(540,950);g.lineTo(660,985);g.lineTo(540,1020);g.fill();
+  outline(()=>circ(540,1335,34));const p=pp(t);ball('golf',lerp(-60,1140,p),1335+Math.sin(p*40)*3,34,t*30);}},
+ basket:{name:'BÁSQUETBOL',draw(t){sky('#3a2a6a','#c9874a');g.fillStyle='#c98a4b';g.fillRect(0,1450,W,H);g.fillStyle='#fff';g.fillRect(340,420,400,280);g.strokeStyle='#d8322b';g.lineWidth=10;g.strokeRect(340,420,400,280);g.strokeRect(470,540,140,110);g.fillStyle='#888';g.fillRect(530,700,20,800);
+  const T=[540,640,62];g.strokeStyle='#ff7a1a';g.lineWidth=12;g.beginPath();g.ellipse(540,720,95,22,0,0,7);g.stroke();g.strokeStyle='#fff';g.lineWidth=4;for(let i=0;i<8;i++){g.beginPath();g.moveTo(450+i*26,725);g.lineTo(480+i*18,850);g.stroke();}
+  outline(()=>circ(...T));const p=pp(t);const x=lerp(-80,1160,p),y=640-(1-Math.pow((p-0.5)*2,2))*0-(Math.pow((p-0.5)*2,2))*-500;ball('basket',x,y-500*0+0,62,t*12);}},
+ tennis:{name:'TENIS',draw(t){sky('#2f7fd0','#2f7fd0');g.fillStyle='#3a8fd0';g.fillRect(0,0,W,H);g.fillStyle='#2b6cb0';g.fillRect(140,300,800,1400);g.strokeStyle='#fff';g.lineWidth=12;g.strokeRect(140,300,800,1400);g.beginPath();g.moveTo(140,1000);g.lineTo(940,1000);g.stroke();g.beginPath();g.moveTo(540,500);g.lineTo(540,1500);g.stroke();
+  outline(()=>circ(940,1500,40));const p=pp(t);ball('tennis',lerp(300,1580,p),lerp(500,2500,p),40,t*25);}},
+ base:{name:'BÉISBOL',draw(t){sky('#1d2a4a','#2c6e3a');g.fillStyle='#b5824a';g.fillRect(0,1300,W,H);g.fillStyle='#fff';g.beginPath();g.moveTo(440,1500);g.lineTo(640,1500);g.lineTo(640,1550);g.lineTo(540,1610);g.lineTo(440,1550);g.fill();g.strokeStyle='#fff';g.lineWidth=6;g.setLineDash([20,14]);g.strokeRect(390,850,300,420);g.setLineDash([]);
+  outline(()=>circ(540,1050,50));const p=pp(t);ball('base',lerp(540,540,p),lerp(-200,2300,p),lerp(20,80,p),t*30);}},
+ f1:{name:'FÓRMULA 1',draw(t){sky('#7fb9e6','#5a5a5a');g.fillStyle='#4a4a4a';g.fillRect(0,1000,W,500);for(let i=0;i<12;i++){g.fillStyle=i%2?'#fff':'#111';g.fillRect(500,1000+i*42,40,42);g.fillStyle=i%2?'#111':'#fff';g.fillRect(540,1000+i*42,40,42);}g.fillStyle='#3a8a3a';g.fillRect(0,1500,W,H);
+  const car=(x,y)=>{g.save();g.translate(x,y);g.fillStyle='#d8322b';g.fillRect(-170,-30,340,60);g.fillRect(150,-60,30,120);g.fillRect(-190,-50,30,100);g.fillStyle='#111';[[-110,-55],[90,-55],[-110,35],[90,35]].forEach(([a,b])=>g.fillRect(a,b,60,20));g.fillStyle='#ffd400';circ(-20,0,22);g.fill();g.restore();};
+  outline(()=>{g.beginPath();g.rect(370,1190,340,120);});const p=pp(t);car(lerp(-400,1480,p),1250);}},
+ nfl:{name:'FUTBOL AMERICANO',draw(t){sky('#14213d','#2e7d32');g.fillStyle='#2e7d32';g.fillRect(0,1350,W,H);g.strokeStyle='#ffd400';g.lineWidth=22;g.beginPath();g.moveTo(540,1500);g.lineTo(540,1100);g.moveTo(300,1100);g.lineTo(780,1100);g.moveTo(300,1100);g.lineTo(300,400);g.moveTo(780,1100);g.lineTo(780,400);g.stroke();
+  outline(()=>{g.beginPath();g.ellipse(540,750,70,42,0.6,0,7);});const p=pp(t);const x=540,y=lerp(1900,-400,p);g.save();g.translate(x,y);g.rotate(t*14);g.beginPath();g.ellipse(0,0,70,42,0,0,7);g.fillStyle='#7a3b1c';g.fill();g.lineWidth=6;g.strokeStyle='#111';g.stroke();g.strokeStyle='#fff';g.beginPath();g.moveTo(-25,0);g.lineTo(25,0);g.stroke();g.restore();}},
+ hockey:{name:'HOCKEY',draw(t){sky('#e8f4fb','#cfe8f5');g.fillStyle='#eaf6fc';g.fillRect(0,0,W,H);g.strokeStyle='#d8322b';g.lineWidth=10;g.beginPath();g.moveTo(0,1000);g.lineTo(W,1000);g.stroke();g.strokeStyle='#d8322b';g.lineWidth=12;g.strokeRect(390,520,300,170);g.strokeStyle='#999';g.lineWidth=2;for(let x=390;x<690;x+=25){g.beginPath();g.moveTo(x,520);g.lineTo(x,690);g.stroke();}
+  outline(()=>{g.beginPath();g.ellipse(550,650,55,22,0,0,7);});const p=pp(t);g.fillStyle='#111';g.beginPath();g.ellipse(lerp(-300,1400,p),lerp(1500,-200,p),lerp(70,40,p),lerp(28,16,p),0,0,7);g.fill();}},
+ volley:{name:'VOLEIBOL',draw(t){sky('#ffd27a','#e8c070');g.fillStyle='#e8c98a';g.fillRect(0,1300,W,H);g.fillStyle='#ddd';g.fillRect(70,700,20,800);g.fillRect(990,700,20,800);g.strokeStyle='#111';g.lineWidth=3;for(let y=720;y<950;y+=30){g.beginPath();g.moveTo(80,y);g.lineTo(1000,y);g.stroke();}for(let x=80;x<1000;x+=30){g.beginPath();g.moveTo(x,720);g.lineTo(x,950);g.stroke();}g.fillStyle='#fff';g.fillRect(80,705,920,22);
+  outline(()=>circ(540,560,70));const p=pp(t);ball('volley',lerp(-120,1200,p),560+Math.pow((p-0.5)*2,2)*600,70,t*10);}},
+ bowling:{name:'BOLICHE',draw(t){sky('#2a1a10','#6a4422');g.fillStyle='#c99a5a';g.beginPath();g.moveTo(340,500);g.lineTo(740,500);g.lineTo(1000,H);g.lineTo(80,H);g.fill();for(const [x,y] of [[540,600],[505,560],[575,560],[470,520],[540,520],[610,520]]){g.fillStyle='#fff';g.beginPath();g.ellipse(x,y,20,48,0,0,7);g.fill();g.fillStyle='#d8322b';g.fillRect(x-16,y-22,32,8);}
+  outline(()=>circ(547,1131,105));const p=pp(t);const r=lerp(170,40,p);ball('bowling',lerp(560,535,p),lerp(1900,560,Math.pow(p,0.8)*1.0),r,t*15);}},
+};
+// two passes in 2 s, crossing target at p=0.5 of the 2nd half pass? one pass per second
+function pp(t){return ((t%1)/1);}
+let K='soccer';
+window.setSport=k=>K=k;
+const PUN={soccer:['Felicidades:','eres oficialmente','del equipo ⚽'],golf:['Ya estás en el','hoyo 19 con','nosotros ⛳'],basket:['Clavaste el mejor','tiro de tu vida 🏀'],tennis:['Game, set y match.','Ganaste 🎾'],base:['Jonrón con las','bases llenas ⚾'],f1:['Subiste al','podio 🏆🏎️'],nfl:['Touchdown.','Eres leyenda 🏈'],hockey:['Gol en','tiempo extra 🏒'],volley:['Remate','perfecto 🏐'],bowling:['¡Chuza! Ya eres','de los nuestros 🎳']};
+function serif(s,x,y,sz,col){g.font=`bold ${sz}px DejaVu Serif`;g.textAlign='center';g.textBaseline='middle';g.lineJoin='round';g.lineWidth=sz*0.16;g.strokeStyle='#000';g.strokeText(s,x,y);g.fillStyle=col||'#fff';g.fillText(s,x,y);}
+function card(a){if(a<=0)return;g.save();g.translate(540,900);const sc=0.85+0.15*Math.min(1,a*1.4);g.scale(sc,sc);g.globalAlpha=Math.min(1,a*2);g.fillStyle='#121417';g.fillRect(-400,-90,800,180);
+ g.beginPath();g.arc(-300,0,58,0,7);g.fillStyle='#111';g.fill();g.lineWidth=5;g.strokeStyle='#fff';g.stroke();g.font='900 23px DejaVu Sans';g.textAlign='center';g.textBaseline='middle';g.fillStyle='#ffd400';g.fillText('¿CÓMO?',-300,-6);g.font='bold 15px DejaVu Sans';g.fillStyle='#fff';g.fillText('DEPORTES',-300,22);
+ g.textAlign='left';g.font='bold 34px DejaVu Sans';g.fillStyle='#fff';g.fillText('como.deportes',-220,-22);const bw=g.measureText('como.deportes').width;g.beginPath();g.arc(-220+bw+22,-24,14,0,7);g.fillStyle='#3897f0';g.fill();g.fillStyle='#fff';g.font='bold 18px DejaVu Sans';g.textAlign='center';g.fillText('✓',-220+bw+22,-23);g.textAlign='left';
+ g.font='28px DejaVu Sans';g.fillStyle='#ddd';g.fillText('comenzó a seguirte.',-220,24);const cw=g.measureText('comenzó a seguirte. ').width;g.fillStyle='#8e8e8e';g.fillText('2 min',-220+cw,24);
+ g.fillStyle='#363a40';g.fillRect(222,-34,140,68);g.fillStyle='#fff';g.font='bold 26px DejaVu Sans';g.textAlign='center';g.fillText('Mensaje',292,2);g.restore();}
+window.renderAt=t=>{const s=S[K];s.draw(t*0.35);g.fillStyle='rgba(0,0,0,0.18)';g.fillRect(0,0,W,H);
+ serif('Si te llega esta',540,690,74);serif('notificación:',540,780,74);
+ card((t-1.0)/0.4);
+ if(t>3.0){const a=Math.min(1,(t-3.0)/0.3);g.globalAlpha=a;const L=PUN[K];L.forEach((l,i)=>serif(l,540,1180+i*95,72,i===L.length-1?'#ffd400':'#fff'));g.globalAlpha=1;}
+ if(t>5.0){serif('Síguenos y comenta "ya" 👇',540,1650,50,'#fff');}
+ g.font='bold 34px DejaVu Sans';g.textAlign='center';g.fillStyle='rgba(255,255,255,0.8)';g.fillText('@comodeportes',540,1860);};
+</script></body></html>
