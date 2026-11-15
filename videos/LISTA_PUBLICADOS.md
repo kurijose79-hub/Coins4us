@@ -119,3 +119,7 @@ Cuentas: **Instagram @como.deportes** + **YouTube "¿Cómo deportes?"**. Cada vi
 - 10 "Si te llega esta notificación…" (como.deportes comenzó a seguirte) con beat aura
 - 3 respuestas subidas por nosotros con "Respondiendo a @…" y voz: Moisés, don Richard, Advíncula
 - Golf ¿Por qué? z11–z20 (eagle, pelotas blancas, 14 palos, honor, silencio, velocidad, links, corte, pelotas perdidas, banderas)
+
+## 14 nov (noche, CDMX)
+- e34 ¡SOMOS 50! (celebración 50 seguidores): publicado al momento, IG + YT
+- Golf z21–z30 programados 22:40–23:37, separados entre 2 y 15 min: hoyo en uno/invitas, caddie, birdie, slice, dogleg, maderas, récord 58, el más joven, gimme, hoyo 19
