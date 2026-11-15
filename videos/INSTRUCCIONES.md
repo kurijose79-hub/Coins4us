@@ -33,3 +33,4 @@
   - YouTube: "uploadLimitExceeded" (límite diario de subidas del canal).
 - Regla nueva: máximo ~20 posts al día por plataforma, repartidos (cada 45–70 min), no 10 seguidos cada hora.
 - Cola de reintento (en orden): e34 (¡SOMOS 50!) primero, luego z21–z30, e35–e44, z31–z40, e45–e54.
+- (15 nov, orden del usuario) POR AHORA NO PROGRAMAR NI PUBLICAR NADA: ya se llegó al límite. Solo seguir haciendo videos y dejarlos listos en la cola. Volver a subir a partir del reintento de las 22:45 CDMX del 15 nov.
