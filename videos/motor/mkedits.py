@@ -557,13 +557,20 @@ E={
    (5,'ANDREA PIRLO',dict(type='celebrate',team=0,score=['0 (2)','0 (2)'],clock='PENALES',big='¡PIRLO!',bigSize=190)),
    (5,'ITALIA GANÓ',dict(type='stat',team=0,score=['0 (4)','0 (2)'],clock='FINAL',big='4-2',bigSize=200)),
    (5,'',dict(type='outro'))]),
+ 'e91':(['CDP','FAN'],'¿CÓMO DEPORTES? · 16 NOV','',[
+   (4,'¡LO LOGRAMOS!',dict(type='intro',hook=True,big='¡SOMOS\n100!',bigSize=210,score=[99,0],clock="90+5'")),
+   (6,'GOL NÚMERO 100',G('¡100!',team=0,idx=9,dist=14,sz=-3,score=[[0,[99,0]],[0.6,[100,0]]],clock="90+5'")),
+   (5,'GRACIAS A CADA UNO',dict(type='crowd',scarf='#ffd400',score=[100,0],clock='FINAL',big='¡GRACIAS!',bigSize=170,shake=1,shakeAt=0.3)),
+   (6,'100 SEGUIDORES',dict(type='trophy',team=0,idx=9,lift=True,confetti=True,score=[100,0],clock='FINAL',flashes=2,big=[[0,None],[0.45,'🏆 100']])),
+   (5,'¿VAMOS POR 1000?',dict(type='stat',team=0,score=[100,0],clock='FINAL',big='VAMOS\nPOR 1000',bigSize=150)),
+   (4,'',dict(type='outro'))]),
 }
 cfgs={}; tim=json.load(open('timing.json'))
 for k,(tm,label,_,shots) in E.items():
     t=0.0; segs=[]; out=[]
     for beats,cap,sh in shots:
         d=beats*B; segs.append({'text':cap or ' ','start':round(t,3),'end':round(t+d-0.1,3)}); t+=d; out.append(sh)
-    cfgs[k]=dict(sport='soccer',label=label,teams=[T[tm[0]],T[tm[1]]],crowd=[T[tm[0]]['shirt'],'#ffffff',T[tm[1]]['shirt'],T[tm[0]]['shirt']],confetti=[T[tm[0]]['shirt'],'#ffffff','#ffd700'],series='EDITS ⚽ ¿CÓMO DEPORTES?',outroSub=('¡AYÚDANOS A LLEGAR A 100!' if k in ('e34','e60') else 'PARTE 2 → SÍGUENOS' if int(k[1:])>=14 else '+ EDITS DE FUTBOL'),rain=int(k[1:])>=14,blocky=35<=int(k[1:])<=52,grade='contrast(1.15) saturate(1.35)',shots=out)
+    cfgs[k]=dict(sport='soccer',label=label,teams=[T[tm[0]],T[tm[1]]],crowd=[T[tm[0]]['shirt'],'#ffffff',T[tm[1]]['shirt'],T[tm[0]]['shirt']],confetti=[T[tm[0]]['shirt'],'#ffffff','#ffd700'],series='EDITS ⚽ ¿CÓMO DEPORTES?',outroSub=('¡AYÚDANOS A LLEGAR A 1000!' if k=='e91' else '¡AYÚDANOS A LLEGAR A 100!' if k in ('e34','e60') else 'PARTE 2 → SÍGUENOS' if int(k[1:])>=14 else '+ EDITS DE FUTBOL'),rain=int(k[1:])>=14,blocky=35<=int(k[1:])<=52,grade='contrast(1.15) saturate(1.35)',shots=out)
     tim[k]={'dur':round(t-0.8,3),'segs':segs,'bpm':128}
 
 NT={
@@ -656,6 +663,13 @@ for k,(tm,label,num,shots) in EN.items():
     a,b=NT[tm[0]],NT[tm[1]]
     cfgs[k]=dict(sport='nfl',label=label,teams=[a,b],offense=0,shotgun=True,numbers=[NUM(*num),DEF],crowd=[a['shirt'],a['alt'],b['shirt'],'#ffffff'],confetti=[a['shirt'],'#ffffff','#ffd700'],series='EDITS 🏈 ¿CÓMO DEPORTES?',outroSub='PARTE 2 → SÍGUENOS',rain=True,grade='contrast(1.15) saturate(1.35)',shots=out)
     tim[k]={'dur':round(t-0.8,3),'segs':segs,'bpm':128}
+
+NT['LAC']={'name':'Chargers','abbr':'LAC','shirt':'#0080c6','alt':'#ffc20e','shorts':'#ffffff','socks':'#0080c6','num':'#ffffff','numStroke':'#ffc20e','helmet':'#0080c6','mask':'#ffc20e','helmetStripe':'#ffc20e'}
+NT['DAL_H']={'name':'Cowboys','abbr':'DAL','shirt':'#ffffff','alt':'#003594','shorts':'#869397','socks':'#003594','num':'#003594','numStroke':'#ffffff','helmet':'#869397','mask':'#003594','helmetStripe':'#003594'}
+exec(open('memes.py').read())
+for k,(shots,lines,title) in build().items():
+    a,b=NT['LAC'],NT['DAL_H']
+    cfgs[k]=dict(sport='nfl',blocky=True,ref=True,noBoard=True,label='',teams=[a,b],offense=0,numbers=[NUM(10,25,13),[88,4,11,21,90,54,75,79,67,50,43]],crowd=['#0080c6','#ffc20e','#003594','#869397','#ffffff'],confetti=['#0080c6','#ffc20e','#ffffff'],series='NFL ⚡ ¿CÓMO DEPORTES?',outroSub='SÍGUENOS PARA MÁS',grade='contrast(1.1) saturate(1.3)',shots=shots)
 json.dump(tim,open('timing.json','w'),ensure_ascii=False,indent=1)
 open('edits.js','w').write('export const CONFIGS = '+json.dumps(cfgs,ensure_ascii=False)+';\n')
 print({k:round(v['dur']+0.8,1) for k,v in tim.items() if k.startswith('e') and k[1:].isdigit()})

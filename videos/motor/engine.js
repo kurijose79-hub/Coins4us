@@ -318,6 +318,12 @@ function makePlayer(team, i, num) {
     mask.position.set(0, -0.06, 0.16); mask.rotation.z = Math.PI; head.add(mask);
     const mask2 = mask.clone(); mask2.position.y = -0.11; mask2.scale.set(0.9, 0.9, 0.9); head.add(mask2);
     if (T.helmetStripe) { const st = new THREE.Mesh(new THREE.BoxGeometry(0.05, 0.03, 0.42), new THREE.MeshStandardMaterial({ color: T.helmetStripe })); st.position.y = 0.19; head.add(st); }
+    if (CFG.blocky) { helm.scale.set(1.3, 1.25, 1.25); mask.visible = false; mask2.visible = false;
+      const fc = new THREE.Mesh(new THREE.BoxGeometry(0.3, 0.22, 0.02), skin); fc.position.set(0, -0.04, 0.255); head.add(fc);
+      const em = new THREE.MeshBasicMaterial({ color: '#141414' });
+      for (const ex of [-0.07, 0.07]) { const e = new THREE.Mesh(new THREE.BoxGeometry(0.045, 0.05, 0.01), em); e.position.set(ex, 0.0, 0.268); head.add(e); }
+      const bar = new THREE.Mesh(new THREE.BoxGeometry(0.34, 0.03, 0.03), new THREE.MeshStandardMaterial({ color: T.mask || '#999' })); bar.position.set(0, -0.1, 0.28); head.add(bar);
+      const bar2 = bar.clone(); bar2.position.y = -0.155; head.add(bar2); }
   } else {
     const hd = new THREE.Mesh(SPH(0.15, 14, 10), skin); hd.scale.set(0.9, 1.05, 1); head.add(hd);
     const hair = new THREE.Mesh(SPH(0.155, 14, 10, 0, Math.PI * 2, 0, Math.PI / 2), new THREE.MeshStandardMaterial({ color: ['#1b1210', '#3b2516', '#6b4a2a', '#111'][i % 4] }));
@@ -509,6 +515,14 @@ async function init(cfg) {
     const n = sport === 'tennis' ? null : nums[t][i] != null ? nums[t][i] : (sport === 'nfl' ? [12, 28, 87, 11, 80, 64, 70, 66, 75, 61, 33][i] : [1, 2, 4, 5, 3, 8, 6, 7, 10, 9, 11][i]);
     players[t].push(makePlayer(t, i, n));
   }
+  if (CFG.ref) { const sp = sport; sport = 'soccer'; const R = makePlayer(0, 4, null); sport = sp;
+    const stripes = canvasTex(64, 64, (g, w, h) => { for (let i = 0; i < 8; i++) { g.fillStyle = i % 2 ? '#111' : '#f4f4f4'; g.fillRect(i * w / 8, 0, w / 8 + 1, h); } });
+    R.g.traverse(m => { if (m.isMesh && m.material && m.material.map && m.material.map !== stripes) { m.material = new THREE.MeshStandardMaterial({ map: stripes, roughness: 0.7 }); } });
+    R.legL.root.children[0].material = R.legR.root.children[0].material = new THREE.MeshStandardMaterial({ color: '#111', roughness: 0.7 });
+    R.legL.lo.material = R.legR.lo.material = new THREE.MeshStandardMaterial({ color: '#111', roughness: 0.7 });
+    R.armL.root.children[0].material = R.armR.root.children[0].material = new THREE.MeshStandardMaterial({ map: stripes, roughness: 0.7 });
+    R.i = 7; CFG._ref = R; }
+  { const cg = new THREE.CylinderGeometry(0.32, 0.32, 0.05, 28); const coin = new THREE.Mesh(cg, new THREE.MeshStandardMaterial({ color: '#e6b422', metalness: 0.8, roughness: 0.3 })); coin.visible = false; scene.add(coin); CFG._coin = coin; }
   out = document.createElement('canvas'); out.width = W; out.height = H; octx = out.getContext('2d');
   document.body.appendChild(out);
   // build shot table
@@ -573,6 +587,43 @@ SH.stat = (o, p, lt) => {
   if (nfl()) formationNFL(o.los ?? 0, 1, lt, 'both', false); else soccerShape(lt, { walk: true });
   const x = lerp(o.x0 ?? -30, o.x1 ?? 10, p);
   setCam(V(x, o.h ?? 1.2, o.z ?? 32), V(x + 18, 0.8, 0), 40);
+};
+
+
+// ---------- meme skits (blocky) ----------
+function poseBy(P, kind, t) {
+  if (kind === 'cheer') celebrate(P, t);
+  else if (kind === 'armsUp') armsUp(P, t);
+  else if (kind === 'sad') sad(P, t, 2);
+  else if (kind === 'kneel') sad(P, t, 0);
+  else if (kind === 'down') sad(P, t, 1);
+  else if (kind === 'run') run(P, t * 11);
+  else if (kind === 'point') { idle(P, t); P.armR.root.rotation.x = -1.55; P.armR.joint.rotation.x = 0; }
+  else if (kind === 'shrug') { idle(P, t); P.armL.root.rotation.z = 0.7; P.armR.root.rotation.z = -0.7; P.armL.joint.rotation.x = -1.6; P.armR.joint.rotation.x = -1.6; P.head.rotation.z = Math.sin(t * 2) * 0.12; }
+  else if (kind === 'ball') { idle(P, t); P.armR.root.rotation.x = -0.9; P.armR.joint.rotation.x = -1.4; }
+  else if (kind === 'shake') { idle(P, t); P.armR.root.rotation.x = -1.2; P.armR.joint.rotation.x = -0.3 + Math.sin(t * 14) * 0.25; }
+  else if (kind === 'facepalm') { idle(P, t); P.armR.root.rotation.x = -2.5; P.armR.joint.rotation.x = -2.3; P.armR.root.rotation.z = -0.3; P.head.rotation.x = 0.35; }
+  else if (kind === 'dance') { const j = Math.sin(t * 8); P.body.rotation.z = j * 0.25; P.armL.root.rotation.x = -1.5 + j * 0.8; P.armR.root.rotation.x = -1.5 - j * 0.8; P.body.position.y = Math.abs(j) * 0.15; }
+  else idle(P, t);
+}
+SH.skit = (o, p, lt, D) => {
+  const acts = o.actors || [{ team: 0, idx: 0, x: -1.3 }, { team: 1, idx: 0, x: 1.3 }];
+  const cx = o.cx ?? 0, cz = o.cz ?? 0;
+  for (const a of acts) {
+    const P = a.ref ? CFG._ref : team(a.team ?? 0)[a.idx ?? 0]; if (!P) continue;
+    const x = cx + lerp(a.x ?? 0, a.x1 ?? a.x ?? 0, ease(p)), z = cz + lerp(a.z ?? 0, a.z1 ?? a.z ?? 0, ease(p));
+    place(P, V(x, 0, z), a.yaw ?? 0); poseBy(P, valAt(a.pose, p) || 'idle', lt + (a.ph || 0));
+    if (a.withBall) { P.g.updateMatrixWorld(true); setBall(handPos(P), 0, 0, V(1, 0, 0)); }
+  }
+  if (o.coin && CFG._coin) { const c = CFG._coin; const q = seg(p, o.coin[0] ?? 0.2, o.coin[1] ?? 0.8);
+    if (q > 0 && q < 1) { c.visible = true; c.position.set(cx, 1.5 + Math.sin(q * Math.PI) * 1.6, cz + 0.6); c.rotation.x = q * 22; } else if (q >= 1) { c.visible = true; c.position.set(cx, 0.03, cz + 0.6); c.rotation.x = 0; } }
+  else if (CFG._coin) CFG._coin.visible = false;
+  const cam = o.cam || 'front'; const k = ease(p) * (o.push ?? 1);
+  if (cam === 'front') setCam(V(cx, 1.5, cz + lerp(8.6, 7.0, k)), V(cx, 1.25, cz), 44);
+  else if (cam === 'close') setCam(V(cx + (o.cx2 ?? 0), 1.65, cz + lerp(5.6, 4.6, k)), V(cx + (o.cx2 ?? 0), 1.45, cz), 42);
+  else if (cam === 'low') setCam(V(cx, 0.6, cz + lerp(8, 6, k)), V(cx, 1.7, cz), 46);
+  else if (cam === 'wide') setCam(V(cx + lerp(-6, 6, p), 3.5, cz + 16), V(cx, 1, cz), 45);
+  else if (cam === 'top') setCam(V(cx, 14, cz + 6), V(cx, 0, cz), 45);
 };
 
 SH.hero = (o, p, lt) => {
@@ -1224,7 +1275,7 @@ window.renderAt = function (t) {
   if (sh.pr) p = lerp(sh.pr[0], sh.pr[1], p);
   // reset
   for (const tm of players) for (const P of tm) { P.g.visible = false; resetPose(P); }
-  hideBall(); confetti.visible = false; trophy.visible = false; trophy.scale.setScalar(1);
+  hideBall(); if (CFG._coin) CFG._coin.visible = false; if (CFG._ref) { CFG._ref.g.visible = false; resetPose(CFG._ref); } confetti.visible = false; trophy.visible = false; trophy.scale.setScalar(1);
   trophy.userData.ribbons.forEach(r => r.visible = false); if (trophy.userData.ped) trophy.userData.ped.visible = false;
   if (scarfMesh) scarfMesh.visible = false; netRipple(1, 0);
   if (sport === 'tennis') { const sf = valAt(sh.surface, p) || CFG.surface || 'grass'; if (CFG._surf !== sf) { setSurface(sf); CFG._surf = sf; } }
@@ -1250,9 +1301,10 @@ window.renderAt = function (t) {
   // letterbox top gradient for scoreboard legibility
   const tg = g.createLinearGradient(0, 0, 0, 420); tg.addColorStop(0, 'rgba(0,0,0,0.55)'); tg.addColorStop(1, 'rgba(0,0,0,0)'); g.fillStyle = tg; g.fillRect(0, 0, W, 420);
   for (const L of CFG._labels || []) { const v = L.w.clone().project(camera); if (v.z > 1) continue; const sx = (v.x + 1) / 2 * W, sy = (1 - v.y) / 2 * H; g.save(); g.font = 'bold 96px DejaVu Sans'; g.textAlign = 'center'; g.textBaseline = 'bottom'; g.lineJoin = 'round'; g.lineWidth = 16; g.strokeStyle = 'rgba(0,0,0,0.85)'; g.strokeText(L.txt, sx, sy); g.fillStyle = L.col; g.fillText(L.txt, sx, sy); g.restore(); }
-  if (sh.type !== 'outro') drawScoreboard(g, sh, p, t);
+  if (sh.type !== 'outro' && !CFG.noBoard) drawScoreboard(g, sh, p, t);
   if (sh.type === 'outro') drawOutro(g, p);
   drawBig(g, sh, p, t, lt, D * (sh.pr ? 1 / (sh.pr[1] - sh.pr[0]) : 1));
+  { const st = valAt(sh.stamp, p); if (st) { const a = easeOut(clamp((p - startOf(sh.stamp, p)) * D / 0.2)); g.save(); g.translate(W / 2, sh.stampY ?? 1060); g.rotate(-0.06); g.scale(lerp(1.6, 1, a), lerp(1.6, 1, a)); g.globalAlpha = a; const fs = fitFont(g, st, 900, 74, 'bold'); const tw = g.measureText(st).width; g.fillStyle = 'rgba(255,255,255,0.92)'; g.fillRect(-tw / 2 - 30, -fs * 0.75, tw + 60, fs * 1.5); g.lineWidth = 10; g.strokeStyle = '#d8322b'; g.strokeRect(-tw / 2 - 30, -fs * 0.75, tw + 60, fs * 1.5); g.fillStyle = '#d8322b'; g.textAlign = 'center'; g.textBaseline = 'middle'; g.fillText(st, 0, 4); g.restore(); } }
   // caption: active segment by time
   let ci = 0; CFG.segs.forEach((s, k) => { if (t >= s.start - 0.2) ci = k; });
   if (sh.type !== 'outro') drawCaption(g, ci, t);

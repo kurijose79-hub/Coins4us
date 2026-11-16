@@ -39,3 +39,4 @@
 - (16 nov) Estilos: 2D buena (golf, golf2d/golf3/golf4.js), 3D buena (engine.js), 3D cuadrada (blocky). Usuario pide: 100 de golf 2D buena (z61–z99, y11–y71; generador g100.py) con ideas para ganar seguidores. Salida: videos/golf_100.
 - Subir el máximo diario (~20 por plataforma), uno cada 45–70 min.
 - (16 nov) ÉXITO: el tenis 3D de Steffi Graf (Golden Slam) llegó a 236 likes. Hacer más así: tenis 3D con voz + pregunta (t16–t25: Nadal 14 RG, Djokovic 24, Serena 23, Federer 8 Wimbledon, Laver, Alcaraz n°1 a los 19, Sinner remontada AO 2024, Navratilova 9, Djokovic oro París, Alcaraz–Sinner RG 2025). La gente comenta "¿Sinner o Alcaraz?" → usar ese CTA.
+- (16 nov) 100 SEGUIDORES → video e91. Usuario pide 50 memes NFL 3D cuadrada Chargers vs Cowboys estilo "volado/somebody has to win" (escena 'skit' nueva en engine.js: capitanes + árbitro + moneda + sello rojo). Datos en memes.py, ids e100–e149, salida videos/memes_nfl. Voz Chatterbox + beat aura bajito.
