@@ -136,3 +136,6 @@ Cuentas: **Instagram @como.deportes** + **YouTube "¿Cómo deportes?"**. Cada vi
 - ¡SOMOS 70! (e60): publicado IG https://www.instagram.com/reel/Dfz-N6EMhUO/ · YT https://www.youtube.com/watch?v=Le6Rvl_KgI8
 - Programados: e35 13:15 · z22 14:05 · e36 15:00 · z23 15:50 · e37 16:45 · z24 17:35 · e38 18:30 · z25 19:20 · e39 20:15
 - En cola (con voz): e40–e44, z26–z40; en producción: z41–z60, e61–e90 (20 fut + 10 americano, 3D buena)
+- ¡SOMOS 100! (e91): publicado YT https://www.youtube.com/watch?v=wVfdjwPRQtU (IG procesando)
+- Noche 16→17 nov programados: z26 21:00 · e40 21:45 · z27 22:30 · e41 23:15 · z28 00:00 · e42 00:45 · z29 01:30 · e43 02:15 · z30 03:00
+- Total 16 nov: 50/70/100 + 9 de día + 9 de noche = 21
