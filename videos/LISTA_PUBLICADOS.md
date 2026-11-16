@@ -130,3 +130,9 @@ Cuentas: **Instagram @como.deportes** + **YouTube "¿Cómo deportes?"**. Cada vi
   - drafts: e41 4feeddc1-9cd0-4635-b6dc-2164a5b30deb · e42 5c0a6284-eb90-495b-8107-260160463412 · e43 b30ba608-5841-4d97-8b78-a09e7b1fe35d · e44 87a9d870-208e-4962-8e46-40e8e380c2ee
 - Golf 2D z31–z40 (con voz): renderizando
 - 3D cuadrada e45–e54 (Zidane, Ronaldinho, Carlos Alberto, Lampard, Karius, Ochoa, Courtois, Messi 91, Alisson, Bale): en cola
+
+## 16 nov (CDMX)
+- ¡SOMOS 50! (e34): publicado IG https://www.instagram.com/reel/DfyWUDkv7Wk/ · YT https://www.youtube.com/watch?v=ABeNg-DWMUs
+- ¡SOMOS 70! (e60): publicado IG https://www.instagram.com/reel/Dfz-N6EMhUO/ · YT https://www.youtube.com/watch?v=Le6Rvl_KgI8
+- Programados: e35 13:15 · z22 14:05 · e36 15:00 · z23 15:50 · e37 16:45 · z24 17:35 · e38 18:30 · z25 19:20 · e39 20:15
+- En cola (con voz): e40–e44, z26–z40; en producción: z41–z60, e61–e90 (20 fut + 10 americano, 3D buena)
