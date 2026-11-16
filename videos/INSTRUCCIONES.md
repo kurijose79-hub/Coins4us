@@ -36,3 +36,5 @@
 - (15 nov, orden del usuario) POR AHORA NO PROGRAMAR NI PUBLICAR NADA: ya se llegó al límite. Solo seguir haciendo videos y dejarlos listos en la cola. Volver a subir a partir del reintento de las 22:45 CDMX del 15 nov.
 - (15 nov) TODOS los videos llevan VOZ (golf: tts_cb.py; edits 3D: voice_edit.py mezcla voz sobre el beat).
 - (15 nov) Hoy solo GOLF con la 2D buena. 3D cuadrada e45–e54 en pausa.
+- (16 nov) Estilos: 2D buena (golf, golf2d/golf3/golf4.js), 3D buena (engine.js), 3D cuadrada (blocky). Usuario pide: 100 de golf 2D buena (z61–z99, y11–y71; generador g100.py) con ideas para ganar seguidores. Salida: videos/golf_100.
+- Subir el máximo diario (~20 por plataforma), uno cada 45–70 min.
