@@ -509,6 +509,10 @@ window.renderAt = function (t) {
   const sh = shots[si]; const D = sh._t1 - sh._t0, lt = t - sh._t0, p = clamp(lt / D);
   const cov = CFG.cover && t < 0.7 && si === 0; g.save(); SC[sh.type](sh, cov ? 0.6 : p, cov ? 3 : lt, t); g.restore();
   if (CFG.cover && t < 0.7) { g.fillStyle = 'rgba(0,0,0,0.35)'; g.fillRect(0, 160, W, 520); bigText(CFG.cover.split('\n').map(l => `|${l}|`), 330, 130, 1, { hl: GOLD }); } else caption(t);
+  if (CFG.hud2) { const H0 = CFG.hud2; g.save(); const x0 = 50, y0 = 1700, w = W - 100, h = 170; g.fillStyle = 'rgba(20,28,22,0.92)'; rr(x0, y0, w, h, 26); g.fill(); g.strokeStyle = GOLD; g.lineWidth = 5; g.stroke();
+    const cols = [['👥 MIEMBROS', H0.miembros], ['❤️ LIKE = $1', H0.dinero], ['📅 DÍA', H0.dia]];
+    cols.forEach(([lab, val], i) => { const cx = x0 + w * (i + 0.5) / 3; if (i) { g.strokeStyle = 'rgba(242,182,50,0.5)'; g.lineWidth = 2; g.beginPath(); g.moveTo(x0 + w * i / 3, y0 + 18); g.lineTo(x0 + w * i / 3, y0 + h - 18); g.stroke(); }
+      g.textAlign = 'center'; g.textBaseline = 'middle'; g.fillStyle = GOLD; g.font = 'bold 30px DejaVu Sans'; g.fillText(lab, cx, y0 + 46); g.fillStyle = '#fff'; g.font = 'bold 66px DejaVu Sans'; g.fillText(String(val), cx, y0 + 112); }); g.restore(); }
   // grain + vignette
   const vg = g.createRadialGradient(W / 2, H / 2, H * 0.35, W / 2, H / 2, H * 0.8); vg.addColorStop(0, 'rgba(0,0,0,0)'); vg.addColorStop(1, 'rgba(60,40,10,0.25)'); g.fillStyle = vg; g.fillRect(0, 0, W, H);
   const fl = clamp(1 - lt / 0.15); if (si > 0 && fl > 0) { g.fillStyle = `rgba(255,250,235,${fl * 0.8})`; g.fillRect(0, 0, W, H); }
