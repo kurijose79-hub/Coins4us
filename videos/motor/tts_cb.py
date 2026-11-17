@@ -10,7 +10,7 @@ for ID in sys.argv[1:]:
     if os.path.exists(f'audio/{ID}.mp3') and ID in json.load(open('timing.json')): print('skip', ID); continue  # SKIPDONE
     t0 = time.time(); sr = M.sr; parts = [np.zeros(int(LEAD * sr))]; segs = []; t = LEAD
     for ln in S[ID]:
-        a = M.generate(ln, language_id='es', audio_prompt_path=REF, exaggeration=0.55, cfg_weight=0.5).squeeze().numpy()
+        a = M.generate(ln, language_id='es', audio_prompt_path=REF, exaggeration=0.35, cfg_weight=0.3).squeeze().numpy()
         nz = np.where(np.abs(a) > 0.01)[0]; a = a[max(0, nz[0] - 400): nz[-1] + 1600] if len(nz) else a
         d = len(a) / sr; segs.append({'text': ln, 'start': round(t, 2), 'end': round(t + d, 2)}); parts += [a, np.zeros(int(GAP * sr))]; t += d + GAP
     au = np.concatenate(parts).astype(np.float32); ta.save(f'audio/{ID}.wav', torch.from_numpy(au).unsqueeze(0), sr)

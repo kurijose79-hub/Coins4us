@@ -43,3 +43,4 @@
 - (16 nov, orden del usuario) MÍNIMO 20 VIDEOS AL DÍA, todos los días. Lo programado no se puede adelantar en vidIQ; completar el día con lo que haya listo (cada ~45 min).
 - (16 nov, orden del usuario) De ahora en adelante: TODO video terminado se sube DE INMEDIATO (sin programar), respetando solo el tope de ~20–25 por día por plataforma; lo que pase del tope sale al día siguiente a primera hora. Siempre seguir produciendo.
 - (17 nov, orden del usuario) HUBO QUEJAS: la voz suena robótica y los videos no se entienden. Hacer MENOS videos pero MEJORES: guion más claro y simple (una idea por escena, frases cortas), voz más natural (Chatterbox con exaggeration ~0.35–0.4, cfg ~0.3, pausas de 0.45 s, EQ + compresor + loudnorm), textos grandes. Producción en pausa hasta que el usuario elija voz (muestras A/B/C/D en scratchpad/voces).
+- (17 nov) VOZ ELEGIDA: A = Alex calmado (muestra_em_alex.wav, exaggeration 0.35, cfg 0.3, EQ+compresor). Usar en todo.
