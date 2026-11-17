@@ -139,3 +139,4 @@ Cuentas: **Instagram @como.deportes** + **YouTube "¿Cómo deportes?"**. Cada vi
 - ¡SOMOS 100! (e91): publicado YT https://www.youtube.com/watch?v=wVfdjwPRQtU (IG procesando)
 - Noche 16→17 nov programados: z26 21:00 · e40 21:45 · z27 22:30 · e41 23:15 · z28 00:00 · e42 00:45 · z29 01:30 · e43 02:15 · z30 03:00
 - Total 16 nov: 50/70/100 + 9 de día + 9 de noche = 21
+- Tenis 3D publicados de inmediato (16 nov): t16 Nadal, t17 Djokovic, t18 Serena, t19 Federer, t20 Laver, t21 Alcaraz, t22 Sinner, t23 Navratilova, t24 Djokovic oro, t25 Alcaraz–Sinner
