@@ -3,7 +3,7 @@ P={'i':'idle','c':'cheer','s':'sad','k':'kneel','d':'down','p':'point','h':'shru
 def SK(acts,cam='front',stamp=None,big=None,**k):
     sh=dict(type='skit',actors=[dict(team=t,idx=i,x=x,pose=P[p]) for (t,i,x,p) in acts],cam=cam,**k)
     if stamp: sh['stamp']=[[0,None],[0.35,stamp]]
-    if big: sh.update(big=big,bigSize=150,hook=True,bigY=520)
+    if big: sh.update(big=big,bigSize=150,hook=True,bigY=470)
     return sh
 G=lambda b,sc,**k: dict(dict(type='goal',big=[[0,None],[0.62,b]],flashes=1,shake=1,shakeAt=0.62,score=sc),**k)
 ME=(0,10,0,'i')  # el dueño (yo)
@@ -11,6 +11,7 @@ EPS=[
  ('PARTE 1','¿COMPRÉ UN CLUB\nPOR 1 DÓLAR?',[
   ('Compré un club de futbol por un dólar.', SK([(0,10,0,'c')],big='¿COMPRÉ UN CLUB\nPOR 1 DÓLAR?')),
   ('Pensé que era la mejor compra de mi vida.', SK([(0,10,0,'x')],cam='close')),
+  ('Cada like es un dólar para el club. Cada seguidor, un fan. Y cada comentario, un jugador.', SK([(0,10,0,'p')],cam='close',stamp='¡AYÚDANOS!')),
   ('Hasta que vi la deuda.', SK([(0,10,0,'s')],cam='front',stamp='DEUDA: $50 MILLONES')),
   ('Y el club no tiene ni un jugador.', SK([(0,10,0,'k')],cam='wide',stamp='JUGADORES: 0')),
   ('Parte dos: busco jugadores. Síguenos.', dict(type='outro'))]),

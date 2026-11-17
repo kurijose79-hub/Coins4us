@@ -1301,6 +1301,11 @@ window.renderAt = function (t) {
   // letterbox top gradient for scoreboard legibility
   const tg = g.createLinearGradient(0, 0, 0, 420); tg.addColorStop(0, 'rgba(0,0,0,0.55)'); tg.addColorStop(1, 'rgba(0,0,0,0)'); g.fillStyle = tg; g.fillRect(0, 0, W, 420);
   for (const L of CFG._labels || []) { const v = L.w.clone().project(camera); if (v.z > 1) continue; const sx = (v.x + 1) / 2 * W, sy = (1 - v.y) / 2 * H; g.save(); g.font = 'bold 96px DejaVu Sans'; g.textAlign = 'center'; g.textBaseline = 'bottom'; g.lineJoin = 'round'; g.lineWidth = 16; g.strokeStyle = 'rgba(0,0,0,0.85)'; g.strokeText(L.txt, sx, sy); g.fillStyle = L.col; g.fillText(L.txt, sx, sy); g.restore(); }
+  if (CFG.hud && sh.type !== 'outro') { const H0 = CFG.hud; g.save(); const x0 = 60, y0 = 120, w = W - 120, h = 170; g.fillStyle = 'rgba(12,16,24,0.88)'; rr(g, x0, y0, w, h, 26); g.fill(); g.strokeStyle = '#f2c200'; g.lineWidth = 4; g.stroke();
+    const cols = [['❤️ LIKE = $1', H0.like], ['👥 SEGUIDOR = FAN', H0.fan], ['💬 COMENTARIO = JUGADOR', H0.jug]];
+    cols.forEach(([lab, val], i) => { const cx = x0 + w * (i + 0.5) / 3; if (i) { g.strokeStyle = 'rgba(242,194,0,0.5)'; g.lineWidth = 2; g.beginPath(); g.moveTo(x0 + w * i / 3, y0 + 18); g.lineTo(x0 + w * i / 3, y0 + h - 18); g.stroke(); }
+      g.textAlign = 'center'; g.textBaseline = 'middle'; g.fillStyle = '#f2c200'; g.font = `bold ${fitFont(g, lab, w / 3 - 24, 26)}px DejaVu Sans`; g.fillText(lab, cx, y0 + 46);
+      g.fillStyle = '#fff'; g.font = 'bold 72px DejaVu Sans'; g.fillText(String(val), cx, y0 + 112); }); g.restore(); }
   if (sh.type !== 'outro' && !CFG.noBoard) drawScoreboard(g, sh, p, t);
   if (sh.type === 'outro') drawOutro(g, p);
   drawBig(g, sh, p, t, lt, D * (sh.pr ? 1 / (sh.pr[1] - sh.pr[0]) : 1));
