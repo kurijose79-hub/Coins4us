@@ -140,3 +140,10 @@ Cuentas: **Instagram @como.deportes** + **YouTube "¿Cómo deportes?"**. Cada vi
 - Noche 16→17 nov programados: z26 21:00 · e40 21:45 · z27 22:30 · e41 23:15 · z28 00:00 · e42 00:45 · z29 01:30 · e43 02:15 · z30 03:00
 - Total 16 nov: 50/70/100 + 9 de día + 9 de noche = 21
 - Tenis 3D publicados de inmediato (16 nov): t16 Nadal, t17 Djokovic, t18 Serena, t19 Federer, t20 Laver, t21 Alcaraz, t22 Sinner, t23 Navratilova, t24 Djokovic oro, t25 Alcaraz–Sinner
+
+## 19 nov (CDMX)
+- Serie "Club de $1" Parte 1 (e150): publicada 9:30 · YT https://www.youtube.com/watch?v=hHIfcaQsWCA · IG procesando
+- Serie "Campo de golf por $1" Parte 1: YT 13:00 · IG 21:30
+- Tier list palos de golf: YT 16:00 · IG 20 nov 10:00
+- (Ya estaban programados en IG: Wimbledon 2008 13:00, Augusta ep.4 16:00, Legendarios #6 19:00)
+- En producción: tenis 3D t26–t35 (formato más exitoso), luego 3D buena e69–e90 con voz, luego golf 100
