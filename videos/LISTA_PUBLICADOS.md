@@ -153,3 +153,8 @@ Cuentas: **Instagram @como.deportes** + **YouTube "¿Cómo deportes?"**. Cada vi
   - #3 Cypress: YT 20 nov 19:30 · IG 21 nov 21:30
   - #2 Pebble: YT 21 nov 13:00 · IG 22 nov 08:00
   - (#1 Augusta se deja oculto para mandar al video largo)
+- ¿Quién es mejor? (3D, videos/quien_es_mejor):
+  - Nadal vs Federer (vnf): YT 19 nov 21:30 · IG 22 nov 21:30
+  - Jordan vs Kobe (vjk): YT 20 nov 16:00 · IG 23 nov 08:00
+  - Tiger vs Jack (vtj): YT 21 nov 16:00 · IG 23 nov 21:30
+- 5 campos de golf del mundo, imágenes reales Pexels (videos/golf/5_campos_mundo_real.mp4): YT 22 nov 16:00 · IG 24 nov 08:00
