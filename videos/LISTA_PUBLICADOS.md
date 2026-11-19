@@ -147,3 +147,9 @@ Cuentas: **Instagram @como.deportes** + **YouTube "¿Cómo deportes?"**. Cada vi
 - Tier list palos de golf: YT 16:00 · IG 20 nov 10:00
 - (Ya estaban programados en IG: Wimbledon 2008 13:00, Augusta ep.4 16:00, Legendarios #6 19:00)
 - En producción: tenis 3D t26–t35 (formato más exitoso), luego 3D buena e69–e90 con voz, luego golf 100
+- Clips del video largo "5 mejores campos de USA" (https://youtu.be/SFUaWU8IxCw), en videos/golf/clips_top5:
+  - #5 Sawgrass: YT 19 nov 19:30 · IG 20 nov 21:30
+  - #4 Pinehurst: YT 20 nov 13:00 · IG 21 nov 08:00
+  - #3 Cypress: YT 20 nov 19:30 · IG 21 nov 21:30
+  - #2 Pebble: YT 21 nov 13:00 · IG 22 nov 08:00
+  - (#1 Augusta se deja oculto para mandar al video largo)
