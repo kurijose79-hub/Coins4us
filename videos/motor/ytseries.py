@@ -23,3 +23,18 @@ YT={
      ('Y necesito un mariscal de campo urgente.', SK([(0,0,0,'f')],cam='wide',stamp='SE BUSCA QB')),
      ('Comenta tu nombre y posición. Parte dos: el primer entrenamiento.', dict(type='outro'))]),
 }
+G=lambda b,sc,**k: dict(dict(type='goal',big=[[0,None],[0.62,b]],flashes=1,shake=1,shakeAt=0.62,score=sc),**k)
+YT['e193']=dict(kind='soccer',part='¡GRACIAS!',series='¿CÓMO DEPORTES? · YOUTUBE',label='¡SOMOS 50 EN YOUTUBE!',hud=None,outro='¡VAMOS POR 100!',full=True,
+   beats=[('¡Somos cincuenta suscriptores en YouTube!', SK([(0,10,0,'c')],cam='front',big='¡SOMOS 50\nEN YOUTUBE!')),
+     ('Hace unos días éramos cero.', SK([(0,10,0,'i')],cam='close',stamp='DÍA 1: 0')),
+     ('Hoy somos cincuenta.', G('¡50!',[[0,[49,0]],[0.6,[50,0]]],team=0,idx=9,dist=14,sz=-3)),
+     ('Gracias a cada uno de ustedes.', dict(type='crowd',scarf='#ffd400',score=[50,0],big='¡GRACIAS!',bigSize=170)),
+     ('Siguiente meta: cien. Suscríbete y llegamos juntos.', dict(type='outro'))])
+YT['e190']=dict(kind='soccer',part='PARTE 1',series='SERIE ⚽ MI HIJO FUTBOLISTA',label='MI HIJO FUTBOLISTA · PARTE 1',
+   hud={'labels':['❤️ LIKE = 1 HORA','🔔 SUSCRIPTOR = FAN','💬 COMENTARIO = DECIDE'],'like':'0 h','fan':'0','jug':'0'},outro='PARTE 2 → SUSCRÍBETE',
+   beats=[('Mi hijo de ocho años quiere ser futbolista profesional.', SK([(0,9,0,'c')],cam='front',big='¿SERÁ\nPROFESIONAL?')),
+     ('Pero nunca ha pateado un balón.', SK([(0,9,0,'h')],cam='close',stamp='EXPERIENCIA: 0')),
+     ('Cada like es una hora de entrenamiento.', SK([(0,9,0,'r')],cam='wide',stamp='LIKE = 1 HORA')),
+     ('Y ustedes deciden en los comentarios: ¿portero, defensa o delantero?', SK([(0,9,0,'p')],cam='front',stamp='¿QUÉ POSICIÓN?')),
+     ('Si llegamos a mil horas, hace una prueba en un club de verdad.', SK([(0,9,0,'x')],cam='close',stamp='META: 1,000 HORAS')),
+     ('Comenta su posición. Parte dos: su primer entrenamiento.', dict(type='outro'))])

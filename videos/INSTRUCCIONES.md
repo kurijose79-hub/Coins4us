@@ -54,3 +54,5 @@
 - Club $1 Parte 3: sumar jugadores nuevos de YouTube: Gisela (mediocampo), Ángel (delantero centro). +13 suscriptores más (total ~24 tras Parte 1). Pedir cifras actualizadas al usuario.
 - Series para YouTube: e170 "Mi estadio vacío" (crowdFill = suscriptores/1000), e180 "Equipo NFL de $1". Series sin música (solo voz).
 - Club $1 Parte 1 (19 nov 7:25pm): 1,082 vistas, 22 likes, 20 comentarios, +12 suscriptores. Usar como base de la Parte 3 (sumar lo de la Parte 2).
+- ¡SOMOS 50 EN YOUTUBE! (e193) listo para publicar SOLO cuando el usuario avise que llegamos a 50 suscriptores.
+- Serie nueva e190 "Mi hijo futbolista" (like = 1 hora de entrenamiento, comentarios deciden posición).

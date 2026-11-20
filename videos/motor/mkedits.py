@@ -698,6 +698,8 @@ for k,c in YT.items():
     SCR[k]=lines
     base=dict(label=c['label'],series=c['series'],noBoard=True,hud=c['hud'],outroSub=c['outro'],grade='contrast(1.1) saturate(1.3)',shots=shots,blocky=True)
     if c['kind']=='nfl': cfgs[k]=dict(base,sport='nfl',crowdFill=0.04,seatColor='#5a5f66',teams=[NT['UNO'],NT['DAL_H']],offense=0,numbers=[NUM(1,25,13),[88,4,11,21,90,54,75,79,67,50,43]],crowd=['#3a3f47','#2f343b','#444a52'],confetti=['#f2c200','#111111','#ffffff'])
+    elif k=='e193': cfgs[k]=dict(base,sport='soccer',blocky=False,teams=[T['EST'],T['MUN']],crowd=['#1e5aa8','#ffffff','#ffd400'],confetti=['#1e5aa8','#ffffff','#ffd700'])
+    elif k=='e190': cfgs[k]=dict(base,sport='soccer',teams=[T['EST'],T['MUN']],confetti=['#1e5aa8','#ffffff','#ffd700'])
     else: cfgs[k]=dict(base,sport='soccer',crowdFill=0.0,teams=[T['EST'],T['MUN']],crowd=['#3a3f47','#2f343b','#444a52'],confetti=['#1e5aa8','#ffffff','#ffd700'])
 sj=json.load(open('scripts.json')); sj.update(SCR); json.dump(sj,open('scripts.json','w'),ensure_ascii=False,indent=1)
 json.dump(tim,open('timing.json','w'),ensure_ascii=False,indent=1)
