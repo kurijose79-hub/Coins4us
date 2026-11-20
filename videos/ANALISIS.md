@@ -101,3 +101,21 @@ Los 30 retos de pausa salieron en 10 minutos: ninguno pasó de 60 vistas.
 - Tenis 3D t26–t35 (17–20 s): según los datos van a rondar 200–500 vistas cada uno. Ya están en cola; no se borran.
 - 3D buena top-10 (e63, e66, e72, e76, e79…): formato historia 3D, debería ir bien.
 - Series parte 1 (Estadio, NFL, Hijo): fuertes para YouTube.
+
+## 10. Revisión de la cola de Instagram (20 nov → 29 nov, 50 programados)
+
+- **Golf 2D "¿Por qué…?"** a las 16:00 CDMX casi todos los días (hoyo, fore, hoyo en uno, Saint Andrews, chaqueta verde, Amen Corner):
+  es el formato más flojo (~245 vistas) y a la peor hora. Se dejan porque ya están programados, pero **no se hacen más**.
+- **Augusta ficción, final** (hoy 16:00): el formato que menos se ve (13 % de visto). Último episodio; la serie no sigue.
+- **Graf Golden Slam 3D** se vuelve a publicar el 26 nov a las 19:00: es el mismo tema del reel de 16k. Sirve para ver si un tema ganador funciona dos veces.
+- **Tenis 3D** a las 13:00 y 19:00: Isner–Mahut, Djokovic–Federer 2019, Borg–McEnroe, Serena embarazada… Son temas con nombre grande, así que deberían ir mejor que Navratilova o Sinner.
+- **¿Quién es mejor?** (Nadal–Federer, Jordan–Kobe, Tiger–Jack) a las 21:30 y 08:00: es el formato más fuerte. Lo ideal es moverlo a las 13:00 la próxima vez.
+- **Series parte 1** (Estadio, NFL, Hijo) a las 10:30: en IG van a rendir poco y en YouTube mucho; sirven para conseguir suscriptores.
+
+### Cambios hechos hoy
+- Se desactivó la rutina automática "Producción continua de videos" (cada 3 h hacía tandas nuevas) porque pediste no hacer más videos.
+- El recordatorio de YouTube del 22 nov ya no usa los cupos libres en golf 2D.
+
+### Próxima medición
+Esta noche, cuando suene el recordatorio de las 20:00, se vuelven a bajar los insights de los reels nuevos
+(Club P2, Campo P2, Tier list, Isner) para confirmar que se cumplen las reglas de arriba.
