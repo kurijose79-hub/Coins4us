@@ -26,3 +26,4 @@ dist-ssr
 # videos renderizados (pesados, no van a git)
 videos/**/*.mp4
 videos/*.mp4
+videos/**/*.voz
