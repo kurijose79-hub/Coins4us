@@ -1306,7 +1306,13 @@ window.renderAt = function (t) {
     const L0 = H0.labels || ['❤️ LIKE = $1', '👥 SEGUIDOR = FAN', '💬 COMENTARIO = JUGADOR']; const cols = [[L0[0], H0.like], [L0[1], H0.fan], [L0[2], H0.jug]];
     cols.forEach(([lab, val], i) => { const cx = x0 + w * (i + 0.5) / 3; if (i) { g.strokeStyle = 'rgba(242,194,0,0.5)'; g.lineWidth = 2; g.beginPath(); g.moveTo(x0 + w * i / 3, y0 + 18); g.lineTo(x0 + w * i / 3, y0 + h - 18); g.stroke(); }
       g.textAlign = 'center'; g.textBaseline = 'middle'; g.fillStyle = '#f2c200'; g.font = `bold ${fitFont(g, lab, w / 3 - 24, 26)}px DejaVu Sans`; g.fillText(lab, cx, y0 + 46);
-      g.fillStyle = '#fff'; g.font = 'bold 72px DejaVu Sans'; g.fillText(String(val), cx, y0 + 112); }); g.restore(); }
+      g.fillStyle = '#fff'; g.font = 'bold 72px DejaVu Sans'; g.fillText(String(val), cx, y0 + 112); });
+    if (H0.goal) { const cur = Number(String(H0.like).replace(/[^0-9.]/g, '')) || 0, fr = Math.max(0.012, Math.min(1, cur / H0.goal)); const by = y0 + h + 18, bh = 58;
+      g.fillStyle = 'rgba(12,16,24,0.88)'; rr(g, x0, by, w, bh, 20); g.fill(); g.strokeStyle = '#f2c200'; g.lineWidth = 3; g.stroke();
+      g.fillStyle = '#2fbf4f'; rr(g, x0 + 6, by + 6, (w - 12) * fr, bh - 12, 16); g.fill();
+      g.fillStyle = '#fff'; g.font = 'bold 30px DejaVu Sans'; g.textAlign = 'center'; g.textBaseline = 'middle';
+      g.fillText('META: $' + Number(H0.goal).toLocaleString('en-US') + '  ·  FALTAN $' + Math.max(0, H0.goal - cur).toLocaleString('en-US'), x0 + w / 2, by + bh / 2 + 1); }
+    g.restore(); }
   if (sh.type !== 'outro' && !CFG.noBoard) drawScoreboard(g, sh, p, t);
   if (sh.type === 'outro') drawOutro(g, p);
   drawBig(g, sh, p, t, lt, D * (sh.pr ? 1 / (sh.pr[1] - sh.pr[0]) : 1));

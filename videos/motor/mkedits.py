@@ -674,7 +674,7 @@ for k,(shots,lines,title) in build().items():
 T['DOL']={'name':'Dólar FC','abbr':'$1','shirt':'#0b8f4d','alt':'#f2c200','shorts':'#ffffff','socks':'#0b8f4d','num':'#ffffff','numStroke':'#f2c200','keeper':'#f28c28'}
 T['RIC']={'name':'Ricos FC','abbr':'RIC','shirt':'#7a3fa0','alt':'#f2c200','shorts':'#111111','socks':'#7a3fa0','num':'#ffffff','numStroke':'#111','keeper':'#2c8f45'}
 exec(open('serie.py').read())
-HUD={'e150':{'like':'$0','fan':'0','jug':'0'},'e151':{'like':'$20','fan':'11','jug':'9'}}
+HUD={'e150':{'like':'$0','fan':'0','jug':'0'},'e151':{'like':'$20','fan':'11','jug':'9'},'e152':{'like':'$42','fan':'24','jug':'11','goal':10000}}
 for i,(k,(shots,lines,part)) in enumerate(build().items()):
     a,b=T['DOL'],T['RIC']
     cfgs[k]=dict(sport='soccer',blocky=True,label='CLUB DE 1 DÓLAR · '+part,teams=[a,b],crowd=['#0b8f4d','#f2c200','#ffffff','#7a3fa0'],confetti=['#0b8f4d','#f2c200','#ffffff'],series='SERIE ⚽ CLUB DE $1',noBoard=True,hud=HUD.get(k,{'like':'$0','fan':'0','jug':'0'}),outroSub=('PARTE %d → SÍGUENOS' % (i+2)) if i<9 else '¿TEMPORADA 2? COMENTA',grade='contrast(1.1) saturate(1.3)',shots=shots)
