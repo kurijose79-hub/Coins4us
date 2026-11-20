@@ -60,8 +60,8 @@
 - Campo $1 Parte 3: nuevo miembro desde YouTube: @JoséAngel-v8y ("listo"). Sumar a placas.
 - Series interactivas: cuando toque la siguiente parte, PEDIR al usuario las capturas (likes, seguidores/suscriptores nuevos, comentarios) del video exacto, diciendo cuál y en qué plataforma.
 
-## MODO AUSENTE (20–23 nov 2026)
-El usuario no tendrá dispositivo ~3 días y autorizó publicar sin preguntar (permiso de vidIQ en .claude/settings.local.json).
+## PUBLICAR SIN PEDIR PERMISO (permanente, desde 20 nov 2026)
+El usuario quiere que TODO se suba directo, sin pedirle aprobación nunca (permiso permanente de vidIQ en .claude/settings.local.json). Ya no hace falta mandarle formatos nuevos para revisión antes de subir: revisar yo la calidad y publicar.
 - Seguir produciendo y PROGRAMAR todo lo que esté listo y revisado (golf 2D de videos/golf_100, los 20 restantes de edits_fut que no repitan temas ya publicados, tenis 3D nuevos).
 - Instagram ya está lleno (5/día) hasta el 4 dic → lo nuevo en IG va del 5 dic en adelante (08:00, 13:00, 16:00, 19:00, 21:30).
 - YouTube: máx 5 subidas/día por vidIQ (se reinicia 08:00 UTC). Horarios libres 08:30, 13:00, 16:00, 19:30, 22:00.
