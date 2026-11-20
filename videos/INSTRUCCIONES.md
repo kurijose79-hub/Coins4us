@@ -80,3 +80,6 @@ El usuario quiere que TODO se suba directo, sin pedirle aprobación nunca (permi
 - Likes y número de comentarios de Instagram: `vidiq_instagram_owner_insights` mode reels (gratis).
 - Likes y comentarios de YouTube, y nombres de quienes comentan: no hay herramienta gratis (comments = 5 créditos, saldo 0) → usar las capturas del usuario cuando las mande; si no hay, usar solo IG + subs.
 - "Pon a los subs": mencionar en cada parte el número de suscriptores y agradecer por nombre a quienes comentaron.
+- (20 nov 12:45) YouTube Club P1: 1,870 vistas, 63 likes, 28 comentarios, +26 subs. Campo P1: 1,112 vistas, 32 likes, 2 comentarios, +17 subs.
+- Club comentarios extra: daniel-f9t5i (extremo derecho), JoséAngel-v8y (defensa), Carvel-x5o (Mbappé de portero), kendercastro3640 (delantero Funi + ofrece $500 de patrocinio), México-f4b (Maradona de central).
+- Regla: en Campo, MIEMBROS = suscriptores nuevos que trajo la parte anterior (Campo P1 = +17); en Club, FANS = suscriptores del canal.
