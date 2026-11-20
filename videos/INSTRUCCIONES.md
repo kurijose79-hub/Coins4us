@@ -74,3 +74,9 @@ El usuario quiere que TODO se suba directo, sin pedirle aprobación nunca (permi
 - Campo de golf $1 (IG): **santy111213** comentó "Yo porfa" → nuevo miembro para Campo Parte 3.
 - Wimbledon 2008 (IG): janssen_barca: "la memorial batalla entre los 2 más grandes titanes" → los debates Nadal–Federer sí generan comentarios.
 - salvadorhernandezolivares comentó "Alcaraz" (en un tenis); ab_dululu707 reposteó un reel de golf.
+
+## Series: de dónde sacar los números (desde 20 nov, pedido del usuario: "tú encuéntralo")
+- Suscriptores de YouTube: `vidiq_user_channels` (gratis) → usarlo como FANS/SUBS en el contador de todas las series (Club, Campo, Estadio, NFL, Hijo).
+- Likes y número de comentarios de Instagram: `vidiq_instagram_owner_insights` mode reels (gratis).
+- Likes y comentarios de YouTube, y nombres de quienes comentan: no hay herramienta gratis (comments = 5 créditos, saldo 0) → usar las capturas del usuario cuando las mande; si no hay, usar solo IG + subs.
+- "Pon a los subs": mencionar en cada parte el número de suscriptores y agradecer por nombre a quienes comentaron.
