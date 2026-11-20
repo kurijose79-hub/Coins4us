@@ -67,3 +67,10 @@ El usuario quiere que TODO se suba directo, sin pedirle aprobación nunca (permi
 - YouTube: máx 5 subidas/día por vidIQ (se reinicia 08:00 UTC). Horarios libres 08:30, 13:00, 16:00, 19:30, 22:00.
 - NO hacer partes nuevas de series (Club, Campo, Estadio, NFL, Hijo) sin capturas reales del usuario. NO publicar Bicho Ep.1 (espera aprobación).
 - Al regresar, pedirle capturas de: Club Parte 2 y Campo Parte 2 (YT + IG), y Parte 1 de Estadio/NFL/Hijo.
+
+## Datos de capturas (20 nov, 12:39 CDMX)
+- YouTube: **100 suscriptores**, 145 videos. Video largo "5 mejores campos de golf de USA": 9 vistas.
+- Club $1 Parte 1 (IG), comentarios: **chinito9922 → portero** · **santy111213 → mediocampista** (usarlos en Club Parte 3).
+- Campo de golf $1 (IG): **santy111213** comentó "Yo porfa" → nuevo miembro para Campo Parte 3.
+- Wimbledon 2008 (IG): janssen_barca: "la memorial batalla entre los 2 más grandes titanes" → los debates Nadal–Federer sí generan comentarios.
+- salvadorhernandezolivares comentó "Alcaraz" (en un tenis); ab_dululu707 reposteó un reel de golf.
