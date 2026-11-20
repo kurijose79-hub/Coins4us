@@ -164,3 +164,4 @@ Cuentas: **Instagram @como.deportes** + **YouTube "¿Cómo deportes?"**. Cada vi
   t32 Nadal AO22 YT 24/11 19:30 · IG 27/11 21:30 | t33 Becker YT 25/11 13:00 · IG 28/11 08:00 | t34 Hingis YT 25/11 19:30 · IG 28/11 21:30 | t35 Groth YT 26/11 13:00 · IG 29/11 08:00
 - Club $1 Parte 2 (e151, HUD $20·11·9): YT publicado 19 nov https://www.youtube.com/watch?v=GVTQnDi0xRE · IG 20 nov 08:00
 - Bicho Ep.1 (videos/serie_bicho/ep1.mp4): listo, esperando revisión del usuario
+- 20 nov: drafts listos SIN publicar (esperan aprobación del usuario; las aprobaciones se cortan por reinicios): e170 estadio post 28388f4f-2ad2-4ba7-83fa-47a7f3c03953 · e180 NFL post 1d62b82a-4942-47e5-a4aa-a521b2fe8b89 · e190 hijo post d940d776-3100-4fa4-947b-be936381effa (YT de e170 ya pasó su hora: reprogramar)
