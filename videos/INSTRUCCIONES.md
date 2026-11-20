@@ -56,3 +56,4 @@
 - Club $1 Parte 1 (19 nov 7:25pm): 1,082 vistas, 22 likes, 20 comentarios, +12 suscriptores. Usar como base de la Parte 3 (sumar lo de la Parte 2).
 - ¡SOMOS 50 EN YOUTUBE! (e193) listo para publicar SOLO cuando el usuario avise que llegamos a 50 suscriptores.
 - Serie nueva e190 "Mi hijo futbolista" (like = 1 hora de entrenamiento, comentarios deciden posición).
+- Club $1: la META es juntar $10,000 (likes = dólares) para pagar la cuota de la deuda y salvar el club. Decirlo desde el gancho de la Parte 3 y mostrar en pantalla "META: $10,000" con barra de progreso.
