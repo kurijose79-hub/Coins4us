@@ -58,3 +58,4 @@
 - Serie nueva e190 "Mi hijo futbolista" (like = 1 hora de entrenamiento, comentarios deciden posición).
 - Club $1: la META es juntar $10,000 (likes = dólares) para pagar la cuota de la deuda y salvar el club. Decirlo desde el gancho de la Parte 3 y mostrar en pantalla "META: $10,000" con barra de progreso.
 - Campo $1 Parte 3: nuevo miembro desde YouTube: @JoséAngel-v8y ("listo"). Sumar a placas.
+- Series interactivas: cuando toque la siguiente parte, PEDIR al usuario las capturas (likes, seguidores/suscriptores nuevos, comentarios) del video exacto, diciendo cuál y en qué plataforma.
