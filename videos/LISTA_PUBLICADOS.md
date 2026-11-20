@@ -167,3 +167,7 @@ Cuentas: **Instagram @como.deportes** + **YouTube "¿Cómo deportes?"**. Cada vi
 - 20 nov: drafts listos SIN publicar (esperan aprobación del usuario; las aprobaciones se cortan por reinicios): e170 estadio post 28388f4f-2ad2-4ba7-83fa-47a7f3c03953 · e180 NFL post 1d62b82a-4942-47e5-a4aa-a521b2fe8b89 · e190 hijo post d940d776-3100-4fa4-947b-be936381effa (YT de e170 ya pasó su hora: reprogramar)
 - 20 nov: ¡SOMOS 50 EN YOUTUBE! (e193) publicado (ya 59 subs) https://www.youtube.com/watch?v=0UnnkI_T2tQ
 - Campo $1 Parte 2 (x28, 6/1000, $69, día 2): YT publicado https://www.youtube.com/watch?v=A9Pe5wur0GQ · IG 20 nov 11:30
+- 3D buena (10 mejores de e61–e90), YT 08:30/22:00 · IG 08:00/21:30:
+  e66 Ramos YT 21/11 08:30 · IG 29/11 21:30 | e76 Messi cabeza YT 21/11 22:00 · IG 30/11 08:00 | e63 Cuauhtemiña YT 22/11 08:30 · IG 30/11 21:30
+  e72 Chucky YT 22/11 22:00 · IG 1/12 08:00 | e79 Londres 2012 YT 23/11 08:30 · IG 1/12 21:30
+  e75 Leicester · e80 Pirlo · e84 Mahomes 13s · e85 Miami · e89 Odell: IG programado 2/12–4/12; YT pendiente (límite 5/día de vidIQ), se publica 21/11 08:10 UTC
