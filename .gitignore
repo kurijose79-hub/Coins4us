@@ -27,3 +27,4 @@ dist-ssr
 videos/**/*.mp4
 videos/*.mp4
 videos/**/*.voz
+.claude/settings.local.json
