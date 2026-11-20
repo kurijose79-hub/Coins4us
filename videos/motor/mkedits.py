@@ -674,10 +674,20 @@ for k,(shots,lines,title) in build().items():
 T['DOL']={'name':'Dólar FC','abbr':'$1','shirt':'#0b8f4d','alt':'#f2c200','shorts':'#ffffff','socks':'#0b8f4d','num':'#ffffff','numStroke':'#f2c200','keeper':'#f28c28'}
 T['RIC']={'name':'Ricos FC','abbr':'RIC','shirt':'#7a3fa0','alt':'#f2c200','shorts':'#111111','socks':'#7a3fa0','num':'#ffffff','numStroke':'#111','keeper':'#2c8f45'}
 exec(open('serie.py').read())
-HUD={'e150':{'like':'$0','fan':'0','jug':'0'}}
+HUD={'e150':{'like':'$0','fan':'0','jug':'0'},'e151':{'like':'$20','fan':'11','jug':'9'}}
 for i,(k,(shots,lines,part)) in enumerate(build().items()):
     a,b=T['DOL'],T['RIC']
     cfgs[k]=dict(sport='soccer',blocky=True,label='CLUB DE 1 DÓLAR · '+part,teams=[a,b],crowd=['#0b8f4d','#f2c200','#ffffff','#7a3fa0'],confetti=['#0b8f4d','#f2c200','#ffffff'],series='SERIE ⚽ CLUB DE $1',noBoard=True,hud=HUD.get(k,{'like':'$0','fan':'0','jug':'0'}),outroSub=('PARTE %d → SÍGUENOS' % (i+2)) if i<9 else '¿TEMPORADA 2? COMENTA',grade='contrast(1.1) saturate(1.3)',shots=shots)
+SCR={}
+exec(open('bicho.py').read())
+T['SPO']={'name':'Sporting','abbr':'SCP','shirt':'#0b8f4d','alt':'#ffffff','shorts':'#111111','socks':'#0b8f4d','num':'#ffffff','numStroke':'#111','keeper':'#f2c200'}
+for i,(part,beats) in enumerate(BICHO):
+    k=f'e{160+i}'; shots=[]; lines=[]
+    for line,sh in beats:
+        sh=dict(sh); sh.setdefault('clock',part); shots.append(sh); lines.append(line)
+    SCR[k]=lines
+    cfgs[k]=dict(sport='soccer',label='LA VIDA DEL BICHO · '+part,teams=[T['SPO'],T['MUN']],crowd=['#0b8f4d','#ffffff','#da291c','#111111'],confetti=['#0b8f4d','#ffffff','#ffd700'],series='SERIE ⚽ LA VIDA DEL BICHO',noBoard=True,outroSub='EPISODIO %d → SÍGUEME' % (i+2),grade='contrast(1.15) saturate(1.25)',shots=shots)
+sj=json.load(open('scripts.json')); sj.update(SCR); json.dump(sj,open('scripts.json','w'),ensure_ascii=False,indent=1)
 json.dump(tim,open('timing.json','w'),ensure_ascii=False,indent=1)
 open('edits.js','w').write('export const CONFIGS = '+json.dumps(cfgs,ensure_ascii=False)+';\n')
 print({k:round(v['dur']+0.8,1) for k,v in tim.items() if k.startswith('e') and k[1:].isdigit()})
