@@ -688,6 +688,18 @@ for i,(part,beats) in enumerate(BICHO):
     SCR[k]=lines
     cfgs[k]=dict(sport='soccer',label='LA VIDA DEL BICHO · '+part,teams=[T['SPO'],T['MUN']],crowd=['#0b8f4d','#ffffff','#da291c','#111111'],confetti=['#0b8f4d','#ffffff','#ffd700'],series='SERIE ⚽ LA VIDA DEL BICHO',noBoard=True,outroSub='EPISODIO %d → SÍGUEME' % (i+2),grade='contrast(1.15) saturate(1.25)',shots=shots)
 sj=json.load(open('scripts.json')); sj.update(SCR); json.dump(sj,open('scripts.json','w'),ensure_ascii=False,indent=1)
+exec(open('ytseries.py').read())
+NT['UNO']={'name':'Dólar Bulls','abbr':'$1','shirt':'#111111','alt':'#f2c200','shorts':'#f2c200','socks':'#111111','num':'#f2c200','numStroke':'#111111','helmet':'#111111','mask':'#f2c200','helmetStripe':'#f2c200'}
+T['EST']={'name':'Vacío FC','abbr':'VFC','shirt':'#1e5aa8','alt':'#ffffff','shorts':'#ffffff','socks':'#1e5aa8','num':'#ffffff','numStroke':'#111','keeper':'#f2c200'}
+for k,c in YT.items():
+    shots=[]; lines=[]
+    for line,sh in c['beats']:
+        sh=dict(sh); sh.setdefault('clock',c['part']); shots.append(sh); lines.append(line)
+    SCR[k]=lines
+    base=dict(label=c['label'],series=c['series'],noBoard=True,hud=c['hud'],outroSub=c['outro'],grade='contrast(1.1) saturate(1.3)',shots=shots,blocky=True)
+    if c['kind']=='nfl': cfgs[k]=dict(base,sport='nfl',crowdFill=0.04,seatColor='#5a5f66',teams=[NT['UNO'],NT['DAL_H']],offense=0,numbers=[NUM(1,25,13),[88,4,11,21,90,54,75,79,67,50,43]],crowd=['#3a3f47','#2f343b','#444a52'],confetti=['#f2c200','#111111','#ffffff'])
+    else: cfgs[k]=dict(base,sport='soccer',crowdFill=0.0,teams=[T['EST'],T['MUN']],crowd=['#3a3f47','#2f343b','#444a52'],confetti=['#1e5aa8','#ffffff','#ffd700'])
+sj=json.load(open('scripts.json')); sj.update(SCR); json.dump(sj,open('scripts.json','w'),ensure_ascii=False,indent=1)
 json.dump(tim,open('timing.json','w'),ensure_ascii=False,indent=1)
 open('edits.js','w').write('export const CONFIGS = '+json.dumps(cfgs,ensure_ascii=False)+';\n')
 print({k:round(v['dur']+0.8,1) for k,v in tim.items() if k.startswith('e') and k[1:].isdigit()})

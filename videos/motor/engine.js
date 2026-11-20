@@ -85,12 +85,13 @@ function fieldTexture() {
   });
 }
 
-function crowdTexture(colors) {
+function crowdTexture(colors, fill = 1) {
   return canvasTex(1024, 512, (g, w, h) => {
     g.fillStyle = '#15161c'; g.fillRect(0, 0, w, h);
     for (let r = 0; r < 26; r++) {
       for (let c = 0; c < 64; c++) {
         const k = r * 64 + c, x = c * 16 + 8 + (hash(k) - .5) * 4, y = r * 19.6 + 10;
+        if (hash(k * 3.7) > fill) { g.fillStyle = (CFG.seatColor || '#2b5d9e'); g.fillRect(x - 6, y - 1, 12, 9); g.fillStyle = 'rgba(0,0,0,0.35)'; g.fillRect(x - 6, y + 6, 12, 2); continue; }
         const col = hash(k * 1.7) < 0.62 ? colors[Math.floor(hash(k * 2.3) * colors.length)] : ['#ddd', '#333', '#888', '#c44', '#447', '#bb9'][Math.floor(hash(k * 5.1) * 6)];
         g.fillStyle = col; g.fillRect(x - 5, y - 2, 10, 11);
         g.fillStyle = ['#e0b896', '#a87454', '#6b4430', '#f1cfb2'][Math.floor(hash(k * 9.3) * 4)];
@@ -146,7 +147,7 @@ function buildStadium() {
   geo.setAttribute('position', new THREE.Float32BufferAttribute(pos, 3));
   geo.setAttribute('uv', new THREE.Float32BufferAttribute(uv, 2));
   geo.setIndex(idx); geo.computeVertexNormals();
-  crowdTex = crowdTexture(CFG.crowd || [CFG.teams[0].shirt, CFG.teams[1].shirt]);
+  crowdTex = crowdTexture(CFG.crowd || [CFG.teams[0].shirt, CFG.teams[1].shirt], CFG.crowdFill ?? 1);
   crowdTex.wrapS = crowdTex.wrapT = THREE.RepeatWrapping;
   const stands = new THREE.Mesh(geo, new THREE.MeshLambertMaterial({ map: crowdTex, side: THREE.DoubleSide }));
   scene.add(stands);
@@ -1302,7 +1303,7 @@ window.renderAt = function (t) {
   const tg = g.createLinearGradient(0, 0, 0, 420); tg.addColorStop(0, 'rgba(0,0,0,0.55)'); tg.addColorStop(1, 'rgba(0,0,0,0)'); g.fillStyle = tg; g.fillRect(0, 0, W, 420);
   for (const L of CFG._labels || []) { const v = L.w.clone().project(camera); if (v.z > 1) continue; const sx = (v.x + 1) / 2 * W, sy = (1 - v.y) / 2 * H; g.save(); g.font = 'bold 96px DejaVu Sans'; g.textAlign = 'center'; g.textBaseline = 'bottom'; g.lineJoin = 'round'; g.lineWidth = 16; g.strokeStyle = 'rgba(0,0,0,0.85)'; g.strokeText(L.txt, sx, sy); g.fillStyle = L.col; g.fillText(L.txt, sx, sy); g.restore(); }
   if (CFG.hud && sh.type !== 'outro') { const H0 = CFG.hud; g.save(); const x0 = 60, y0 = 120, w = W - 120, h = 170; g.fillStyle = 'rgba(12,16,24,0.88)'; rr(g, x0, y0, w, h, 26); g.fill(); g.strokeStyle = '#f2c200'; g.lineWidth = 4; g.stroke();
-    const cols = [['❤️ LIKE = $1', H0.like], ['👥 SEGUIDOR = FAN', H0.fan], ['💬 COMENTARIO = JUGADOR', H0.jug]];
+    const L0 = H0.labels || ['❤️ LIKE = $1', '👥 SEGUIDOR = FAN', '💬 COMENTARIO = JUGADOR']; const cols = [[L0[0], H0.like], [L0[1], H0.fan], [L0[2], H0.jug]];
     cols.forEach(([lab, val], i) => { const cx = x0 + w * (i + 0.5) / 3; if (i) { g.strokeStyle = 'rgba(242,194,0,0.5)'; g.lineWidth = 2; g.beginPath(); g.moveTo(x0 + w * i / 3, y0 + 18); g.lineTo(x0 + w * i / 3, y0 + h - 18); g.stroke(); }
       g.textAlign = 'center'; g.textBaseline = 'middle'; g.fillStyle = '#f2c200'; g.font = `bold ${fitFont(g, lab, w / 3 - 24, 26)}px DejaVu Sans`; g.fillText(lab, cx, y0 + 46);
       g.fillStyle = '#fff'; g.font = 'bold 72px DejaVu Sans'; g.fillText(String(val), cx, y0 + 112); }); g.restore(); }
