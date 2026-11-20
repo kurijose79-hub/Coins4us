@@ -165,3 +165,4 @@ Cuentas: **Instagram @como.deportes** + **YouTube "¿Cómo deportes?"**. Cada vi
 - Club $1 Parte 2 (e151, HUD $20·11·9): YT publicado 19 nov https://www.youtube.com/watch?v=GVTQnDi0xRE · IG 20 nov 08:00
 - Bicho Ep.1 (videos/serie_bicho/ep1.mp4): listo, esperando revisión del usuario
 - 20 nov: drafts listos SIN publicar (esperan aprobación del usuario; las aprobaciones se cortan por reinicios): e170 estadio post 28388f4f-2ad2-4ba7-83fa-47a7f3c03953 · e180 NFL post 1d62b82a-4942-47e5-a4aa-a521b2fe8b89 · e190 hijo post d940d776-3100-4fa4-947b-be936381effa (YT de e170 ya pasó su hora: reprogramar)
+- 20 nov: ¡SOMOS 50 EN YOUTUBE! (e193) publicado (ya 59 subs) https://www.youtube.com/watch?v=0UnnkI_T2tQ
