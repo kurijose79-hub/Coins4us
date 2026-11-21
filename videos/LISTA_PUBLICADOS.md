@@ -171,3 +171,10 @@ Cuentas: **Instagram @como.deportes** + **YouTube "¿Cómo deportes?"**. Cada vi
   e66 Ramos YT 21/11 08:30 · IG 29/11 21:30 | e76 Messi cabeza YT 21/11 22:00 · IG 30/11 08:00 | e63 Cuauhtemiña YT 22/11 08:30 · IG 30/11 21:30
   e72 Chucky YT 22/11 22:00 · IG 1/12 08:00 | e79 Londres 2012 YT 23/11 08:30 · IG 1/12 21:30
   e75 Leicester · e80 Pirlo · e84 Mahomes 13s · e85 Miami · e89 Odell: IG programado 2/12–4/12; YT pendiente (límite 5/día de vidIQ), se publica 21/11 08:10 UTC
+
+## 20 nov (noche, CDMX) — publicados sin pedir permiso
+- Higuita escorpión (e44, 3D cuadrada): YT 20 nov 19:30 · IG 21 nov 16:00 (en lugar de golf 2D)
+- Campo $1 Parte 3 (x29: 17 miembros, $78, día 3): YT https://www.youtube.com/watch?v=jj6i1wO1Vf8 · IG 21 nov 14:00
+- ¡SOMOS 100 EN YOUTUBE! (e194): YT https://www.youtube.com/watch?v=TGTHzVYOlfs
+- Club $1 Parte 3 (e152: $94, 103 subs, 20 jugadores, meta $10,000): YT https://www.youtube.com/watch?v=kPV76R6l_yU · IG 22 nov 14:00
+- Golf 2D "¿Por qué?" de las 16:00 (21–30 nov) movidos al 15–24 dic; esos huecos son para los edits cuadrados e45–e58.
