@@ -178,3 +178,8 @@ Cuentas: **Instagram @como.deportes** + **YouTube "¿Cómo deportes?"**. Cada vi
 - ¡SOMOS 100 EN YOUTUBE! (e194): YT https://www.youtube.com/watch?v=TGTHzVYOlfs
 - Club $1 Parte 3 (e152: $94, 103 subs, 20 jugadores, meta $10,000): YT https://www.youtube.com/watch?v=kPV76R6l_yU · IG 22 nov 14:00
 - Golf 2D "¿Por qué?" de las 16:00 (21–30 nov) movidos al 15–24 dic; esos huecos son para los edits cuadrados e45–e58.
+
+## 21 nov (CDMX)
+- YT (cuota del día): Mi estadio vacío P1 (22 nov 18:00), Equipo NFL P1 (22 nov 18:00), Mi hijo futbolista P1 (21 nov 10:00), Leicester (21 nov 13:00), Pirlo (22 nov 13:00)
+- Edits cuadrados lote 1 en IG 16:00 CDMX: Higuita 21 · Ochoa 22 · Mano de Dios 23 · Zidane 24 · Ronaldinho 25 · Messi 91 26 · Karius 27 · Lampard 28 · Bale 29 · Carlos Alberto 30 nov. Sus destinos YT quedan en borrador (publicar 5/día).
+- ¡SOMOS 200! (e195): renderizado y subido a vidIQ (uploadId 67dfe7de-1b68-4c3f-9770-f58861cbbc36). PUBLICAR SOLO CUANDO EL USUARIO DIGA.
