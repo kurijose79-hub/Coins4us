@@ -21,3 +21,8 @@ Regla: MIEMBROS = suscriptores nuevos que trae cada parte (YouTube). Placas = qu
 | @daniel-f9t5i | Parte 2 | VIP oro |
 
 Contador: P2 = 6/1000 · $69 · día 2 — P3 = 17/1000 · $78 · día 3 (Campo P1 trajo +17 subs).
+
+## Para la Parte 4 (capturas IG 20 nov 20:23)
+- @j_c.g.g (IG, empezó a seguir desde el reel): "Yo la quiero con mi nombre en todo: en el carrito de golf y en mi palo de golf" → miembro nuevo + VIP: carrito y palo con su nombre (escena especial).
+- @matiasluis142 (IG): "Golf Lagunitas!" → propuesta de NOMBRE del campo. Poner a votación en la Parte 4 ("¿Se llama GOLF LAGUNITAS? Comenta SÍ o tu propuesta").
+- Seguidores nuevos IG (cuentan como miembros): caslamartinezz22, valdepenha1, benjaminfranklin14, juanjbocaletti, j_c.g.g.

@@ -28,3 +28,6 @@ Repetidos → "2.0". Muchos porteros → banca o cambian de posición. META: $10
 
 Patrocinio ofrecido: @kendercastro3640 dice $500 (NO sumado a la caja).
 Contador: P2 = $20 · 11 fans · 9 jugadores — P3 = $94 · 103 subs · 20 jugadores (faltan $9,906).
+
+## Para la Parte 4 (capturas IG 20 nov 20:23)
+- @juanjbocaletti (IG, empezó a seguir desde el reel): "Amigo, yo no quiero ser jugador, puedo ser el…" (texto cortado; ver completo) → darle un puesto fuera de la cancha (DT / presidente / utilero según lo que pidió).
