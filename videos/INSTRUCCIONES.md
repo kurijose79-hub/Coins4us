@@ -83,3 +83,8 @@ El usuario quiere que TODO se suba directo, sin pedirle aprobación nunca (permi
 - (20 nov 12:45) YouTube Club P1: 1,870 vistas, 63 likes, 28 comentarios, +26 subs. Campo P1: 1,112 vistas, 32 likes, 2 comentarios, +17 subs.
 - Club comentarios extra: daniel-f9t5i (extremo derecho), JoséAngel-v8y (defensa), Carvel-x5o (Mbappé de portero), kendercastro3640 (delantero Funi + ofrece $500 de patrocinio), México-f4b (Maradona de central).
 - Regla: en Campo, MIEMBROS = suscriptores nuevos que trajo la parte anterior (Campo P1 = +17); en Club, FANS = suscriptores del canal.
+
+## Series interactivas: TODAS siguen (pedido del usuario 21 nov: "tienen que seguir todos")
+- Club $1, Campo $1, Mi estadio vacío, Mi hijo futbolista, Equipo NFL $1: cada parte nueva con los datos de las capturas del usuario + subs (vidiq_user_channels) + likes IG (insights).
+- Registro por serie: serie_club1/PLANTILLA.md, serie_campo/MIEMBROS.md, serie_youtube/HIJO.md, serie_youtube/ESTADIO.md (NFL: crear al tener datos).
+- Hacer la siguiente parte cuando la anterior ya tiene ~1 día de datos en YouTube.
