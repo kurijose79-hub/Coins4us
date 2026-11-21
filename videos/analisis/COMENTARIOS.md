@@ -12,3 +12,6 @@ Regla del usuario: cada captura que manda es para usar en los SIGUIENTES videos 
 ## Idea de uso
 - Video "¿Alcaraz o Sinner?" / "¿Alcaraz será el mejor?" con nombres de quienes votaron Alcaraz.
 - Cierre de los edits: "Gracias @… por seguirnos" (1–2 nombres por video).
+- (21 nov 12:06) @jlp6198619 en tenis: "Carlitos y Jannik con chance, los únicos" → usar en un video Alcaraz vs Sinner.
+- Seguidores nuevos: bernardo_repre, santino.toniollo, rimacfigueroa.
+- YouTube: 195 suscriptores (21 nov 9:33) → video "¡SOMOS 200!" listo, publicar cuando el usuario diga.

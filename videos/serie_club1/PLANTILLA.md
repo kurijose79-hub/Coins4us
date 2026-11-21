@@ -39,3 +39,11 @@ Contador: P2 = $20 · 11 fans · 9 jugadores — P3 = $94 · 103 subs · 20 juga
   - Ñiñano Ñonaldo — delantero 😂 (@anahibelenyuri797)
   - Armando — delantero o portero; pidió "CR7" y "Ronaldo Nazario" (@armandoruiz7714) → "Ronaldo 2.0"
 - @Carvel-x5o: "¿y el nombre del club?" → VOTACIÓN del nombre del club en la P4 (comenta tu propuesta). Pide que Mbappé deje la portería y juegue de lateral/extremo → cambiarlo (gracias a Carvel).
+
+## Club Parte 3 (YT, 21 nov 9:32): 1,121 vistas · 30 likes · 5 comentarios · +13 subs. Canal: 195 suscriptores.
+Jugadores nuevos para la Parte 4:
+- Rito — mediocampista (@RitoGuerra-m7r)
+- Alain — delantero centro, "99 de ritmo y finalización" (@BatAlainazo)
+- Cucurella — lateral (@GatoCucurella-i4w)
+- Luciano, argentino — lateral izq / extremo der / medio (@LucianoVelazco-y3l)
+- Fer "Ronaldo" — se suscribió y quiere ser Ronaldo (@FerAguilar-f8x) → Ronaldo 3.0 (ya hay Ronaldo 2.0 de Armando)
