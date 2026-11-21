@@ -27,3 +27,7 @@ Contador: P2 = 6/1000 · $69 · día 2 — P3 = 17/1000 · $78 · día 3 (Campo 
 - @matiasluis142 (IG): "Golf Lagunitas!" → propuesta de NOMBRE del campo. Poner a votación en la Parte 4 ("¿Se llama GOLF LAGUNITAS? Comenta SÍ o tu propuesta").
 - Seguidores nuevos IG (cuentan como miembros): caslamartinezz22, valdepenha1, benjaminfranklin14, juanjbocaletti, j_c.g.g.
 - (capturas YT 20 nov 20:25) Campo P1 YT = 47 likes. @RebeRazo-sg8ce comentó 😮 en Campo P1 → miembro con placa.
+
+## Parte 4 (hecha 21 nov): 20/1000 · $95 · día 4/30
+- Nuevos: @j_c.g.g (VIP, carrito con su nombre), @RebeRazo-sg8ce, @matiasluis142 (propuso "Golf Lagunitas" → votación).
+- Dinero: $78 + 15 likes nuevos en P1 YT (32→47) + 2 likes IG P3 = $95.
