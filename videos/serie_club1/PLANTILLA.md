@@ -31,3 +31,11 @@ Contador: P2 = $20 · 11 fans · 9 jugadores — P3 = $94 · 103 subs · 20 juga
 
 ## Para la Parte 4 (capturas IG 20 nov 20:23)
 - @juanjbocaletti (IG, empezó a seguir desde el reel): "Amigo, yo no quiero ser jugador, puedo ser el…" (texto cortado; ver completo) → darle un puesto fuera de la cancha (DT / presidente / utilero según lo que pidió).
+- (capturas YT 20 nov 20:25) Likes YT: Parte 1 = 86, Parte 2 = 22 → caja P4 parte de $94 + nuevos likes (recalcular con todo: YT 86+22 + IG + P3).
+- Jugadores nuevos para P4:
+  - Chicho — defensa (@chichojuegajuegitos)
+  - Martín Romo — extremo izquierdo, dorsal 15 (@Martingonzalez-qg1bk)
+  - Juanito JR — mediocampo, "tiro fuerte" (@Ecuador_FC-XD)
+  - Ñiñano Ñonaldo — delantero 😂 (@anahibelenyuri797)
+  - Armando — delantero o portero; pidió "CR7" y "Ronaldo Nazario" (@armandoruiz7714) → "Ronaldo 2.0"
+- @Carvel-x5o: "¿y el nombre del club?" → VOTACIÓN del nombre del club en la P4 (comenta tu propuesta). Pide que Mbappé deje la portería y juegue de lateral/extremo → cambiarlo (gracias a Carvel).
