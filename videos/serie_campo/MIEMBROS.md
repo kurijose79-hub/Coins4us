@@ -31,3 +31,4 @@ Contador: P2 = 6/1000 · $69 · día 2 — P3 = 17/1000 · $78 · día 3 (Campo 
 ## Parte 4 (hecha 21 nov): 20/1000 · $95 · día 4/30
 - Nuevos: @j_c.g.g (VIP, carrito con su nombre), @RebeRazo-sg8ce, @matiasluis142 (propuso "Golf Lagunitas" → votación).
 - Dinero: $78 + 15 likes nuevos en P1 YT (32→47) + 2 likes IG P3 = $95.
+- CORREGIDO P4 con datos YT: Campo P3 = 862 vistas, 18 likes, +26 subs → 43 miembros, $113 ($78 +15 P1 +2 IG +18 P3), faltan 957.

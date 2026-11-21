@@ -15,3 +15,5 @@ Regla del usuario: cada captura que manda es para usar en los SIGUIENTES videos 
 - (21 nov 12:06) @jlp6198619 en tenis: "Carlitos y Jannik con chance, los únicos" → usar en un video Alcaraz vs Sinner.
 - Seguidores nuevos: bernardo_repre, santino.toniollo, rimacfigueroa.
 - YouTube: 195 suscriptores (21 nov 9:33) → video "¡SOMOS 200!" listo, publicar cuando el usuario diga.
+- (21 nov 17:10) YT: Club P1 185 likes, P2 33, P3 43 · Campo P3 862 vistas, 18 likes, +26 subs · @Carvel-x5o "grande crack".
+- IG seguidores nuevos: rodovaldomorejon, silv3rsk, i_msergio.

@@ -52,3 +52,4 @@ Jugadores nuevos para la Parte 4:
 - Caja: $94 + nuevos likes (P1 YT 63→86 = +23, P2 YT 20→22 = +2, P3 YT 30, P2 IG 5→8 = +3) = $152.
 - +10 jugadores: Chicho, Martín Romo (15), Juanito JR, Rito, Alain, Cucurella, Luciano, Ronaldo 2.0 (Armando), Ronaldo 3.0 (Fer), Ñiñano Ñonaldo.
 - Mbappé pasa a lateral (Carvel). Juan (juanjbocaletti): se le pregunta qué puesto quiere. Primer partido: 1-1 (gol de Alain). Votación del nombre del club → Parte 5.
+- CORREGIDO P4: caja = todos los likes (YT P1 185 + P2 33 + P3 43 + IG 6 + 8) = $275 · faltan $9,725.
