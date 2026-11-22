@@ -17,3 +17,7 @@ Regla del usuario: cada captura que manda es para usar en los SIGUIENTES videos 
 - YouTube: 195 suscriptores (21 nov 9:33) → video "¡SOMOS 200!" listo, publicar cuando el usuario diga.
 - (21 nov 17:10) YT: Club P1 185 likes, P2 33, P3 43 · Campo P3 862 vistas, 18 likes, +26 subs · @Carvel-x5o "grande crack".
 - IG seguidores nuevos: rodovaldomorejon, silv3rsk, i_msergio.
+
+## Ideas diarias de vidIQ (guardadas por el usuario, 21 nov)
+Hechas como edit 3D cuadrado: e219 "¿Cómo anotar un gol imposible?" (Begović 91 m, chilena de Ibra, gol olímpico) · e220 "Cómo asegurar un tiro libre perfecto" (3 pasos) · e221 "Por qué todo pasa en el último minuto" (Agüero, Ramos, Man United 99) · "Argentina vs México: el duelo épico" = e217 (Maxi 2006).
+Pendientes (no encajan aún con el motor): Pitbull Cruz, correr al revés, calor/sudor, ejercicio de velocidad, Raphinha, leer la jugada, golf y física (ya hay hoyuelos en cola), balón improvisado, árbol.
