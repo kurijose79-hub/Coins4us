@@ -25,3 +25,4 @@ Pendientes (no encajan aún con el motor): Pitbull Cruz, correr al revés, calor
 - (21 nov 23:06 IG) @franciscolopezcanales1992 comentó en un tenis (probable Federer–Djokovic 2019): "Debió ganarle, ganó en todas las…" → mencionarlo en el próximo debate de tenis.
 - Seguidor nuevo: @gmendezudelsur. @sami_35292 ("Ya", Estadio) ya está como canto #4.
 - Likes activos: moises.rdzz, martinrdz0405, santi_delac_, pepe_kuri2013, the.amtzluxyy, luciano_sebastian.a.g.__, evita21salamanca, olivamendez36, tomasvernaza250, joaquin_salazara, _ssj_knp._
+- (22 nov 09:47) Canal YT: 341 subs · 55.0k vistas totales · 1.0K likes · 61 comentarios · 39.4k vistas últimos 7 días. Hijo P1 202 likes · ¡Somos 50! 40 likes · Messi de cabeza 2009: 500 vistas · Abu Dabi F1 200 vistas.

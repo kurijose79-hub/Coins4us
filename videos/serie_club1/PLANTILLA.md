@@ -56,3 +56,4 @@ Jugadores nuevos para la Parte 4:
 
 ## Para la Parte 5 (capturas YT 21 nov 23:08): likes P1 194 · P2 33 · P3 45
 Nuevos: Miguel "la araña negra" portero (@HugoabdonMiranda) · Jorge Campos portero (@gaele.navarroalejo4112) · Buffon portero (@AndresEscoto-n8e) · Messi extremo izq (@fernandoalvarezderon, @lisethperez1126 "juego como Cristiano y Messi") · Messi delantero (@SebastiánHidalgo-s7u, @MaxHernandes-c5o) → "Messi 3.0/4.0" · Cristiano (@Melissa-qe4eu) · Cristiano 2008 + Ronaldinho (@dinatordecilla7907) · Peter Crouch delantero (@AlbaLuciaPuerto) · @Xxaitonoxpox "Primerooo fíjame".
+- (22 nov 09:46 YT) Likes: P1 199 · P2 38 · P3 49. Nuevos: Ángel portero nuevo (@AnaRivas-l6o) · Juan arquero (@helgadeolivera1293 — ¿es el Juan que pedía puesto? él dice "juan y soy arquero") · @nometroles "Yo defensas".
