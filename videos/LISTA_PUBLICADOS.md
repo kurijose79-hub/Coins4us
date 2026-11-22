@@ -185,3 +185,10 @@ Cuentas: **Instagram @como.deportes** + **YouTube "¿Cómo deportes?"**. Cada vi
 - ¡SOMOS 200! (e195): renderizado y subido a vidIQ (uploadId 67dfe7de-1b68-4c3f-9770-f58861cbbc36). PUBLICAR SOLO CUANDO EL USUARIO DIGA.
 - Campo $1 Parte 4 (43 miembros, $113, Golf Lagunitas): IG 23 nov 14:00 · YT 22 nov 12:00 (lo publica el recordatorio 08:10Z)
 - Club $1 Parte 4 ($275, 271 subs, 30 jugadores, 1-1): IG 24 nov 14:00 · YT 22 nov 14:00 (recordatorio 08:10Z)
+
+## 22 nov (YT, cuota del día)
+- ¡SOMOS 300 EN YOUTUBE! (e196): publicado al momento
+- Campo $1 Parte 4: YT 22 nov 12:00 CDMX
+- Club $1 Parte 4: YT 22 nov 15:00 CDMX
+- Mahomes 13 s: YT 22 nov 09:00 CDMX · Milagro de Miami: YT 23 nov 09:00 CDMX
+- Pendiente YT: Odell (7a71b00d / pub 5395d6a2) → próximo día. ¡Somos 200! (e195) NO se publica (ya pasamos 300).
