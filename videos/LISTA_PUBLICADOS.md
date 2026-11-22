@@ -183,3 +183,5 @@ Cuentas: **Instagram @como.deportes** + **YouTube "¿Cómo deportes?"**. Cada vi
 - YT (cuota del día): Mi estadio vacío P1 (22 nov 18:00), Equipo NFL P1 (22 nov 18:00), Mi hijo futbolista P1 (21 nov 10:00), Leicester (21 nov 13:00), Pirlo (22 nov 13:00)
 - Edits cuadrados lote 1 en IG 16:00 CDMX: Higuita 21 · Ochoa 22 · Mano de Dios 23 · Zidane 24 · Ronaldinho 25 · Messi 91 26 · Karius 27 · Lampard 28 · Bale 29 · Carlos Alberto 30 nov. Sus destinos YT quedan en borrador (publicar 5/día).
 - ¡SOMOS 200! (e195): renderizado y subido a vidIQ (uploadId 67dfe7de-1b68-4c3f-9770-f58861cbbc36). PUBLICAR SOLO CUANDO EL USUARIO DIGA.
+- Campo $1 Parte 4 (43 miembros, $113, Golf Lagunitas): IG 23 nov 14:00 · YT 22 nov 12:00 (lo publica el recordatorio 08:10Z)
+- Club $1 Parte 4 ($275, 271 subs, 30 jugadores, 1-1): IG 24 nov 14:00 · YT 22 nov 14:00 (recordatorio 08:10Z)
