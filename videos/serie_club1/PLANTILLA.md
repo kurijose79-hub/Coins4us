@@ -53,3 +53,6 @@ Jugadores nuevos para la Parte 4:
 - +10 jugadores: Chicho, Martín Romo (15), Juanito JR, Rito, Alain, Cucurella, Luciano, Ronaldo 2.0 (Armando), Ronaldo 3.0 (Fer), Ñiñano Ñonaldo.
 - Mbappé pasa a lateral (Carvel). Juan (juanjbocaletti): se le pregunta qué puesto quiere. Primer partido: 1-1 (gol de Alain). Votación del nombre del club → Parte 5.
 - CORREGIDO P4: caja = todos los likes (YT P1 185 + P2 33 + P3 43 + IG 6 + 8) = $275 · faltan $9,725.
+
+## Para la Parte 5 (capturas YT 21 nov 23:08): likes P1 194 · P2 33 · P3 45
+Nuevos: Miguel "la araña negra" portero (@HugoabdonMiranda) · Jorge Campos portero (@gaele.navarroalejo4112) · Buffon portero (@AndresEscoto-n8e) · Messi extremo izq (@fernandoalvarezderon, @lisethperez1126 "juego como Cristiano y Messi") · Messi delantero (@SebastiánHidalgo-s7u, @MaxHernandes-c5o) → "Messi 3.0/4.0" · Cristiano (@Melissa-qe4eu) · Cristiano 2008 + Ronaldinho (@dinatordecilla7907) · Peter Crouch delantero (@AlbaLuciaPuerto) · @Xxaitonoxpox "Primerooo fíjame".

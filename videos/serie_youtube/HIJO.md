@@ -9,3 +9,4 @@ Votación de posición (comentarios YT):
 - EXTREMO DERECHO (1): @Incoseps.a.s
 - Nombre propuesto: "Felipe" (@JuliaMaidana-z9b), "David" (@YeshúaDavid999)
 → Parte 2: gana PORTERO (9 votos). Votación del nombre: ¿Felipe o David?
+- (21 nov 23:08) P1 YT: 172 likes. Votos nuevos: PORTERO +@jadenmorales-p4j +@LuzMartinez-kf2gj +@JulioAlbertoLópezGarcia +@lorenahernandez9937 ("yo quiero ser portero") · DELANTERO +@XIXA-EDITION +@PabloEmilioCardozoDaza · DEFENSA CENTRAL +@severinarosriguez63 ("carnicero"). Total aprox: Portero 13 · Delantero 8 · Defensa 3. (Hijo P2 ya hecho con 119 h; P3 usar 172 h+).

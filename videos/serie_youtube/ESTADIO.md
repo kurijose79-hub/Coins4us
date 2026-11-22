@@ -7,3 +7,4 @@ Parte 1 IG (21 nov 12:06): 6 likes, 3 comentarios, 1 reposteo.
 - @ivancuyito reposteó el reel → agradecer
 - (21 nov 16:22) IG Parte 1: 9 likes, 3 comentarios, 1 reposteo. @sami_35292 comentó "Ya" con foto → canto #4.
 - Seguidores nuevos IG (fans para la P2): rodovaldomorejon, silv3rsk, i_msergio, gmendezudelsur, bernardo_repre, santino.toniollo.
+- (21 nov 23:08) P1 YT: 78 likes ($78 para luces). Cantos YT: @jadenmorales-p4j "¡Sí podemos!", @daniel-f9t5i "¡Vamos, sí podemos!" → canto oficial: "¡SÍ PODEMOS!"
