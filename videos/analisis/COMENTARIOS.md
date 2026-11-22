@@ -22,3 +22,6 @@ Regla del usuario: cada captura que manda es para usar en los SIGUIENTES videos 
 Hechas como edit 3D cuadrado: e219 "¿Cómo anotar un gol imposible?" (Begović 91 m, chilena de Ibra, gol olímpico) · e220 "Cómo asegurar un tiro libre perfecto" (3 pasos) · e221 "Por qué todo pasa en el último minuto" (Agüero, Ramos, Man United 99) · "Argentina vs México: el duelo épico" = e217 (Maxi 2006).
 Pendientes (no encajan aún con el motor): Pitbull Cruz, correr al revés, calor/sudor, ejercicio de velocidad, Raphinha, leer la jugada, golf y física (ya hay hoyuelos en cola), balón improvisado, árbol.
 - Ideas en 2D (x31–x37, videos/ideas/): correr al revés · mito del calor · por qué sudas · 30 s para ser más rápido · balón casero (Pelé) · leer la jugada · por qué la bola va al árbol (fijación). No hechas: Pitbull Cruz y Raphinha (datos que no puedo verificar), "Mi reacción…" (sin tema).
+- (21 nov 23:06 IG) @franciscolopezcanales1992 comentó en un tenis (probable Federer–Djokovic 2019): "Debió ganarle, ganó en todas las…" → mencionarlo en el próximo debate de tenis.
+- Seguidor nuevo: @gmendezudelsur. @sami_35292 ("Ya", Estadio) ya está como canto #4.
+- Likes activos: moises.rdzz, martinrdz0405, santi_delac_, pepe_kuri2013, the.amtzluxyy, luciano_sebastian.a.g.__, evita21salamanca, olivamendez36, tomasvernaza250, joaquin_salazara, _ssj_knp._
