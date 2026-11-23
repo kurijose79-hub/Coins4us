@@ -201,3 +201,5 @@ Cuentas: **Instagram @como.deportes** + **YouTube "¿Cómo deportes?"**. Cada vi
 - Mi estadio vacío P2 (e171): IG 24 nov 10:30 CDMX · YT en borrador postId 897d5e21-1815-49a2-8ffb-64c556f4ed72 pub 8b6bfd2e-7273-4d66-bb81-e3d65f611ec4 (recordatorio 24 nov 08:10Z)
 - ¡SOMOS 200 EN INSTAGRAM! (e198): subido a vidIQ (uploadId ffc34c7a-a686-4ad2-93b6-2223853a6682), borrador IG; PUBLICAR CUANDO EL USUARIO DIGA.
 - ¡Somos 200 IG! borrador postId 89da95cc-96f6-4f60-947b-3e01eaceea3a rev a86441c9 (pub c8374942)
+- ¡SOMOS 200 EN INSTAGRAM!: publicado https://www.instagram.com/reel/DgFmKUmtw5s/
+- VIDEO LARGO "TOP 40" (videos/largos/top40_futbol_3d.mp4, 8:19): borrador YT postId ce48637b-6ad5-4b46-9ab9-2b91cdbf0f88 pub 22a5e992-7040-4ab7-a6fd-f7622ce27dfe (publishAt 25 nov 01:00Z). Lo publica el recordatorio del 24 nov 08:10Z.
