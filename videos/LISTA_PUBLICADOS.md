@@ -203,3 +203,4 @@ Cuentas: **Instagram @como.deportes** + **YouTube "¿Cómo deportes?"**. Cada vi
 - ¡Somos 200 IG! borrador postId 89da95cc-96f6-4f60-947b-3e01eaceea3a rev a86441c9 (pub c8374942)
 - ¡SOMOS 200 EN INSTAGRAM!: publicado https://www.instagram.com/reel/DgFmKUmtw5s/
 - VIDEO LARGO "TOP 40" (videos/largos/top40_futbol_3d.mp4, 8:19): borrador YT postId ce48637b-6ad5-4b46-9ab9-2b91cdbf0f88 pub 22a5e992-7040-4ab7-a6fd-f7622ce27dfe (publishAt 25 nov 01:00Z). Lo publica el recordatorio del 24 nov 08:10Z.
+- VIDEO LARGO 2 "Historias más increíbles del deporte en 3D" (videos/largos/historias_deporte_3d.mp4, 18:26): borrador YT postId 3cb0daba-cd68-4272-b7ba-ae4c4fa458e3 pub 1cdee84d-2b0c-49fb-b7ce-67d12ac07e5b (publishAt 27 nov 01:00Z). Lo publica el recordatorio del 24 nov.
