@@ -88,3 +88,9 @@ El usuario quiere que TODO se suba directo, sin pedirle aprobación nunca (permi
 - Club $1, Campo $1, Mi estadio vacío, Mi hijo futbolista, Equipo NFL $1: cada parte nueva con los datos de las capturas del usuario + subs (vidiq_user_channels) + likes IG (insights).
 - Registro por serie: serie_club1/PLANTILLA.md, serie_campo/MIEMBROS.md, serie_youtube/HIJO.md, serie_youtube/ESTADIO.md (NFL: crear al tener datos).
 - Hacer la siguiente parte cuando la anterior ya tiene ~1 día de datos en YouTube.
+
+## MONETIZACIÓN (desde 23 nov, pedido del usuario: "encárgate de cumplir los requisitos")
+- Requisito anuncios YPP: 1,000 subs + 4,000 h de reproducción en videos LARGOS (12 meses) — los Shorts NO cuentan para las horas (o 10M vistas de Shorts en 90 días).
+- Estrategia: 2–3 videos largos por semana (8–17 min, horizontal 1920x1080) hechos con compilaciones de nuestro material 3D: TOP 40 fútbol, historias del deporte, series completas (Club/Campo/Hijo/Estadio/NFL cuando tengan 5+ partes), especiales por país (México, Argentina), por deporte.
+- Cada Short nuevo: en la descripción "Video completo en el canal" y el usuario pone "Video relacionado" al largo en YouTube Studio.
+- Salida: videos/largos/.
