@@ -12,3 +12,4 @@ Parte 1 IG (21 nov 12:06): 6 likes, 3 comentarios, 1 reposteo.
 
 ## Parte 2 (hecha 23 nov): 407 fans (subs canal) · $98 (likes YT P1) · 8 cantos
 Primera torre de luces. Canto oficial "¡SÍ PODEMOS!" (jadenmorales-p4j, daniel-f9t5i). Gracias: dyla, bernardo, nometroles, santino, sami. Faltan 593 para 1,000.
+- (22 nov 23:45) P1 YT 142 likes ($142).
