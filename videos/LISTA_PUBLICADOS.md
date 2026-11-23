@@ -192,3 +192,5 @@ Cuentas: **Instagram @como.deportes** + **YouTube "¿Cómo deportes?"**. Cada vi
 - Club $1 Parte 4: YT 22 nov 15:00 CDMX
 - Mahomes 13 s: YT 22 nov 09:00 CDMX · Milagro de Miami: YT 23 nov 09:00 CDMX
 - Pendiente YT: Odell (7a71b00d / pub 5395d6a2) → próximo día. ¡Somos 200! (e195) NO se publica (ya pasamos 300).
+- 5 edits México lote 2 en IG 11:30 CDMX: Maxi 2006 (23 nov) · #NoEraPenal (24) · Borgetti (25) · Hugo Sánchez (26) · México 3-1 Croacia (27). YT ya con hora 26–30 nov 09:00 pero en BORRADOR: publicar con la cuota (postIds 0b72c5d8, 3be48b80, f67fafa2, e224ddd2, b82da629).
+- Ideas 2D x31–x37 renderizadas (videos/ideas/), sin subir.

@@ -9,3 +9,6 @@ Parte 1 IG (21 nov 12:06): 6 likes, 3 comentarios, 1 reposteo.
 - Seguidores nuevos IG (fans para la P2): rodovaldomorejon, silv3rsk, i_msergio, gmendezudelsur, bernardo_repre, santino.toniollo.
 - (21 nov 23:08) P1 YT: 78 likes ($78 para luces). Cantos YT: @jadenmorales-p4j "¡Sí podemos!", @daniel-f9t5i "¡Vamos, sí podemos!" → canto oficial: "¡SÍ PODEMOS!"
 - (22 nov 09:46) P1 YT: 98 likes ($98). Canto: @nometroles "¡Vamos!"
+
+## Parte 2 (hecha 23 nov): 407 fans (subs canal) · $98 (likes YT P1) · 8 cantos
+Primera torre de luces. Canto oficial "¡SÍ PODEMOS!" (jadenmorales-p4j, daniel-f9t5i). Gracias: dyla, bernardo, nometroles, santino, sami. Faltan 593 para 1,000.
