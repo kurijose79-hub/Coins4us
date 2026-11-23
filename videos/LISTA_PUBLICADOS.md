@@ -200,3 +200,4 @@ Cuentas: **Instagram @como.deportes** + **YouTube "¿Cómo deportes?"**. Cada vi
 - YT programados: Mi hijo futbolista P2 (23 nov 12:00 CDMX) · Ochoa (23 nov 19:30) · Mano de Dios (24 nov 19:30) · Zidane (25 nov 19:30)
 - Mi estadio vacío P2 (e171): IG 24 nov 10:30 CDMX · YT en borrador postId 897d5e21-1815-49a2-8ffb-64c556f4ed72 pub 8b6bfd2e-7273-4d66-bb81-e3d65f611ec4 (recordatorio 24 nov 08:10Z)
 - ¡SOMOS 200 EN INSTAGRAM! (e198): subido a vidIQ (uploadId ffc34c7a-a686-4ad2-93b6-2223853a6682), borrador IG; PUBLICAR CUANDO EL USUARIO DIGA.
+- ¡Somos 200 IG! borrador postId 89da95cc-96f6-4f60-947b-3e01eaceea3a rev a86441c9 (pub c8374942)
