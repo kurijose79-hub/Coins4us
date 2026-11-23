@@ -194,3 +194,9 @@ Cuentas: **Instagram @como.deportes** + **YouTube "¿Cómo deportes?"**. Cada vi
 - Pendiente YT: Odell (7a71b00d / pub 5395d6a2) → próximo día. ¡Somos 200! (e195) NO se publica (ya pasamos 300).
 - 5 edits México lote 2 en IG 11:30 CDMX: Maxi 2006 (23 nov) · #NoEraPenal (24) · Borgetti (25) · Hugo Sánchez (26) · México 3-1 Croacia (27). YT ya con hora 26–30 nov 09:00 pero en BORRADOR: publicar con la cuota (postIds 0b72c5d8, 3be48b80, f67fafa2, e224ddd2, b82da629).
 - Ideas 2D x31–x37 renderizadas (videos/ideas/), sin subir.
+
+## 23 nov
+- ¡SOMOS 400 EN YOUTUBE! (e197): publicado al momento (YT)
+- YT programados: Mi hijo futbolista P2 (23 nov 12:00 CDMX) · Ochoa (23 nov 19:30) · Mano de Dios (24 nov 19:30) · Zidane (25 nov 19:30)
+- Mi estadio vacío P2 (e171): IG 24 nov 10:30 CDMX · YT en borrador postId 897d5e21-1815-49a2-8ffb-64c556f4ed72 pub 8b6bfd2e-7273-4d66-bb81-e3d65f611ec4 (recordatorio 24 nov 08:10Z)
+- ¡SOMOS 200 EN INSTAGRAM! (e198): subido a vidIQ (uploadId ffc34c7a-a686-4ad2-93b6-2223853a6682), borrador IG; PUBLICAR CUANDO EL USUARIO DIGA.
