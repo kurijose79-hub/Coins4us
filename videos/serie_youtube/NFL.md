@@ -11,3 +11,7 @@ Regla: LIKE = 1 yarda · SUSCRIPTOR = fan · COMENTARIO = jugador nuevo (nombre 
 - "Izquierdo" (tackle izquierdo): Brayan (@brayan40279)
 - Banca: Ali (@yogurt_defresita, "Ali, banquillo")
 - Seguidores nuevos IG (fans): juan__diene25, martinrdz0405, benjamin84562, ianaguilerajiimenez, 290382___, ist._kiko2026, jesusantonioalcaide, luis.oxy._.10, eliseoox013_xc, juan_dediosjimenez, dalyerarnaldo
+
+## Parte 2 (e181, hecha 23 nov): 22 yardas (likes IG P1) · 445 fans (subs YT) · 9 jugadores
+- Duelo de QB: Ian vs Gus → los fans votan en comentarios (Parte 3: el primer partido).
+- RB Mateo · WR Eivan · WR Iker · DEF El Goldo, J · LT Brayan · banca Ali.

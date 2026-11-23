@@ -58,3 +58,8 @@ Jugadores nuevos para la Parte 4:
 Nuevos: Miguel "la araña negra" portero (@HugoabdonMiranda) · Jorge Campos portero (@gaele.navarroalejo4112) · Buffon portero (@AndresEscoto-n8e) · Messi extremo izq (@fernandoalvarezderon, @lisethperez1126 "juego como Cristiano y Messi") · Messi delantero (@SebastiánHidalgo-s7u, @MaxHernandes-c5o) → "Messi 3.0/4.0" · Cristiano (@Melissa-qe4eu) · Cristiano 2008 + Ronaldinho (@dinatordecilla7907) · Peter Crouch delantero (@AlbaLuciaPuerto) · @Xxaitonoxpox "Primerooo fíjame".
 - (22 nov 09:46 YT) Likes: P1 199 · P2 38 · P3 49. Nuevos: Ángel portero nuevo (@AnaRivas-l6o) · Juan arquero (@helgadeolivera1293 — ¿es el Juan que pedía puesto? él dice "juan y soy arquero") · @nometroles "Yo defensas".
 - (22 nov 23:45 YT) Likes: P1 204 · P3 68. NOMBRE del club propuesto: "Peruanismo FC" (@mariatorre3972) → primera propuesta, ponerla en la votación de P5.
+
+## Parte 5 (e154, hecha 23 nov): $331 · 445 subs · 42 jugadores · faltan $9,669
+- Caja: YT P1 204 + P2 38 + P3 68 + IG P1 6 + P2 8 + P3 7 = $331 (likes de P4 aún sin captura → se suman en P6).
+- +12: Miguel "araña negra", Jorge Campos, Buffon, Ángel (AnaRivas), Juan arquero, nometroles (defensa), Messi 3.0, Messi 4.0, Cristiano, Ronaldinho, Peter Crouch, Xxaitonox.
+- "¿6 porteros nuevos?" · Gol de penal de Messi 3.0 · Votación de nombre: "Peruanismo FC" (María) u otro → Parte 6.
