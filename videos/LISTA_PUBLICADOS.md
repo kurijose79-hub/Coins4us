@@ -216,3 +216,8 @@ Cuentas: **Instagram @como.deportes** + **YouTube "¿Cómo deportes?"**. Cada vi
   - Agüero 93:20 e221: IG 30 nov · YT ac6a95f3-5f74-4683-976c-157cf2ae2117 pub 7e7ba435-8f12-49ec-8bb0-ed8bf2ef1384
   - Messi–Boateng e207: IG 1 dic · YT a5f6f78c-3835-4313-9338-edc2880c4030 pub 9bba59d5-329f-4f4d-97bf-8d3a1c8972aa
   - Zlatan chilena e203: IG 2 dic · YT 0b3398ff-b783-4ae2-868f-c6ef33201a74 pub 5f36ed54-c0cb-4d51-bf33-89e7780827d8
+  - Baggio e206: IG 3 dic · YT 957c7196-7aae-4da4-ae8e-f59981ece5b2 pub b82ecfe4-59f8-42c9-afaf-6e07e00b4356
+  - Grosso/Del Piero e215: IG 4 dic · YT 030a9b1a-5d0f-48ea-89fd-522296e0f1c8 pub 3f2e2e4a-8e45-4e42-ac82-bab9efaf0d78
+  - Zidane Panenka e56: IG 5 dic · YT 681c9718-9ca7-4177-bc62-d6c81d8ea8c6 pub 1dd04b4a-37c1-4077-9d5d-07140c64ac67
+  - Lewandowski 5 en 9 e57: IG 6 dic · YT 68f99837-e8f8-4eb5-a28e-1a7c228e1c46 pub ef16cd54-16e9-4f33-bc8c-4f49659a5e4a
+  - Van Persie e204: IG 7 dic · YT 8246bc8f-e723-4ccc-9192-fd9c8cf4a734 pub aaa45edb-4d42-4728-86cf-54b5105318a0
