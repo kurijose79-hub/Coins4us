@@ -206,3 +206,7 @@ Cuentas: **Instagram @como.deportes** + **YouTube "¿Cómo deportes?"**. Cada vi
 - VIDEO LARGO 2 "Historias más increíbles del deporte en 3D" (videos/largos/historias_deporte_3d.mp4, 18:26): borrador YT postId 3cb0daba-cd68-4272-b7ba-ae4c4fa458e3 pub 1cdee84d-2b0c-49fb-b7ce-67d12ac07e5b (publishAt 27 nov 01:00Z). Lo publica el recordatorio del 24 nov.
 - VIDEO LARGO 3 "Todas las series interactivas" (videos/largos/series_completas.mp4, 8:55): borrador YT (ver postId abajo), publishAt 29 nov 01:00Z.
   - postId df915b96-1ded-47bf-a1e0-557cc9067233 pub 7af249cd-7e82-41a1-80bd-60a3c4e9fca1
+
+## 24 nov
+- Equipo NFL $1 Parte 2 (e181: 22 yardas · 445 fans · 9 jugadores · duelo QB Ian vs Gus): IG programado 25 nov 14:30 CDMX · YT borrador postId 14080700-de02-4560-890c-b2e876f76067 pub 1f393649-c949-4566-b013-e7d60aa13f4d (lo publica el recordatorio del 25 nov 08:10Z)
+- Club $1 Parte 5 (e154: $331 · 445 subs · 42 jugadores · ¿6 porteros nuevos? · votación "Peruanismo FC"): renderizando
