@@ -210,3 +210,9 @@ Cuentas: **Instagram @como.deportes** + **YouTube "¿Cómo deportes?"**. Cada vi
 ## 24 nov
 - Equipo NFL $1 Parte 2 (e181: 22 yardas · 445 fans · 9 jugadores · duelo QB Ian vs Gus): IG programado 25 nov 14:30 CDMX · YT borrador postId 14080700-de02-4560-890c-b2e876f76067 pub 1f393649-c949-4566-b013-e7d60aa13f4d (lo publica el recordatorio del 25 nov 08:10Z)
 - Club $1 Parte 5 (e154: $331 · 445 subs · 42 jugadores · ¿6 porteros nuevos? · votación "Peruanismo FC"): renderizando
+- Edits lote 2 en IG 11:30 CDMX (17:30Z) — YT en BORRADOR (publicar con la cuota):
+  - Casillas–Robben e216: IG 28 nov · YT 0dfcf6a0-eef9-4d5c-940c-7e6099b6e31c pub ff5510d4-aef4-4de8-9cc3-589b136cc342
+  - Götze e212: IG 29 nov · YT ede15042-4128-413a-9a97-d7f9ddf340b6 pub 53dad207-f3eb-4327-9125-8ca34d210698
+  - Agüero 93:20 e221: IG 30 nov · YT ac6a95f3-5f74-4683-976c-157cf2ae2117 pub 7e7ba435-8f12-49ec-8bb0-ed8bf2ef1384
+  - Messi–Boateng e207: IG 1 dic · YT a5f6f78c-3835-4313-9338-edc2880c4030 pub 9bba59d5-329f-4f4d-97bf-8d3a1c8972aa
+  - Zlatan chilena e203: IG 2 dic · YT 0b3398ff-b783-4ae2-868f-c6ef33201a74 pub 5f36ed54-c0cb-4d51-bf33-89e7780827d8
