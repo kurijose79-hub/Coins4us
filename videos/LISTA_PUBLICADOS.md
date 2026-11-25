@@ -221,3 +221,7 @@ Cuentas: **Instagram @como.deportes** + **YouTube "¿Cómo deportes?"**. Cada vi
   - Zidane Panenka e56: IG 5 dic · YT 681c9718-9ca7-4177-bc62-d6c81d8ea8c6 pub 1dd04b4a-37c1-4077-9d5d-07140c64ac67
   - Lewandowski 5 en 9 e57: IG 6 dic · YT 68f99837-e8f8-4eb5-a28e-1a7c228e1c46 pub ef16cd54-16e9-4f33-bc8c-4f49659a5e4a
   - Van Persie e204: IG 7 dic · YT 8246bc8f-e723-4ccc-9192-fd9c8cf4a734 pub aaa45edb-4d42-4728-86cf-54b5105318a0
+  - James e205: IG 8 dic (programado) · YT e174d093-9948-448e-b3a7-2cff1692343d pub 302c2ffa-b051-4d20-b35c-790b101c390b
+  - PENDIENTE publicar IG (borradores listos): Messi Copa e208 58b1fad6 (IG pub 40716d20, 9 dic) · Rivaldo e209 7fe318a6 (acf82e8f, 10 dic) · Owen e210 d6eda027 (ba1e668a, 11 dic) · Torres e211 356c5239 (7e7c6368, 12 dic)
+  - Faltan subir: e213 Éder, e214 Donovan, e219 Begović, e220 tiro libre, e59 Hakan Şükür
+- Recordatorios al usuario para mandar stats: vie 27, sáb 28 y dom 29 nov 19:00 CDMX.

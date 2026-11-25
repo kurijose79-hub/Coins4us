@@ -28,3 +28,9 @@ Pendientes (no encajan aún con el motor): Pitbull Cruz, correr al revés, calor
 - (22 nov 09:47) Canal YT: 341 subs · 55.0k vistas totales · 1.0K likes · 61 comentarios · 39.4k vistas últimos 7 días. Hijo P1 202 likes · ¡Somos 50! 40 likes · Messi de cabeza 2009: 500 vistas · Abu Dabi F1 200 vistas.
 - (22 nov 23:45) YT 407 subs, 180 videos. Somos 300: 17 likes; comentarios "comenta tu nombre": @diviertteconleo4188 (Leo, felicita 300), @CarlosGalvan-f8k (Uriel), @ToñaMartinez-z2e (Ever) → nombrarlos en Somos 400. @lorenahernandez9937 "yo estuve desde el principio" (Campo). Video largo 5 campos: 18 vistas.
 - IG: 199 seguidores → hacer "¡Somos 200 en Instagram!" (publicar cuando el usuario diga).
+
+## Capturas 23 nov 23:05
+- YouTube: 459 suscriptores · 190 videos.
+- IG seguidores nuevos: tato502, ciudad_de_la_furia27 (fans para NFL/Estadio).
+- IG comentarios: bernardita737 "Carlitos Alcaraz el año que viene 🇪🇸🇨🇱" (tenis) · catalina05fuentes "the best, el mejor de la historia" · gabocastillorodriguez "Nole jajaja" (Nadal–Federer/Djokovic).
+- Likes recientes: 7_adrixn_7, leits122_priv, ivanbechara_official, e.david_sanchez19, tiago_218, benjamin84562, sami_35292, lizarazojhon, hernandez._.6767, alvarezrubenisaac7, valentinomorenod16, jmurillas3, pepebonillarodriguez, santiagodbh.
