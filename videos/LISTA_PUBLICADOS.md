@@ -230,3 +230,4 @@ Cuentas: **Instagram @como.deportes** + **YouTube "¿Cómo deportes?"**. Cada vi
 - Recordatorio del 24 no corrió (sesión inactiva). El 26 se publicaron/programaron en YT: TOP 40 (27 nov 01:00Z) · NFL P2 (26 nov 19:00Z) · Estadio P2 (26 nov 23:00Z) · Largo 2 Historias 3D (29 nov 01:00Z) · Largo 3 Todas las series (1 dic 01:00Z)
 - IG lote 2: Messi Copa (9 dic), Rivaldo (10), Owen (11), Torres (12) programados.
 - Club $1 Parte 5 (e154): IG 26 nov 14:30 CDMX · YT borrador postId 8ebd8654-a09b-4080-9b33-bb2ae1b155ef pub 36c1825f-43f7-48ee-90fa-49a608fa1085 (27 nov 18:00Z, recordatorio trig_01CYrvzVjeKvL46J95Stg2j1)
+- ¡SOMOS 500! (e199): subido, borrador YT postId 6dda37a9-1ca7-4cf7-b423-7837e67fd26f pub 851cc733-b501-4140-8be2-2e6beaae17d1 → se publica cuando el canal llegue a 500 (493 el 26 nov).
