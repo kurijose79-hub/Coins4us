@@ -225,3 +225,8 @@ Cuentas: **Instagram @como.deportes** + **YouTube "¿Cómo deportes?"**. Cada vi
   - PENDIENTE publicar IG (borradores listos): Messi Copa e208 58b1fad6 (IG pub 40716d20, 9 dic) · Rivaldo e209 7fe318a6 (acf82e8f, 10 dic) · Owen e210 d6eda027 (ba1e668a, 11 dic) · Torres e211 356c5239 (7e7c6368, 12 dic)
   - Faltan subir: e213 Éder, e214 Donovan, e219 Begović, e220 tiro libre, e59 Hakan Şükür
 - Recordatorios al usuario para mandar stats: vie 27, sáb 28 y dom 29 nov 19:00 CDMX.
+
+## 25–26 nov (YT, cuota del día)
+- Recordatorio del 24 no corrió (sesión inactiva). El 26 se publicaron/programaron en YT: TOP 40 (27 nov 01:00Z) · NFL P2 (26 nov 19:00Z) · Estadio P2 (26 nov 23:00Z) · Largo 2 Historias 3D (29 nov 01:00Z) · Largo 3 Todas las series (1 dic 01:00Z)
+- IG lote 2: Messi Copa (9 dic), Rivaldo (10), Owen (11), Torres (12) programados.
+- Club $1 Parte 5 (e154): IG 26 nov 14:30 CDMX · YT borrador postId 8ebd8654-a09b-4080-9b33-bb2ae1b155ef pub 36c1825f-43f7-48ee-90fa-49a608fa1085 (27 nov 18:00Z, recordatorio trig_01CYrvzVjeKvL46J95Stg2j1)
