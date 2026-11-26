@@ -11,3 +11,7 @@ Votación de posición (comentarios YT):
 → Parte 2: gana PORTERO (9 votos). Votación del nombre: ¿Felipe o David?
 - (21 nov 23:08) P1 YT: 172 likes. Votos nuevos: PORTERO +@jadenmorales-p4j +@LuzMartinez-kf2gj +@JulioAlbertoLópezGarcia +@lorenahernandez9937 ("yo quiero ser portero") · DELANTERO +@XIXA-EDITION +@PabloEmilioCardozoDaza · DEFENSA CENTRAL +@severinarosriguez63 ("carnicero"). Total aprox: Portero 13 · Delantero 8 · Defensa 3. (Hijo P2 ya hecho con 119 h; P3 usar 172 h+).
 - (22 nov 23:45) P1 YT 242 likes (242 horas). +@alexcampoverde6815 portero.
+
+## Parte 3 (e192, hecha 26 nov): 355 horas · 493 fans (subs canal) · 25 votos
+- Horas: YT P1 242 + IG P1 110 + IG P2 3 = 355 · faltan 645 para 1,000.
+- Primer partido de portero: atajada y gol en contra 0-1. Gracias a votos portero: Jaden, Luz, Julio, Lorena, Alex. Nombre aún sin decidir: ¿Felipe o David?
