@@ -119,3 +119,29 @@ Los 30 retos de pausa salieron en 10 minutos: ninguno pasó de 60 vistas.
 ### Próxima medición
 Esta noche, cuando suene el recordatorio de las 20:00, se vuelven a bajar los insights de los reels nuevos
 (Club P2, Campo P2, Tier list, Isner) para confirmar que se cumplen las reglas de arriba.
+
+## 11. ¿Por qué bajó el ritmo de suscriptores? (26 nov)
+
+| Fecha | Subs YT | Ritmo |
+|---|---|---|
+| 21 nov 09:30 | 195 | — |
+| 22 nov 09:45 | 341 | **+146 en un día** |
+| 22 nov 23:45 | 407 | +66 en 14 h |
+| 23 nov 22:00 | 445 | +38 |
+| 23 nov 23:05 | 459 | — |
+| 26 nov ~17:00 | 493 | **+34 en 3 días (~11/día)** |
+
+Vistas totales: 55.0k (22 nov) → 77.5k (26 nov) = ~6.7k vistas/día. **Las vistas NO bajaron; lo que bajó es la conversión a suscriptor.**
+
+Causas:
+1. **24 y 25 nov no salió ninguna serie nueva en YouTube.** El recordatorio de cuota del 24 no corrió (sesión inactiva), así que NFL P2, Estadio P2 y Club P5 se quedaron en borrador. En YT solo salieron edits (Mano de Dios, Zidane).
+2. **Lo que trae suscriptores son las series** ("suscríbete = fan / jugador", "comenta tu nombre y apareces") y los videos de celebración. Las edits traen vistas, pero casi no traen subs.
+3. Los videos largos y las edits gastaron cupos de YT que antes iban a series.
+
+Acciones (hechas hoy):
+- Prioridad de la cuota diaria de YT: **1º series** (una parte nueva cada día), 2º celebración / comunidad, 3º largos, 4º edits.
+- NFL P2 y Estadio P2 salen hoy en YT; Club P5 mañana a primera hora.
+- "¡SOMOS 500!" listo para salir en cuanto el canal llegue a 500 (estamos en 493).
+- Siguiente: Campo P5, Hijo P3, Estadio P3 y NFL P3 → **necesitan las capturas de comentarios**: sin ellas no hay nombres nuevos y las series pierden su gancho.
+
+Instagram (219 seguidores, +16 en 3 días): edits de fútbol siguen fuertes (Zidane 1,651 · Roddick 1,451 · Ronaldinho 1,385); tenis 2D corto flojo (150–300). NFL P2 en IG: **16 comentarios** (lo más comentado de la semana) → la serie NFL es la que más engancha ahora.
